@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "liveness_status": "alive",
+  "readiness": {
+    "status": "ready",
+    "ready": true,
+    "checks": {
+      "database": {
+        "ready": true,
+        "backend": "sqlite"
+      },
+      "workspace": {
+        "ready": true,
+        "path": "/mnt/data/regdoc-ai-current/runtime/day10_validation/documents"
+      },
+      "tesseract": {
+        "ready": true,
+        "path": "/usr/bin/tesseract"
+      },
+      "queue": {
+        "ready": true,
+        "mode": "thread"
+      }
+    }
+  },
+  "batch_id": "0df60d97-764a-428f-9842-fedf8a267e2a",
+  "job_count": 2,
+  "status_counts": {
+    "needs_review": 1,
+    "completed": 1
+  },
+  "observed_batch_seconds": 16.776330533999953,
+  "operational_summary": {
+    "document_count": 2,
+    "job_count": 2,
+    "terminal_job_count": 2,
+    "status_counts": {
+      "needs_review": 1,
+      "completed": 1
+    },
+    "success_rate": 1.0,
+    "failure_rate": 0.0,
+    "needs_review_rate": 0.5,
+    "processing_seconds": {
+      "mean": 12.157825,
+      "p50": 12.157825,
+      "p95": 16.064265,
+      "max": 16.498314
+    },
+    "artifact_count": 12,
+    "artifact_bytes": 6192869,
+    "latest_terminal_at": "2026-07-27T20:12:36.759632"
+  },
+  "prometheus_metric_families_present": [
+    "regdoc_http_requests_total",
+    "regdoc_http_request_duration_seconds",
+    "regdoc_jobs",
+    "regdoc_job_processing_seconds",
+    "regdoc_dependency_ready"
+  ],
+  "openapi_path_count": 15,
+  "queue_mode": "Celery with Redis (thread/eager local-test fallback)"
+}

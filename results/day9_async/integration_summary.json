@@ -1,0 +1,32 @@
+{
+  "batch_id": "169bcdee-3cbe-40bb-9df3-ec5c7e7c99c2",
+  "queue_mode": "thread_local_validation",
+  "production_queue": "Celery + Redis",
+  "production_database": "PostgreSQL",
+  "job_count": 2,
+  "status_counts": {
+    "needs_review": 1,
+    "completed": 1
+  },
+  "batch_progress": 100.0,
+  "observed_batch_seconds": 14.427497314999982,
+  "documents_per_minute": 8.317450863445206,
+  "retry_job_id": "1b9cfddd-18d2-4205-b15f-b3493828b12a",
+  "retry_attempt_count": 2,
+  "retry_final_status": "completed",
+  "retry_event_count": 11,
+  "retry_result": {
+    "job_id": "1b9cfddd-18d2-4205-b15f-b3493828b12a",
+    "document_id": "NCT04796896_clinical_protocol_p0-14c6a97725c2a4b9",
+    "status": "completed",
+    "page_count": 1,
+    "artifact_count": 4
+  },
+  "database_counts": {
+    "documents": 3,
+    "processing_jobs": 3,
+    "job_events": 31,
+    "artifacts": 16
+  },
+  "database_health": true
+}

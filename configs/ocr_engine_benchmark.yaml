@@ -1,0 +1,18 @@
+version: 1
+benchmark_name: tesseract_vs_paddleocr
+source_dataset_config: configs/degradation_benchmark.yaml
+manifest: data/processed/degraded_forms/manifest.csv
+ground_truth_dir: data/processed/populated_forms/ground_truth
+output_root: results/ocr_engine_benchmark
+source_classification: template_real_content_controlled
+scan_classification: augmented_scan
+page_preprocessing: enhanced_deskew_restored
+field_crop_preprocessing: raw
+engines:
+  tesseract:
+    language: eng
+    psm: 6
+  paddleocr:
+    model_name: en_PP-OCRv5_mobile_rec
+    device: cpu
+    batch_size: 1

@@ -1,0 +1,58 @@
+policy_name: regdoc_default
+version: 1.0.0
+
+pii:
+  PERSON:
+    action: redact
+    minimum_confidence: 0.75
+  ADDRESS:
+    action: redact
+    minimum_confidence: 0.78
+  SENSITIVE_FACILITY:
+    action: review
+    minimum_confidence: 0.75
+  EMAIL:
+    action: redact
+    minimum_confidence: 0.90
+  PHONE_NUMBER:
+    action: redact
+    minimum_confidence: 0.90
+  DATE:
+    action: review
+    minimum_confidence: 0.80
+
+cci:
+  default_action: review
+  CCI_PROTOCOL_ID:
+    action: redact
+    minimum_confidence: 0.80
+  CCI_STUDY_TITLE:
+    action: review
+    minimum_confidence: 0.75
+  CCI_SPONSOR:
+    action: redact
+    minimum_confidence: 0.80
+  regex_patterns:
+    - name: protocol_id
+      pattern: '\bmRNA[- ]?\d{4}[- ]?P\d{3}\b'
+      entity_type: CCI_PROTOCOL_ID
+      action: redact
+
+human_review:
+  confidence_below: 0.72
+  overlapping_entities: true
+
+benchmark:
+  source_group: NCT04796896
+  render_dpi: 300
+  conditions:
+    - clean
+    - rotation_1_5deg
+    - gaussian_blur
+    - gaussian_noise
+    - low_contrast
+    - directional_shadow
+    - jpeg_compression
+    - combined_moderate
+  output_dir: results/redaction_benchmark
+  ground_truth_dir: data/processed/populated_forms/ground_truth

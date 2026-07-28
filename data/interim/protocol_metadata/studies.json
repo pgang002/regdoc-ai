@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "source": "Downloaded public protocol PDFs hosted by ClinicalTrials.gov",
+    "generated_at_utc": "2026-07-27T05:48:06.061179+00:00",
+    "record_count": 2
+  },
+  "studies": [
+    {
+      "source_filename": "NCT04470427_Prot_000.pdf",
+      "source_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+      "nct_id": "NCT04470427",
+      "protocol_number": "mRNA-1273-P301",
+      "protocol_title": "A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Immunogenicity of mRNA-1273 SARS-CoV-2 Vaccine in Adults Aged 18 Years and Older",
+      "phase": "Phase 3",
+      "sponsor_name": "ModernaTX, Inc.",
+      "sponsor_address": "200 Technology Square Cambridge, MA 02139",
+      "amendment_number": 10,
+      "amendment_date": "07 Apr 2022",
+      "data_classification": "actual_public_clinical_protocol_metadata"
+    },
+    {
+      "source_filename": "NCT04796896_Prot_001.pdf",
+      "source_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+      "nct_id": "NCT04796896",
+      "protocol_number": "mRNA-1273-P204",
+      "protocol_title": "A Phase 2/3, Three-Part, Open-Label, Dose-Escalation, Age De-escalation and Randomized, Observer-Blind, Placebo-Controlled Expansion Study to Evaluate the Safety, Tolerability, Reactogenicity, and Effectiveness of mRNA-1273 SARS-CoV-2 Vaccine in Healthy Children 6 Months to Less Than 12 Years of Age",
+      "phase": "Phase 2/3",
+      "sponsor_name": "ModernaTX, Inc.",
+      "sponsor_address": "200 Technology Square Cambridge, MA 02139",
+      "amendment_number": 9,
+      "amendment_date": "04 Aug 2022",
+      "data_classification": "actual_public_clinical_protocol_metadata"
+    }
+  ]
+}

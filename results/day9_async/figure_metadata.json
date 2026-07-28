@@ -1,0 +1,9 @@
+{
+  "job_count": 2,
+  "event_count": 20,
+  "figures": [
+    "job_processing_time.png",
+    "job_progress_events.png",
+    "architecture.png"
+  ]
+}

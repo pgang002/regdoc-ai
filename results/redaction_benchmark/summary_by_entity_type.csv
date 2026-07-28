@@ -1,0 +1,15 @@
+pipeline,entity_type,instances,precision,recall,f1
+hybrid_policy,ADDRESS,16,1.0,1.0,1.0
+hybrid_policy,CCI_PROTOCOL_ID,16,1.0,1.0,1.0
+hybrid_policy,CCI_SPONSOR,16,1.0,1.0,1.0
+hybrid_policy,CCI_STUDY_TITLE,24,1.0,1.0,1.0
+hybrid_policy,DATE,24,1.0,1.0,1.0
+hybrid_policy,PERSON,48,1.0,1.0,1.0
+hybrid_policy,SENSITIVE_FACILITY,24,1.0,1.0,1.0
+regex_only,ADDRESS,16,1.0,0.5,0.6666666666666666
+regex_only,CCI_PROTOCOL_ID,16,1.0,1.0,1.0
+regex_only,CCI_SPONSOR,16,0.0,0.0,0.0
+regex_only,CCI_STUDY_TITLE,24,0.0,0.0,0.0
+regex_only,DATE,24,1.0,1.0,1.0
+regex_only,PERSON,113,0.4247787610619469,1.0,0.5962732919254659
+regex_only,SENSITIVE_FACILITY,24,0.0,0.0,0.0

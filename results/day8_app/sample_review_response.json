@@ -1,0 +1,19 @@
+{
+  "document_id": "FDA_1572_NCT04796896-a723b37a86213eba",
+  "redacted_count": 24,
+  "review_count": 5,
+  "retained_count": 0,
+  "ignored_count": 0,
+  "artifact": {
+    "name": "reviewed_redacted.pdf",
+    "media_type": "application/pdf",
+    "size_bytes": 1411732,
+    "download_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba/artifacts/reviewed_redacted.pdf"
+  },
+  "audit_artifact": {
+    "name": "reviewed_audit.json",
+    "media_type": "application/json",
+    "size_bytes": 12120,
+    "download_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba/artifacts/reviewed_audit.json"
+  }
+}

@@ -1,0 +1,3 @@
+engine,table_count,shape_exact,row_boundary_precision,row_boundary_recall,row_boundary_f1,column_boundary_precision,column_boundary_recall,column_boundary_f1,physical_cell_precision,physical_cell_recall,physical_cell_f1,table_text_exact,table_text_cer,table_text_wer,latency_seconds
+camelot_lattice,20,0.95,1.0,1.0,1.0,0.9857142857142858,1.0,0.9916666666666666,,,,0.95,0.00894308943089431,0.009583333333333334,0.4489185490999944
+opencv_tesseract,20,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.9019673382173382,0.9551230056658829,0.9252538735379685,0.0,0.19271178311230158,0.2803739693411398,0.757413628099971

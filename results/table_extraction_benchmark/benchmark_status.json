@@ -1,0 +1,28 @@
+{
+  "benchmark_name": "real_moderna_protocol_table_extraction",
+  "completed_at_utc": "2026-07-27T06:46:25.145654+00:00",
+  "python_version": "3.13.5",
+  "actual_data_basis": {
+    "documents": "Two actual public Moderna clinical study protocol PDFs from ClinicalTrials.gov",
+    "table_count": 20,
+    "ground_truth": "PDF vector rules, cell geometry, and embedded text extracted from the source PDFs",
+    "synthetic_content": "None in Day 5 table content; table crops are deterministic renders of actual public pages"
+  },
+  "completed_engines": [
+    "camelot_lattice",
+    "opencv_tesseract"
+  ],
+  "optional_model_status": [
+    {
+      "name": "table_transformer",
+      "available": false,
+      "reason": "The optional transformers package is not installed; model files are not bundled."
+    },
+    {
+      "name": "paddleocr_ppstructure",
+      "available": false,
+      "reason": "PaddleOCR/PaddlePaddle is not installed; model files are not bundled."
+    }
+  ],
+  "comparison_note": "Table Transformer and PP-Structure metrics are intentionally absent when their optional runtimes/model files are unavailable. The included Colab notebook writes into the same schema."
+}

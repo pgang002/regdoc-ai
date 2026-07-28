@@ -1,0 +1,7 @@
+method,path,summary,operation_id
+GET,/health,Health,health_health_get
+GET,/model-info,Model Info,model_info_model_info_get
+POST,/v1/documents/process,Process Document,process_document_v1_documents_process_post
+GET,/v1/documents/{document_id},Get Document,get_document_v1_documents__document_id__get
+GET,/v1/documents/{document_id}/artifacts/{artifact_name},Download Artifact,download_artifact_v1_documents__document_id__artifacts__artifact_name__get
+POST,/v1/documents/{document_id}/redactions/apply,Apply Redactions,apply_redactions_v1_documents__document_id__redactions_apply_post

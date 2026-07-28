@@ -1,0 +1,9 @@
+sample_id,form_type,page,condition,pipeline,true_rotation_degrees,estimated_skew_degrees,absolute_rotation_residual,page_preprocessing_latency_seconds,image_path
+FDA_1572_NCT04470427,FDA_1572,1,gaussian_noise,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_1572_NCT04470427/gaussian_noise/page-1.png
+FDA_1572_NCT04470427,FDA_1572,2,gaussian_noise,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_1572_NCT04470427/gaussian_noise/page-2.png
+FDA_3454_NCT04470427,FDA_3454,1,gaussian_noise,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_3454_NCT04470427/gaussian_noise/page-1.png
+FDA_3455_NCT04470427,FDA_3455,1,gaussian_noise,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_3455_NCT04470427/gaussian_noise/page-1.png
+FDA_1572_NCT04470427,FDA_1572,1,gaussian_noise,enhanced_deskew_restored,0.0,0.0,0.0,0.2241,data/processed/degraded_forms/images/FDA_1572_NCT04470427/gaussian_noise/page-1.png
+FDA_1572_NCT04470427,FDA_1572,2,gaussian_noise,enhanced_deskew_restored,0.0,0.0,0.0,0.2374,data/processed/degraded_forms/images/FDA_1572_NCT04470427/gaussian_noise/page-2.png
+FDA_3454_NCT04470427,FDA_3454,1,gaussian_noise,enhanced_deskew_restored,0.0,0.0,0.0,0.252,data/processed/degraded_forms/images/FDA_3454_NCT04470427/gaussian_noise/page-1.png
+FDA_3455_NCT04470427,FDA_3455,1,gaussian_noise,enhanced_deskew_restored,0.0,0.0,0.0,0.2048,data/processed/degraded_forms/images/FDA_3455_NCT04470427/gaussian_noise/page-1.png

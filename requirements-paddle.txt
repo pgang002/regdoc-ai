@@ -1,0 +1,3 @@
+# Optional Day 4 OCR-comparison runtime. Install separately from the core environment.
+paddlepaddle>=3.3,<4
+paddleocr>=3.3,<4

@@ -1,0 +1,17 @@
+{
+  "model_type": "HOG features + class-weighted LinearSVC",
+  "purpose": "local image fallback when OCR classification rules are uncertain",
+  "training_source_group": "NCT04470427",
+  "held_out_source_group": "NCT04796896",
+  "training_samples": 160,
+  "samples_per_class": 32,
+  "classes": [
+    "CLINICAL_PROTOCOL",
+    "CLINICAL_TABLE",
+    "FDA_1572",
+    "FDA_3454",
+    "FDA_3455"
+  ],
+  "pretrained_deep_weights_used": false,
+  "note": "MobileNetV3-Small transfer learning is provided separately for a model-enabled environment; no unavailable pretrained metrics are reported."
+}

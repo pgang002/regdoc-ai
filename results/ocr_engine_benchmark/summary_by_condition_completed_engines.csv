@@ -1,0 +1,9 @@
+engine,condition,field_count,raw_exact_match_accuracy,validated_exact_match_accuracy,mean_character_accuracy,mean_character_error_rate,mean_ocr_confidence,mean_field_ocr_latency_seconds
+tesseract,clean,20,0.85,1.0,1.0,0.0,90.74495,0.112165
+tesseract,combined_moderate,20,0.85,0.85,0.86117645,0.62824665,85.98725,0.17696
+tesseract,directional_shadow,20,0.9,0.9,0.9,0.1,87.44494999999999,0.11428
+tesseract,gaussian_blur,20,1.0,1.0,1.0,0.0,93.34445000000001,0.10481499999999999
+tesseract,gaussian_noise,20,0.85,1.0,1.0,0.0,92.03914999999999,0.166505
+tesseract,jpeg_compression,20,0.95,1.0,1.0,0.0,92.0472,0.10946499999999999
+tesseract,low_contrast,20,0.8,1.0,1.0,0.0,93.0319,0.10056499999999999
+tesseract,rotation_2deg,20,0.85,1.0,1.0,0.0,90.3138,0.102705

@@ -1,0 +1,32 @@
+benchmark:
+  render_dpi: 150
+  train_source_group: NCT04470427
+  test_source_group: NCT04796896
+  classes:
+    - FDA_1572
+    - FDA_3454
+    - FDA_3455
+    - CLINICAL_PROTOCOL
+    - CLINICAL_TABLE
+  protocol_text_pages: [1, 2, 25, 45]
+  table_pages_per_protocol: 4
+  train_samples_per_class: 32
+  random_seed: 20260727
+  test_conditions:
+    - clean
+    - rotation_1_5deg
+    - gaussian_blur
+    - gaussian_noise
+    - low_contrast
+    - directional_shadow
+    - jpeg_compression
+    - combined_moderate
+classifier:
+  hog_width: 256
+  hog_height: 320
+  hybrid_rule_confidence_threshold: 0.80
+  hybrid_image_margin_threshold: 0.05
+  ocr_max_dimension: 1400
+field_extraction:
+  preprocessing: enhanced
+  checkbox_threshold: 0.08

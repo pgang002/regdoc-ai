@@ -1,0 +1,63 @@
+sample_id,form_type,nct_id,page,condition,pipeline,field_name,value_source,reference,raw_prediction,validated_prediction,raw_exact_match,exact_match,character_error_rate,character_accuracy,mean_ocr_confidence,field_ocr_latency_seconds
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_inv_address1,controlled_synthetic_test_value,350 Longwood Avenue,"idress 1 : (
+\
+HN i annnuuinngd Avaniie",idress 1 : ( \ HN i annnuuinngd Avaniie,False,False,1.294118,0.0,40.538,0.1318
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_inv_zip,controlled_synthetic_test_value,02115,cilo,cilo,False,False,1.0,0.0,36.711,0.1018
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_invest_name,controlled_synthetic_test_value,"Maya Chen, MD",ame of Clinical investigator,ame of Clinical investigator,False,False,2.2,0.0,85.022,0.1563
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_irb_name,controlled_synthetic_test_value,Independent Research Ethics Board,"| Name of IRB
+Poe Qacaarch Ethics Board OT",| Name of IRB Poe Qacaarch Ethics Board OT,False,False,0.566667,0.433333,61.718,0.219
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_lab_name,controlled_synthetic_test_value,Central Clinical Laboratory,"Name of Clinical Laboratory raviny
+KR ~ntral Clinical | ahoratorv",Name of Clinical Laboratory raviny KR ~ntral Clinical | ahoratorv,False,False,1.36,0.0,67.801,0.1756
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_loc_name,controlled_synthetic_test_value,Cambridge Clinical Research Center,"Jame of Medical Scnool, Hospital, Ol
+A blInAn Clinical Recearch Center |","Jame of Medical Scnool, Hospital, Ol A blInAn Clinical Recearch Center",False,False,1.064516,0.0,67.183,0.2024
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_prot_name_code,derived_from_actual_public_protocol_metadata,"mRNA-1273-P301 - A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Immunogenicity of mRNA-1273 SARS-CoV-2 Vaccine in Adults Aged 18 Years and Older","f. INAWIE AINE VM
+mRNA-1273-P301 - A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and IMMUNOGENICHY Ten IE
+Vaccine in Adults Aged 18 Years and Older
+Dano 1.","f. INAWIE AINE VM mRNA-1273-P301 - A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and IMMUNOGENICHY Ten IE Vaccine in Adults Aged 18 Years and Older Dano 1.",False,False,0.217647,0.782353,82.697,0.2637
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,2,rotation_2deg,baseline_raw,db_sig_date,actual_public_protocol_metadata,04/07/2022,| NAINTINDNOYN,| NAINTINDNOYN,False,False,1.5,0.0,39.358,0.1028
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,baseline_raw,db_sub_inv_names,controlled_synthetic_test_value,"Daniel Brooks, MD; Elena Patel, MD","| Daniel Brooks, MD; Elena Patel, MD
+0. NAN EO ON
+TTC","| Daniel Brooks, MD; Elena Patel, MD 0. NAN EO ON TTC",False,False,0.423077,0.576923,73.991,0.1946
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].Subform1[0].appFirm[0],actual_public_protocol_metadata,"ModernaTX, Inc.","| CPINIVE UO INW EAI Ne ee
+Se
+ModernalX, Inc.
+ny ey a 2 eV","| CPINIVE UO INW EAI Ne ee Se ModernalX, Inc. ny ey a 2 eV",False,False,2.5,0.0,30.041,0.2576
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].Subform1[0].appName[0],controlled_synthetic_test_value,Alex Morgan,"| Alex Morgan
+INAWVIC",| Alex Morgan INAWVIC,False,False,0.7,0.3,76.38,0.1072
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].Subform1[0].appSigDate[0],actual_public_protocol_metadata,04/07/2022,04/07/2022,04/07/2022,True,True,0.0,1.0,96.554,0.0926
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].Subform1[0].appTitle[0],controlled_synthetic_test_value,Regulatory Affairs Director,"| Regulatory Affairs Director
+—",| Regulatory Affairs Director —,True,True,0.0,1.0,78.414,0.1458
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI1[0].invName1[0],controlled_synthetic_test_value,"Maya Chen, MD","i
+Maya Chen, MD |","i Maya Chen, MD",False,False,0.1,0.9,78.268,0.1786
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI6[0].invName6[0],controlled_synthetic_test_value,"Noah Williams, MD","Noah Williams, MD
+hea","Noah Williams, MD hea",False,False,0.214286,0.785714,72.803,0.1644
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].appFirm[0],actual_public_protocol_metadata,"ModernaTX, Inc.","| CIRNVUUROPFAINIZGEN TE IES
+ModernalX, Inc.
+ee","| CIRNVUUROPFAINIZGEN TE IES ModernalX, Inc. ee",False,False,2.25,0.0,45.105,0.2184
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].appSigDate[0],actual_public_protocol_metadata,04/07/2022,04/07/2022,04/07/2022,True,True,0.0,1.0,96.766,0.106
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].invesname[0],controlled_synthetic_test_value,"Maya Chen, MD","aya Chen, MD
+ar... ~_f£ Itutaal jnuvoctiogtor","aya Chen, MD ar... ~_f£ Itutaal jnuvoctiogtor",False,False,2.4,0.0,55.656,0.1344
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].nameofstudy2[0],derived_from_actual_public_protocol_metadata,Adults Aged 18 Years and Older (NCT04470427),+ te Aged 18 Years and Older (NCT04470427) is,+ te Aged 18 Years and Older (NCT04470427) is,False,False,0.194444,0.805556,83.647,0.1288
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,baseline_raw,topmostSubform[0].Page1[0].nameofstudy[0],derived_from_actual_public_protocol_metadata,mRNA-1273-P301: Phase 3 mRNA-1273 Vaccine Study,"RNA-1273-P301: Phase 3 mRNA-1273 Vaccine Study
+Name of",RNA-1273-P301: Phase 3 mRNA-1273 Vaccine Study Name of,False,False,0.184211,0.815789,95.119,0.1434
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_inv_address1,controlled_synthetic_test_value,350 Longwood Avenue,350 Longwood Avenue,350 Longwood Avenue,True,True,0.0,1.0,96.372,0.1024
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_inv_zip,controlled_synthetic_test_value,02115,02115,02115,True,True,0.0,1.0,96.331,0.0918
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_invest_name,controlled_synthetic_test_value,"Maya Chen, MD","Maya Chen, MD","Maya Chen, MD",True,True,0.0,1.0,96.222,0.1049
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_irb_name,controlled_synthetic_test_value,Independent Research Ethics Board,Independent Research Ethics Board,Independent Research Ethics Board,True,True,0.0,1.0,96.357,0.1267
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_lab_name,controlled_synthetic_test_value,Central Clinical Laboratory,Central Clinical Laboratory,Central Clinical Laboratory,True,True,0.0,1.0,96.415,0.1178
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_loc_name,controlled_synthetic_test_value,Cambridge Clinical Research Center,Cambridge Clinical Research Center .,Cambridge Clinical Research Center .,True,True,0.0,1.0,80.215,0.1267
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_prot_name_code,derived_from_actual_public_protocol_metadata,"mRNA-1273-P301 - A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Immunogenicity of mRNA-1273 SARS-CoV-2 Vaccine in Adults Aged 18 Years and Older","mRNA-1273-P301 - A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Immunogenicity of mMRNA-1273 SARS-CoV-2
+Vaccine in Adults Aged 18 Years and Older","mRNA-1273-P301 - A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Immunogenicity of mRNA-1273 SARS-CoV-2 Vaccine in Adults Aged 18 Years and Older",False,True,0.0,1.0,93.224,0.1731
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,2,rotation_2deg,enhanced_deskew_restored,db_sig_date,actual_public_protocol_metadata,04/07/2022,04/07/2022,04/07/2022,True,True,0.0,1.0,96.002,0.0974
+FDA_1572_NCT04470427,FDA_1572,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,db_sub_inv_names,controlled_synthetic_test_value,"Daniel Brooks, MD; Elena Patel, MD","Daniel Brooks, MD; Elena Patel, MD","Daniel Brooks, MD; Elena Patel, MD",True,True,0.0,1.0,95.971,0.1048
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].Subform1[0].appFirm[0],actual_public_protocol_metadata,"ModernaTX, Inc.","ModernaTl xX, Inc.","ModernaTX, Inc.",False,True,0.0,1.0,63.379,0.104
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].Subform1[0].appName[0],controlled_synthetic_test_value,Alex Morgan,Alex Morgan,Alex Morgan,True,True,0.0,1.0,96.587,0.086
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].Subform1[0].appSigDate[0],actual_public_protocol_metadata,04/07/2022,04/07/2022,04/07/2022,True,True,0.0,1.0,96.418,0.0867
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].Subform1[0].appTitle[0],controlled_synthetic_test_value,Regulatory Affairs Director,Regulatory Affairs Director,Regulatory Affairs Director,True,True,0.0,1.0,96.307,0.095
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI1[0].invName1[0],controlled_synthetic_test_value,"Maya Chen, MD","Maya Chen, MD","Maya Chen, MD",True,True,0.0,1.0,96.226,0.1032
+FDA_3454_NCT04470427,FDA_3454,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI6[0].invName6[0],controlled_synthetic_test_value,"Noah Williams, MD","Noah Williams, MD","Noah Williams, MD",True,True,0.0,1.0,96.258,0.1022
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].appFirm[0],actual_public_protocol_metadata,"ModernaTX, Inc.","ModernaTl xX, Inc.","ModernaTX, Inc.",False,True,0.0,1.0,35.367,0.1107
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].appSigDate[0],actual_public_protocol_metadata,04/07/2022,04/07/2022,04/07/2022,True,True,0.0,1.0,96.227,0.0925
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].invesname[0],controlled_synthetic_test_value,"Maya Chen, MD","Maya Chen, MD","Maya Chen, MD",True,True,0.0,1.0,96.328,0.1005
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].nameofstudy2[0],derived_from_actual_public_protocol_metadata,Adults Aged 18 Years and Older (NCT04470427),Adults Aged 18 Years and Older (NCT04470427),Adults Aged 18 Years and Older (NCT04470427),True,True,0.0,1.0,94.78,0.1212
+FDA_3455_NCT04470427,FDA_3455,NCT04470427,1,rotation_2deg,enhanced_deskew_restored,topmostSubform[0].Page1[0].nameofstudy[0],derived_from_actual_public_protocol_metadata,mRNA-1273-P301: Phase 3 mRNA-1273 Vaccine Study,mRNA-1273-P301: Phase 3 mRNA-1273 Vaccine Study,mRNA-1273-P301: Phase 3 mRNA-1273 Vaccine Study,True,True,0.0,1.0,91.29,0.1261

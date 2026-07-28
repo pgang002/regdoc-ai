@@ -1,0 +1,8 @@
+{
+  "status": "not_executed_in_local_runtime",
+  "reason": "The runtime could not resolve or download the official torchvision pretrained weight file. No random-initialized or placeholder MobileNetV3 metrics are reported.",
+  "required_weight": "MobileNet_V3_Small_Weights.DEFAULT",
+  "execution_path": "scripts/train_mobilenet_document_classifier.py",
+  "colab_notebook": "notebooks/06_document_classification_and_field_extraction.ipynb",
+  "metrics_reported": false
+}

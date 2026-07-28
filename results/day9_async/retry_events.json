@@ -1,0 +1,120 @@
+[
+  {
+    "sequence": 1,
+    "status": "queued",
+    "stage": "uploaded",
+    "progress": 0,
+    "message": "Document accepted and queued for processing.",
+    "details": {
+      "queue_mode": "eager"
+    },
+    "created_at": "2026-07-27T20:02:52.333717"
+  },
+  {
+    "sequence": 2,
+    "status": "failed",
+    "stage": "failed",
+    "progress": 100,
+    "message": "Processing failed: FileNotFoundError.",
+    "details": {
+      "error_type": "FileNotFoundError",
+      "error_message": "No source upload found for NCT04796896_clinical_protocol_p0-14c6a97725c2a4b9"
+    },
+    "created_at": "2026-07-27T20:02:52.346400"
+  },
+  {
+    "sequence": 3,
+    "status": "retrying",
+    "stage": "retrying",
+    "progress": 0,
+    "message": "Integration test restored source and requeued the failed job.",
+    "details": {},
+    "created_at": "2026-07-27T20:02:52.351115"
+  },
+  {
+    "sequence": 4,
+    "status": "queued",
+    "stage": "uploaded",
+    "progress": 2,
+    "message": "Upload validated and processing started.",
+    "details": {},
+    "created_at": "2026-07-27T20:02:52.355232"
+  },
+  {
+    "sequence": 5,
+    "status": "preprocessing",
+    "stage": "preprocessing",
+    "progress": 10,
+    "message": "Rendering pages and preparing document images.",
+    "details": {},
+    "created_at": "2026-07-27T20:02:52.358871"
+  },
+  {
+    "sequence": 6,
+    "status": "classifying",
+    "stage": "classifying",
+    "progress": 15,
+    "message": "Classifying page 1 of 1.",
+    "details": {
+      "page": 1,
+      "page_count": 1
+    },
+    "created_at": "2026-07-27T20:02:52.394169"
+  },
+  {
+    "sequence": 7,
+    "status": "extracting",
+    "stage": "extracting",
+    "progress": 23,
+    "message": "Extracting structured content from page 1.",
+    "details": {
+      "page": 1,
+      "label": "CLINICAL_PROTOCOL"
+    },
+    "created_at": "2026-07-27T20:02:52.983879"
+  },
+  {
+    "sequence": 8,
+    "status": "redacting",
+    "stage": "redacting",
+    "progress": 82,
+    "message": "Applying the configured PII/CCI policy and creating a default redacted PDF.",
+    "details": {},
+    "created_at": "2026-07-27T20:02:53.007138"
+  },
+  {
+    "sequence": 9,
+    "status": "persisting",
+    "stage": "persisting",
+    "progress": 94,
+    "message": "Writing structured results, artifacts, and audit metadata.",
+    "details": {},
+    "created_at": "2026-07-27T20:02:53.013498"
+  },
+  {
+    "sequence": 10,
+    "status": "completed",
+    "stage": "completed",
+    "progress": 99,
+    "message": "Document pipeline completed; final metadata persistence is in progress.",
+    "details": {
+      "status": "COMPLETED",
+      "page_count": 1
+    },
+    "created_at": "2026-07-27T20:02:53.022943"
+  },
+  {
+    "sequence": 11,
+    "status": "completed",
+    "stage": "completed",
+    "progress": 100,
+    "message": "Processing finished and metadata was persisted.",
+    "details": {
+      "document_id": "NCT04796896_clinical_protocol_p0-14c6a97725c2a4b9",
+      "page_count": 1,
+      "artifact_count": 4,
+      "processing_seconds": 0.673584
+    },
+    "created_at": "2026-07-27T20:02:53.029362"
+  }
+]

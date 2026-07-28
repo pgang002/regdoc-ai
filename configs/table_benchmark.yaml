@@ -1,0 +1,78 @@
+benchmark_name: real_moderna_protocol_table_extraction
+render_dpi: 200
+crop_padding_points: 2.0
+source_type: actual_public_clinical_protocol_tables
+output_data_dir: data/processed/table_benchmark
+output_results_dir: results/table_extraction_benchmark
+selection:
+  - source_pdf: data/raw/clinicaltrials/NCT04470427_Prot_000.pdf
+    nct_id: NCT04470427
+    protocol_number: mRNA-1273-P301
+    tables:
+      - {page: 5, table_index: 0, category: document_history}
+      - {page: 5, table_index: 1, category: amendment_summary}
+      - {page: 72, table_index: 0, category: treatment_groups}
+      - {page: 92, table_index: 0, category: adverse_reaction_grading}
+      - {page: 99, table_index: 0, category: schedule_of_events}
+      - {page: 117, table_index: 0, category: efficacy_sample_size}
+      - {page: 118, table_index: 0, category: efficacy_power}
+      - {page: 132, table_index: 0, category: interim_analysis}
+      - {page: 175, table_index: 0, category: statistical_estimand}
+      - {page: 180, table_index: 0, category: schedule_of_assessments}
+  - source_pdf: data/raw/clinicaltrials/NCT04796896_Prot_001.pdf
+    nct_id: NCT04796896
+    protocol_number: mRNA-1273-P204
+    tables:
+      - {page: 5, table_index: 0, category: document_history}
+      - {page: 14, table_index: 0, category: objectives_endpoints}
+      - {page: 68, table_index: 0, category: study_design}
+      - {page: 69, table_index: 0, category: booster_dose}
+      - {page: 95, table_index: 0, category: dose_by_age}
+      - {page: 108, table_index: 0, category: laboratory_assessments}
+      - {page: 116, table_index: 0, category: adverse_reaction_grading}
+      - {page: 117, table_index: 0, category: adverse_reaction_grading}
+      - {page: 118, table_index: 0, category: adverse_reaction_grading}
+      - {page: 141, table_index: 0, category: statistical_analysis}
+classical:
+  horizontal_kernel_fraction: 0.12
+  vertical_kernel_fraction: 0.12
+  projection_threshold_fraction: 0.08
+  boundary_merge_tolerance_px: 5
+  boundary_match_tolerance_px: 8
+  cell_iou_threshold: 0.70
+  tesseract_psm: 6
+  ocr_upscale_factor: 2.0
+  remove_grid_lines: true
+  ocr_timeout_seconds: 8
+camelot:
+  flavor: lattice
+  line_scale: 40
+models:
+  table_transformer_detection: microsoft/table-transformer-detection
+  table_transformer_structure: microsoft/table-transformer-structure-recognition-v1.1-all
+  paddleocr_pipeline: PP-StructureV3
+robustness:
+  output_dir: data/processed/table_benchmark/degraded
+  sample_table_ids:
+    - NCT04470427_p118_t0
+    - NCT04796896_p116_t0
+  conditions:
+    - name: clean
+      seed: 501
+    - name: rotation_1_5deg
+      rotation_degrees: 1.5
+      seed: 502
+    - name: gaussian_blur
+      gaussian_blur_kernel: 3
+      seed: 503
+    - name: jpeg_compression
+      jpeg_quality: 55
+      seed: 504
+    - name: combined_moderate
+      rotation_degrees: 1.5
+      gaussian_blur_kernel: 3
+      gaussian_noise_sigma: 4.0
+      contrast_factor: 0.82
+      shadow_strength: 0.16
+      jpeg_quality: 65
+      seed: 505

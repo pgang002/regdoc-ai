@@ -1,0 +1,8 @@
+{
+  "engine": "tesseract",
+  "language": "eng",
+  "model_name": "tesseract-eng",
+  "page_segmentation_mode": 6,
+  "pytesseract_version": "0.3.13",
+  "tesseract_binary_version": "5.5.0"
+}

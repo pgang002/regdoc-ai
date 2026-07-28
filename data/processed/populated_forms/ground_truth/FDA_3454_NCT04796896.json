@@ -1,0 +1,196 @@
+{
+  "sample_id": "FDA_3454_NCT04796896",
+  "form_type": "FDA_3454",
+  "source_form": {
+    "filename": "FDA_3454.pdf",
+    "sha256": "aa5ea997b27393cb6ccb0bd8b6c37481e8b89fce683c0b60b82e481628f1992b",
+    "classification": "actual_official_fda_form_template"
+  },
+  "public_study_source": {
+    "nct_id": "NCT04796896",
+    "protocol_number": "mRNA-1273-P204",
+    "protocol_title": "A Phase 2/3, Three-Part, Open-Label, Dose-Escalation, Age De-escalation and Randomized, Observer-Blind, Placebo-Controlled Expansion Study to Evaluate the Safety, Tolerability, Reactogenicity, and Effectiveness of mRNA-1273 SARS-CoV-2 Vaccine in Healthy Children 6 Months to Less Than 12 Years of Age",
+    "sponsor_name": "ModernaTX, Inc.",
+    "source_filename": "NCT04796896_Prot_001.pdf",
+    "source_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+    "classification": "actual_public_clinical_protocol_metadata"
+  },
+  "privacy_notice": "Names, addresses, facilities, applicant representatives, checkbox states, and signatures are controlled test values. They do not describe real investigators or financial disclosures.",
+  "rendering": {
+    "dpi": 300,
+    "page_images": [
+      "data/processed/populated_forms/images/FDA_3454_NCT04796896/page-1.png"
+    ]
+  },
+  "flattened_pdf": "data/processed/populated_forms/flattened/FDA_3454_NCT04796896.pdf",
+  "fields": [
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].appName[0]",
+      "page": 1,
+      "rect_pdf": [
+        68.907,
+        563.091,
+        309.506,
+        587.038
+      ],
+      "value": "Taylor Rivera",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].appTitle[0]",
+      "page": 1,
+      "rect_pdf": [
+        312.42,
+        563.091,
+        553.019,
+        587.038
+      ],
+      "value": "Clinical Compliance Manager",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].appFirm[0]",
+      "page": 1,
+      "rect_pdf": [
+        68.907,
+        598.714,
+        553.592,
+        622.661
+      ],
+      "value": "ModernaTX, Inc.",
+      "multiline": false,
+      "value_source": "actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].appSigDate[0]",
+      "page": 1,
+      "rect_pdf": [
+        399.005,
+        635.391,
+        553.745,
+        659.338
+      ],
+      "value": "08/04/2022",
+      "multiline": false,
+      "value_source": "actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI1[0].invName1[0]",
+      "page": 1,
+      "rect_pdf": [
+        123.798,
+        308.912,
+        337.536,
+        330.518
+      ],
+      "value": "Omar Rahman, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI2[0].invName2[0]",
+      "page": 1,
+      "rect_pdf": [
+        123.798,
+        332.859,
+        337.536,
+        354.465
+      ],
+      "value": "Sophia Kim, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI3[0].invName3[0]",
+      "page": 1,
+      "rect_pdf": [
+        123.798,
+        356.84,
+        337.536,
+        378.446
+      ],
+      "value": "Lucas Martin, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI4[0].invName4[0]",
+      "page": 1,
+      "rect_pdf": [
+        339.444,
+        308.912,
+        553.182,
+        330.518
+      ],
+      "value": "Ava Thompson, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI5[0].invName5[0]",
+      "page": 1,
+      "rect_pdf": [
+        339.444,
+        332.859,
+        553.182,
+        354.465
+      ],
+      "value": "Ethan Wilson, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI6[0].invName6[0]",
+      "page": 1,
+      "rect_pdf": [
+        339.444,
+        356.84,
+        553.182,
+        378.446
+      ],
+      "value": "Leila Hassan, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    }
+  ],
+  "checkboxes": [
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].check1[0]",
+      "page": 1,
+      "rect_pdf": [
+        64.841,
+        207.003,
+        74.841,
+        217.003
+      ],
+      "value": false,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI2[0].check2[0]",
+      "page": 1,
+      "rect_pdf": [
+        64.841,
+        387.003,
+        74.841,
+        397.003
+      ],
+      "value": true,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI3[0].check3[0]",
+      "page": 1,
+      "rect_pdf": [
+        64.841,
+        495.003,
+        74.841,
+        505.003
+      ],
+      "value": false,
+      "controlled_test_scenario": true
+    }
+  ]
+}

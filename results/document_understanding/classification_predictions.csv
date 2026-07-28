@@ -1,0 +1,289 @@
+sample_id,source_group,condition,expected_label,pipeline,predicted_label,confidence,latency_seconds,decision_source,reason,table_line_score,correct
+NCT04796896_clinical_protocol_p001,NCT04796896,clean,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.5925303660000054,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,clean,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.4189711353758259,0.010604468999986238,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,clean,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.6077944730000127,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.4774401739999803,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.44877413284368894,0.010793861000024663,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.4925232729999607,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.5374264910000193,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.4151800817150637,0.010033453000005466,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.5511849860000666,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.6546221999999489,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.3617338520601565,0.01309671400008483,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.6714256530000284,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,low_contrast,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.5098752150000792,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,low_contrast,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.4194640498813799,0.01009526499990443,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,low_contrast,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.5241418830000839,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.6134732909999911,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.4583358319167748,0.012742504000016197,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.6317321480000828,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.5422041889999036,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.40659665392473626,0.010168394000061198,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.5583552309999504,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.92,0.6931161859999975,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.33823083878790705,0.014654663999976947,image,HOG + LinearSVC,0.44000000000000006,True
+NCT04796896_clinical_protocol_p001,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.92,0.707194555000001,rule,clinical protocol header/text,0.44000000000000006,True
+NCT04796896_clinical_protocol_p002,NCT04796896,clean,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.31638970799997423,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,clean,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.5746783168384562,0.009465702000056808,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,clean,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.32946840499994323,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.31374180199998136,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.579845004751748,0.009658988000069257,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.3269331459999876,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.31809012799999437,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.5753506901186293,0.010456351000016184,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.33221448599999803,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.5004686910000373,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.4125448108274981,0.016103621999945972,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.5151116370001319,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,low_contrast,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.3401166700000431,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,low_contrast,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.5710665709802727,0.00973088499995356,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,low_contrast,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.3536060260000795,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.3594664830000056,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.6408248939186098,0.009995046999961232,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.3728204989999995,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.34466764599994804,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.5613608468392108,0.010018311000067115,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.35914372499996716,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.5487177840000186,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,image_only,CLINICAL_PROTOCOL,0.36937421511360286,0.016316577999987203,image,HOG + LinearSVC,0.0,True
+NCT04796896_clinical_protocol_p002,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.5665715000000091,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p025,NCT04796896,clean,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.6876189370000247,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,clean,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.5100717735689837,0.010728943999993135,image,HOG + LinearSVC,0.11000000000000001,False
+NCT04796896_clinical_protocol_p025,NCT04796896,clean,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.7021477940000977,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.6372994350000454,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.47060570896646603,0.010296954000068581,image,HOG + LinearSVC,0.11000000000000001,False
+NCT04796896_clinical_protocol_p025,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.650975217999985,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.6090376299999889,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.4866321222983647,0.010045901000012236,image,HOG + LinearSVC,0.11000000000000001,False
+NCT04796896_clinical_protocol_p025,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.6226183410000203,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.8867954349999536,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.44888306686219737,0.013442145999988497,image,HOG + LinearSVC,0.11000000000000001,False
+NCT04796896_clinical_protocol_p025,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.9010511079999333,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,low_contrast,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.6403878480000458,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p025,NCT04796896,low_contrast,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.5066395589053267,0.011066915000014887,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p025,NCT04796896,low_contrast,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.6546442009999964,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p025,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.585713305000013,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.4967836508190377,0.010912135000012313,image,HOG + LinearSVC,0.11000000000000001,False
+NCT04796896_clinical_protocol_p025,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.5988920910000388,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.6974881469999445,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.5267348132448447,0.011144881000063833,image,HOG + LinearSVC,0.11000000000000001,False
+NCT04796896_clinical_protocol_p025,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.7131654059999164,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.8567188509999824,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p025,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.34583973465848483,0.01339889200005473,image,HOG + LinearSVC,0.11000000000000001,False
+NCT04796896_clinical_protocol_p025,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.8707840710000028,rule,clinical protocol header/text,0.11000000000000001,True
+NCT04796896_clinical_protocol_p045,NCT04796896,clean,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,1.4069240450000962,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,clean,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.5151114437941557,0.010236293999923873,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,clean,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,1.4203203240001585,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,1.2101021979999587,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.4876884246575203,0.010064027999987957,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,rotation_1_5deg,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,1.2239203109999153,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,0.7760528390000445,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.4995666662313497,0.009963709999965431,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,gaussian_blur,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,0.7893505810000079,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,1.3267207189999226,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.49701241157671455,0.0132220599999755,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,gaussian_noise,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,1.3425998980000031,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,low_contrast,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,1.2854818719999912,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,low_contrast,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.5071251710142849,0.011593736000008903,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,low_contrast,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,1.2988126529999136,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,1.2081599580000102,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.5149114929016347,0.010806609000042044,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,directional_shadow,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,1.2217331890000196,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,1.5500083700000005,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.5421407934246303,0.010526644000037777,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,jpeg_compression,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,1.5636385750000272,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,rule_only,CLINICAL_PROTOCOL,0.84,1.589086693000013,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_protocol_p045,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,image_only,CLINICAL_TABLE,0.36724449309191853,0.013001553000094646,image,HOG + LinearSVC,0.0,False
+NCT04796896_clinical_protocol_p045,NCT04796896,combined_moderate,CLINICAL_PROTOCOL,hybrid,CLINICAL_PROTOCOL,0.84,1.603583343000082,rule,clinical protocol header/text,0.0,True
+NCT04796896_clinical_table_p005,NCT04796896,clean,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.6887788320000254,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,clean,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5524179699674754,0.010329150999950798,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,clean,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.7036625150000191,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.8634842000000162,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5390081353427404,0.010105400000043119,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.8775566309999476,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,gaussian_blur,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.5630528689999892,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,gaussian_blur,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5710515884664847,0.010999055000070257,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,gaussian_blur,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.5781806500000357,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,gaussian_noise,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.7991322909999781,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,gaussian_noise,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.49857862566995786,0.014282242000035694,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,gaussian_noise,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.8143798130000732,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,low_contrast,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.6562098470000137,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,low_contrast,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5514084864984138,0.010025251000001845,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,low_contrast,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.6704216050000014,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,directional_shadow,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.876550805000079,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,directional_shadow,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5411766971492811,0.010700181000061093,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,directional_shadow,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.890418782000097,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,jpeg_compression,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.7238629089999904,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,jpeg_compression,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5819129694498395,0.010460807000072236,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,jpeg_compression,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.7383906649999972,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,combined_moderate,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.9899746169999162,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,combined_moderate,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.3853335297635556,0.01335790099994938,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p005,NCT04796896,combined_moderate,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.003817346999881,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,clean,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,1.0524781740000435,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,clean,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.49018422359601316,0.010131288000025052,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,clean,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.0666448240000364,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.9171980029999531,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.51445161962214,0.010483880999913708,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.9328965439999592,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,gaussian_blur,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.7916880210000272,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,gaussian_blur,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4785693541110423,0.01070503899995856,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,gaussian_blur,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.805797847000008,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,gaussian_noise,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,1.1627095779999763,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,gaussian_noise,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5069185863994488,0.0130118480000192,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,gaussian_noise,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.1760508249999475,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,low_contrast,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.9765456750000112,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,low_contrast,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4885893433002746,0.010609838000050331,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,low_contrast,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.9898652399999719,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,directional_shadow,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,1.0947211789999756,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,directional_shadow,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.518263878107965,0.01108899799999108,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,directional_shadow,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.107986662999906,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,jpeg_compression,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,1.1070376310000256,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,jpeg_compression,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.5183467063045396,0.01040079799997784,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,jpeg_compression,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.1203793880000603,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,combined_moderate,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,1.1823745640000425,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,combined_moderate,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4190941266652815,0.012872551999976167,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p014,NCT04796896,combined_moderate,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.1968320960000938,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,clean,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.8016798080000171,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,clean,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.44204156646902665,0.013040320999948563,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,clean,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.8166312520000929,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.8777784449999899,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4595349620965544,0.010661314000003586,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.8925147100000004,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,gaussian_blur,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.7329114179999578,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,gaussian_blur,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.46051334024749396,0.010536669000089205,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,gaussian_blur,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.747850848999974,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,gaussian_noise,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,1.0023083739999947,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,gaussian_noise,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.39983310436403663,0.013012328999934653,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,gaussian_noise,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.0163125829999444,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,low_contrast,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.8088584289999972,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,low_contrast,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4352730354741797,0.010339416999840978,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,low_contrast,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.8227527459999919,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,directional_shadow,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.5881141140000636,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,directional_shadow,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.44336131406200613,0.011158330999933241,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,directional_shadow,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.6021728850000727,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,jpeg_compression,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.8214314120000381,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,jpeg_compression,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4773596378858644,0.010381489000110378,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,jpeg_compression,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.8348823810001704,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,combined_moderate,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,1.06090764999999,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,combined_moderate,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.33139246305495695,0.012958889999936218,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p068,NCT04796896,combined_moderate,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,1.074905489999992,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,clean,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.49880190900012167,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,clean,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4566947720766595,0.01000436999993326,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,clean,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.5127307870000095,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.4934329820000585,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4552167515030023,0.010368750999987242,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,rotation_1_5deg,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.5069271550000849,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,gaussian_blur,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.3184663449999334,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,gaussian_blur,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4463658916425429,0.00997422499995082,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,gaussian_blur,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.3318610510000326,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,gaussian_noise,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.7160429630000635,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,gaussian_noise,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.39106626056000937,0.013302939999903174,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,gaussian_noise,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.7294498270000531,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,low_contrast,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.44712694800000463,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,low_contrast,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.45577617250170116,0.009867137000128423,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,low_contrast,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.4609138650000659,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,directional_shadow,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.507925595000188,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,directional_shadow,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4144394981122243,0.010340638999878138,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,directional_shadow,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.521278328000335,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,jpeg_compression,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.47563814399995863,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,jpeg_compression,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.4797242759534616,0.010030218999872886,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,jpeg_compression,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.4890053199999329,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,combined_moderate,CLINICAL_TABLE,rule_only,CLINICAL_TABLE,0.97,0.5829997219998404,rule,ruled-table geometry with clinical table language,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,combined_moderate,CLINICAL_TABLE,image_only,CLINICAL_TABLE,0.3047501429015469,0.016800604999843927,image,HOG + LinearSVC,1.0,True
+NCT04796896_clinical_table_p069,NCT04796896,combined_moderate,CLINICAL_TABLE,hybrid,CLINICAL_TABLE,0.97,0.5971903179997753,rule,ruled-table geometry with clinical table language,1.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,clean,FDA_1572,rule_only,FDA_1572,0.99,0.9940288660000078,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,clean,FDA_1572,image_only,FDA_1572,0.6253525677663327,0.023122496000041792,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,clean,FDA_1572,hybrid,FDA_1572,0.99,0.9941693150001356,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_1572,rule_only,FDA_1572,0.99,1.1181279320001067,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_1572,image_only,FDA_1572,0.548265698312535,0.024477424999986397,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_1572,hybrid,FDA_1572,0.99,1.1183370410001316,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_1572,rule_only,FDA_1572,0.99,0.9881814630000463,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_1572,image_only,FDA_1572,0.6293089802211468,0.023669026000106896,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_1572,hybrid,FDA_1572,0.99,0.9883220010001423,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_1572,rule_only,FDA_1572,0.99,1.0953819940000358,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_1572,image_only,FDA_1572,0.612451359642804,0.025198874000125215,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_1572,hybrid,FDA_1572,0.99,1.0955329480000273,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,low_contrast,FDA_1572,rule_only,FDA_1572,0.99,0.8110479849999592,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,low_contrast,FDA_1572,image_only,FDA_1572,0.624144078556687,0.023629627999980585,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,low_contrast,FDA_1572,hybrid,FDA_1572,0.99,0.8112079119998725,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,directional_shadow,FDA_1572,rule_only,FDA_1572,0.99,0.935192853999979,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,directional_shadow,FDA_1572,image_only,FDA_1572,0.5913081021612854,0.024875285000007352,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,directional_shadow,FDA_1572,hybrid,FDA_1572,0.99,0.9353576390001308,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_1572,rule_only,FDA_1572,0.99,1.0118647550000333,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_1572,image_only,FDA_1572,0.6277531821323007,0.02405983600010586,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_1572,hybrid,FDA_1572,0.99,1.012015718000157,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,combined_moderate,FDA_1572,rule_only,FDA_1572,0.99,1.1900920340001448,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,combined_moderate,FDA_1572,image_only,FDA_1572,0.5140000208098268,0.025677925000081814,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p001,NCT04796896,combined_moderate,FDA_1572,hybrid,FDA_1572,0.99,1.1902441600000202,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,clean,FDA_1572,rule_only,FDA_1572,0.99,1.4711278089998814,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,clean,FDA_1572,image_only,FDA_1572,0.6717665989264383,0.023759270000027755,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,clean,FDA_1572,hybrid,FDA_1572,0.99,1.471344068999997,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,rotation_1_5deg,FDA_1572,rule_only,FDA_1572,0.99,1.4127677879998828,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,rotation_1_5deg,FDA_1572,image_only,FDA_1572,0.5906183762192005,0.023672841999996308,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,rotation_1_5deg,FDA_1572,hybrid,FDA_1572,0.99,1.4129748650000238,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,gaussian_blur,FDA_1572,rule_only,FDA_1572,0.99,1.349938290999944,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,gaussian_blur,FDA_1572,image_only,FDA_1572,0.6808352481745118,0.024146333999851777,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,gaussian_blur,FDA_1572,hybrid,FDA_1572,0.99,1.3501761329998772,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,gaussian_noise,FDA_1572,rule_only,FDA_1572,0.99,1.5979126720001204,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,gaussian_noise,FDA_1572,image_only,FDA_1572,0.6643260124140564,0.026262861000077464,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,gaussian_noise,FDA_1572,hybrid,FDA_1572,0.99,1.5981138399999963,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,low_contrast,FDA_1572,rule_only,FDA_1572,0.99,1.4586431469999752,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,low_contrast,FDA_1572,image_only,FDA_1572,0.6768117487409407,0.02397337799993693,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,low_contrast,FDA_1572,hybrid,FDA_1572,0.99,1.4589002879999953,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,directional_shadow,FDA_1572,rule_only,FDA_1572,0.99,1.506665378999969,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,directional_shadow,FDA_1572,image_only,FDA_1572,0.6493669715336908,0.024306631000172274,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,directional_shadow,FDA_1572,hybrid,FDA_1572,0.99,1.506887789000075,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,jpeg_compression,FDA_1572,rule_only,FDA_1572,0.99,1.4929242639998392,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,jpeg_compression,FDA_1572,image_only,FDA_1572,0.6766773515340138,0.023871437000025253,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,jpeg_compression,FDA_1572,hybrid,FDA_1572,0.99,1.4931330229997002,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,combined_moderate,FDA_1572,rule_only,FDA_1572,0.99,1.3813160439999592,rule,FDA 1572 form number/title,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,combined_moderate,FDA_1572,image_only,FDA_1572,0.600948648279768,0.027491331999954127,image,HOG + LinearSVC,0.0,True
+FDA_1572_NCT04796896_p002,NCT04796896,combined_moderate,FDA_1572,hybrid,FDA_1572,0.99,1.381522840000116,rule,FDA 1572 form number/title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,clean,FDA_3454,rule_only,FDA_3454,0.99,1.1140922600000067,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,clean,FDA_3454,image_only,FDA_3454,0.6787475990408739,0.023476961000142182,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,clean,FDA_3454,hybrid,FDA_3454,0.99,1.1143073190000905,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_3454,rule_only,FDA_3454,0.99,1.3101442570000472,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_3454,image_only,FDA_3454,0.6404505963978522,0.024596350999900096,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_3454,hybrid,FDA_3454,0.99,1.3103732770000533,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_3454,rule_only,FDA_3454,0.99,1.336359861999881,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_3454,image_only,FDA_3454,0.6854840194308951,0.023642957999982173,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_3454,hybrid,FDA_3454,0.99,1.3365721269997266,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_3454,rule_only,FDA_3454,0.99,1.3361576729998887,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_3454,image_only,FDA_3454,0.6796610262384112,0.025300905999984025,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_3454,hybrid,FDA_3454,0.99,1.3363589809998757,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,low_contrast,FDA_3454,rule_only,FDA_3454,0.99,1.1232196700000259,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,low_contrast,FDA_3454,image_only,FDA_3454,0.677739342596497,0.023800300999937463,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,low_contrast,FDA_3454,hybrid,FDA_3454,0.99,1.1234181339998486,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,directional_shadow,FDA_3454,rule_only,FDA_3454,0.99,1.1692647359998318,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,directional_shadow,FDA_3454,image_only,FDA_3454,0.6684597004466475,0.024639124000032098,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,directional_shadow,FDA_3454,hybrid,FDA_3454,0.99,1.1694586539997545,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_3454,rule_only,FDA_3454,0.99,1.3025252869999804,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_3454,image_only,FDA_3454,0.6810089999292422,0.023804337000001397,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_3454,hybrid,FDA_3454,0.99,1.3027376120001009,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,combined_moderate,FDA_3454,rule_only,FDA_3454,0.99,1.4281580510000822,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,combined_moderate,FDA_3454,image_only,FDA_3454,0.5839829508371475,0.026897001000179444,image,HOG + LinearSVC,0.0,True
+FDA_3454_NCT04796896_p001,NCT04796896,combined_moderate,FDA_3454,hybrid,FDA_3454,0.99,1.4283798600001774,rule,FDA 3454 form number/certification title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,clean,FDA_3455,rule_only,FDA_3455,0.99,0.9429767970000285,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,clean,FDA_3455,image_only,FDA_3455,0.6596090464737263,0.025847565999811195,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,clean,FDA_3455,hybrid,FDA_3455,0.99,0.9431621419998919,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_3455,rule_only,FDA_3455,0.99,0.9594697009999891,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_3455,image_only,FDA_3455,0.610687510973775,0.024153424000132873,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,rotation_1_5deg,FDA_3455,hybrid,FDA_3455,0.99,0.9596445800000311,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_3455,rule_only,FDA_3455,0.99,0.9381914279999819,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_3455,image_only,FDA_3455,0.6607150896397899,0.023397022999915862,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,gaussian_blur,FDA_3455,hybrid,FDA_3455,0.99,0.938358535999896,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_3455,rule_only,FDA_3455,0.99,1.1504568960001507,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_3455,image_only,FDA_3455,0.6652324113298711,0.025871922000078484,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,gaussian_noise,FDA_3455,hybrid,FDA_3455,0.99,1.1506202780001331,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,low_contrast,FDA_3455,rule_only,FDA_3455,0.99,1.2394659449998926,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,low_contrast,FDA_3455,image_only,FDA_3455,0.6589627811928925,0.0236135339998782,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,low_contrast,FDA_3455,hybrid,FDA_3455,0.99,1.2396215859998847,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,directional_shadow,FDA_3455,rule_only,FDA_3455,0.99,1.1070919579999554,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,directional_shadow,FDA_3455,image_only,FDA_3455,0.6568916917706618,0.02816448999988097,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,directional_shadow,FDA_3455,hybrid,FDA_3455,0.99,1.1072976230000222,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_3455,rule_only,FDA_3455,0.99,0.9118992530000014,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_3455,image_only,FDA_3455,0.6597083650488469,0.023793541000031837,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,jpeg_compression,FDA_3455,hybrid,FDA_3455,0.99,0.9120626249998622,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,combined_moderate,FDA_3455,rule_only,FDA_3455,0.99,1.1623455689998536,rule,FDA 3455 form number/disclosure title,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,combined_moderate,FDA_3455,image_only,FDA_3455,0.5727973163312309,0.027295120999951905,image,HOG + LinearSVC,0.0,True
+FDA_3455_NCT04796896_p001,NCT04796896,combined_moderate,FDA_3455,hybrid,FDA_3455,0.99,1.1625155509998422,rule,FDA 3455 form number/disclosure title,0.0,True

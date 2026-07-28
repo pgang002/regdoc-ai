@@ -1,0 +1,21 @@
+api:
+  host: 0.0.0.0
+  port: 8000
+  max_upload_mb: 25
+  processing_mode: asynchronous
+ui:
+  port: 8501
+  api_url: http://localhost:8000
+storage:
+  workspace: runtime/day9/documents
+metadata:
+  database_url_env: REGDOC_DATABASE_URL
+  production: PostgreSQL
+  local_test: SQLite
+queue:
+  mode_env: REGDOC_QUEUE_MODE
+  production: Celery with Redis
+  local_test: thread or eager
+security:
+  allowed_extensions: [pdf, png, jpg, jpeg, tif, tiff]
+  downloadable_private_files: false

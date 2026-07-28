@@ -1,0 +1,2 @@
+engine,field_count,raw_exact_match_accuracy,validated_exact_match_accuracy,mean_character_accuracy,mean_character_error_rate,mean_ocr_confidence,mean_field_ocr_latency_seconds,total_field_ocr_latency_seconds
+tesseract,160,0.88125,0.96875,0.9701470562500001,0.09103083125,90.61920625,0.12343249999999999,19.7492

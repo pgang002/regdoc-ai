@@ -1,0 +1,17 @@
+condition,pipeline,checkbox_count,accuracy,mean_dark_ratio
+clean,baseline_raw,11,1.0,0.1511039090909091
+clean,enhanced_deskew_restored,11,1.0,0.15004099999999998
+combined_moderate,baseline_raw,11,0.45454545454545453,0.08575790909090909
+combined_moderate,enhanced_deskew_restored,11,1.0,0.189311
+directional_shadow,baseline_raw,11,1.0,0.15662018181818183
+directional_shadow,enhanced_deskew_restored,11,1.0,0.1592288181818182
+gaussian_blur,baseline_raw,11,1.0,0.16533881818181817
+gaussian_blur,enhanced_deskew_restored,11,1.0,0.16996827272727272
+gaussian_noise,baseline_raw,11,1.0,0.15064327272727274
+gaussian_noise,enhanced_deskew_restored,11,1.0,0.15375563636363634
+jpeg_compression,baseline_raw,11,1.0,0.15432754545454544
+jpeg_compression,enhanced_deskew_restored,11,1.0,0.155297
+low_contrast,baseline_raw,11,1.0,0.13772436363636364
+low_contrast,enhanced_deskew_restored,11,1.0,0.14042736363636363
+rotation_2deg,baseline_raw,11,0.45454545454545453,0.014965454545454544
+rotation_2deg,enhanced_deskew_restored,11,1.0,0.15537463636363635

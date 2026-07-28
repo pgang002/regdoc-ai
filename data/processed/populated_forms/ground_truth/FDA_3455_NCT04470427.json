@@ -1,0 +1,169 @@
+{
+  "sample_id": "FDA_3455_NCT04470427",
+  "form_type": "FDA_3455",
+  "source_form": {
+    "filename": "FDA_3455.pdf",
+    "sha256": "452fabfcec11d63927521e7bacaaf23818584e9a953ed999295eae0509b1a0d4",
+    "classification": "actual_official_fda_form_template"
+  },
+  "public_study_source": {
+    "nct_id": "NCT04470427",
+    "protocol_number": "mRNA-1273-P301",
+    "protocol_title": "A Phase 3, Randomized, Stratified, Observer-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Immunogenicity of mRNA-1273 SARS-CoV-2 Vaccine in Adults Aged 18 Years and Older",
+    "sponsor_name": "ModernaTX, Inc.",
+    "source_filename": "NCT04470427_Prot_000.pdf",
+    "source_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+    "classification": "actual_public_clinical_protocol_metadata"
+  },
+  "privacy_notice": "Names, addresses, facilities, applicant representatives, checkbox states, and signatures are controlled test values. They do not describe real investigators or financial disclosures.",
+  "rendering": {
+    "dpi": 300,
+    "page_images": [
+      "data/processed/populated_forms/images/FDA_3455_NCT04470427/page-1.png"
+    ]
+  },
+  "flattened_pdf": "data/processed/populated_forms/flattened/FDA_3455_NCT04470427.pdf",
+  "fields": [
+    {
+      "name": "topmostSubform[0].Page1[0].invesname[0]",
+      "page": 1,
+      "rect_pdf": [
+        248.666,
+        113.703,
+        464.164,
+        132.709
+      ],
+      "value": "Maya Chen, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].nameofstudy[0]",
+      "page": 1,
+      "rect_pdf": [
+        290.466,
+        140.837,
+        558.728,
+        159.846
+      ],
+      "value": "mRNA-1273-P301: Phase 3 mRNA-1273 Vaccine Study",
+      "multiline": false,
+      "value_source": "derived_from_actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].nameofstudy2[0]",
+      "page": 1,
+      "rect_pdf": [
+        62.345,
+        168.086,
+        279.056,
+        187.095
+      ],
+      "value": "Adults Aged 18 Years and Older (NCT04470427)",
+      "multiline": false,
+      "value_source": "derived_from_actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appName[0]",
+      "page": 1,
+      "rect_pdf": [
+        69.004,
+        529.078,
+        309.943,
+        552.665
+      ],
+      "value": "Alex Morgan",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appTitle[0]",
+      "page": 1,
+      "rect_pdf": [
+        312.962,
+        529.078,
+        553.901,
+        552.665
+      ],
+      "value": "Regulatory Affairs Director",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appFirm[0]",
+      "page": 1,
+      "rect_pdf": [
+        69.004,
+        565.387,
+        553.879,
+        588.974
+      ],
+      "value": "ModernaTX, Inc.",
+      "multiline": false,
+      "value_source": "actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appSigDate[0]",
+      "page": 1,
+      "rect_pdf": [
+        398.183,
+        602.314,
+        553.76,
+        625.901
+      ],
+      "value": "04/07/2022",
+      "multiline": false,
+      "value_source": "actual_public_protocol_metadata"
+    }
+  ],
+  "checkboxes": [
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI1[0].check1[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.842,
+        264.997,
+        76.842,
+        274.997
+      ],
+      "value": true,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI2[0].check2[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.845,
+        331.988,
+        76.845,
+        341.988
+      ],
+      "value": false,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI3[0].check3[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.842,
+        385.002,
+        76.842,
+        395.002
+      ],
+      "value": true,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI4[0].check4[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.842,
+        427.002,
+        76.842,
+        437.002
+      ],
+      "value": false,
+      "controlled_test_scenario": true
+    }
+  ]
+}

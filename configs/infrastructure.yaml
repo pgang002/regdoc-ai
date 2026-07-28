@@ -1,0 +1,21 @@
+database:
+  production_url: postgresql+psycopg://regdoc:regdoc@postgres:5432/regdoc
+  local_test_url: sqlite:///runtime/day9/regdoc_ai.db
+  pool_pre_ping: true
+queue:
+  production_mode: celery
+  broker_url: redis://redis:6379/0
+  result_backend: redis://redis:6379/1
+  queue_name: documents
+  visibility_timeout_seconds: 3600
+  max_retries: 2
+  retry_delay_seconds: 10
+  worker_prefetch_multiplier: 1
+storage:
+  workspace: runtime/day9/documents
+  pattern: object-style filesystem storage
+services:
+  api_port: 8000
+  ui_port: 8501
+  postgres_port: 5432
+  redis_port: 6379

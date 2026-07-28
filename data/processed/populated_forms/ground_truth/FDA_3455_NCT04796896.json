@@ -1,0 +1,169 @@
+{
+  "sample_id": "FDA_3455_NCT04796896",
+  "form_type": "FDA_3455",
+  "source_form": {
+    "filename": "FDA_3455.pdf",
+    "sha256": "452fabfcec11d63927521e7bacaaf23818584e9a953ed999295eae0509b1a0d4",
+    "classification": "actual_official_fda_form_template"
+  },
+  "public_study_source": {
+    "nct_id": "NCT04796896",
+    "protocol_number": "mRNA-1273-P204",
+    "protocol_title": "A Phase 2/3, Three-Part, Open-Label, Dose-Escalation, Age De-escalation and Randomized, Observer-Blind, Placebo-Controlled Expansion Study to Evaluate the Safety, Tolerability, Reactogenicity, and Effectiveness of mRNA-1273 SARS-CoV-2 Vaccine in Healthy Children 6 Months to Less Than 12 Years of Age",
+    "sponsor_name": "ModernaTX, Inc.",
+    "source_filename": "NCT04796896_Prot_001.pdf",
+    "source_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+    "classification": "actual_public_clinical_protocol_metadata"
+  },
+  "privacy_notice": "Names, addresses, facilities, applicant representatives, checkbox states, and signatures are controlled test values. They do not describe real investigators or financial disclosures.",
+  "rendering": {
+    "dpi": 300,
+    "page_images": [
+      "data/processed/populated_forms/images/FDA_3455_NCT04796896/page-1.png"
+    ]
+  },
+  "flattened_pdf": "data/processed/populated_forms/flattened/FDA_3455_NCT04796896.pdf",
+  "fields": [
+    {
+      "name": "topmostSubform[0].Page1[0].invesname[0]",
+      "page": 1,
+      "rect_pdf": [
+        248.666,
+        113.703,
+        464.164,
+        132.709
+      ],
+      "value": "Omar Rahman, MD",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].nameofstudy[0]",
+      "page": 1,
+      "rect_pdf": [
+        290.466,
+        140.837,
+        558.728,
+        159.846
+      ],
+      "value": "mRNA-1273-P204: Phase 2/3 Pediatric Vaccine Study",
+      "multiline": false,
+      "value_source": "derived_from_actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].nameofstudy2[0]",
+      "page": 1,
+      "rect_pdf": [
+        62.345,
+        168.086,
+        279.056,
+        187.095
+      ],
+      "value": "Children 6 Months to Less Than 12 Years (NCT04796896)",
+      "multiline": false,
+      "value_source": "derived_from_actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appName[0]",
+      "page": 1,
+      "rect_pdf": [
+        69.004,
+        529.078,
+        309.943,
+        552.665
+      ],
+      "value": "Taylor Rivera",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appTitle[0]",
+      "page": 1,
+      "rect_pdf": [
+        312.962,
+        529.078,
+        553.901,
+        552.665
+      ],
+      "value": "Clinical Compliance Manager",
+      "multiline": false,
+      "value_source": "controlled_synthetic_test_value"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appFirm[0]",
+      "page": 1,
+      "rect_pdf": [
+        69.004,
+        565.387,
+        553.879,
+        588.974
+      ],
+      "value": "ModernaTX, Inc.",
+      "multiline": false,
+      "value_source": "actual_public_protocol_metadata"
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].appSigDate[0]",
+      "page": 1,
+      "rect_pdf": [
+        398.183,
+        602.314,
+        553.76,
+        625.901
+      ],
+      "value": "08/04/2022",
+      "multiline": false,
+      "value_source": "actual_public_protocol_metadata"
+    }
+  ],
+  "checkboxes": [
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI1[0].check1[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.842,
+        264.997,
+        76.842,
+        274.997
+      ],
+      "value": false,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI2[0].check2[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.845,
+        331.988,
+        76.845,
+        341.988
+      ],
+      "value": true,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI3[0].check3[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.842,
+        385.002,
+        76.842,
+        395.002
+      ],
+      "value": false,
+      "controlled_test_scenario": true
+    },
+    {
+      "name": "topmostSubform[0].Page1[0].checkboxList[0].LI4[0].check4[0]",
+      "page": 1,
+      "rect_pdf": [
+        66.842,
+        427.002,
+        76.842,
+        437.002
+      ],
+      "value": true,
+      "controlled_test_scenario": true
+    }
+  ]
+}

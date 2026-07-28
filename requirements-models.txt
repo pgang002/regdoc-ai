@@ -1,0 +1,7 @@
+-r requirements-core.txt
+torch>=2.4,<3
+torchvision>=0.19,<1
+transformers>=4.45,<5
+paddleocr>=3,<4
+paddlepaddle>=3,<4
+sentence-transformers>=3,<6

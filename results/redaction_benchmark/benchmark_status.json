@@ -1,0 +1,19 @@
+{
+  "policy_name": "regdoc_default",
+  "policy_version": "1.0.0",
+  "benchmark_source_group": "NCT04796896",
+  "conditions": [
+    "clean",
+    "rotation_1_5deg",
+    "gaussian_blur",
+    "gaussian_noise",
+    "low_contrast",
+    "directional_shadow",
+    "jpeg_compression",
+    "combined_moderate"
+  ],
+  "form_documents_benchmarked": 3,
+  "permanent_redacted_pdfs_created": 6,
+  "statistical_ner_model": "not used locally; spaCy EntityRuler generic PERSON patterns were used",
+  "no_placeholder_metrics": true
+}

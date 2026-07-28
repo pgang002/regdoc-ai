@@ -1,0 +1,2 @@
+field_instances,exact_match_accuracy,mean_character_error_rate,mean_character_accuracy,routing_accuracy
+224,0.9821428571428571,0.07271634615384616,0.9864354395604396,1.0

@@ -1,0 +1,21 @@
+{
+  "document_count": 2,
+  "job_count": 2,
+  "terminal_job_count": 2,
+  "status_counts": {
+    "needs_review": 1,
+    "completed": 1
+  },
+  "success_rate": 1.0,
+  "failure_rate": 0.0,
+  "needs_review_rate": 0.5,
+  "processing_seconds": {
+    "mean": 12.157825,
+    "p50": 12.157825,
+    "p95": 16.064265,
+    "max": 16.498314
+  },
+  "artifact_count": 12,
+  "artifact_bytes": 6192869,
+  "latest_terminal_at": "2026-07-27T20:12:36.759632"
+}

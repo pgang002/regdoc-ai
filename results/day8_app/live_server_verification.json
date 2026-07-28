@@ -1,0 +1,13 @@
+{
+  "server": "uvicorn",
+  "host": "127.0.0.1",
+  "port": 8765,
+  "health_status_code": 200,
+  "health_response": {
+    "status": "ok",
+    "version": "0.8.0",
+    "processing_mode": "synchronous"
+  },
+  "model_info_status_code": 200,
+  "verified": true
+}

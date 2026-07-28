@@ -1,0 +1,28 @@
+{
+  "project": "RegDocAI",
+  "version": "1.0.0",
+  "evidence_policy": "Only locally executed metrics are reported; unavailable deep-model and Docker-service results remain unclaimed.",
+  "headline_metrics": {
+    "degraded_field_accuracy": 0.964286,
+    "checkbox_accuracy": 1.0,
+    "clean_table_grid_accuracy": 1.0,
+    "table_physical_cell_f1": 0.925254,
+    "held_out_document_accuracy": 1.0,
+    "routed_field_accuracy": 0.982143,
+    "redaction_f1": 1.0,
+    "redaction_false_positive_rate": 0.0,
+    "local_two_worker_documents_per_minute": 8.317451
+  },
+  "data": {
+    "official_fda_forms": [
+      "1572",
+      "3454",
+      "3455"
+    ],
+    "real_modern_protocols": [
+      "NCT04470427",
+      "NCT04796896"
+    ],
+    "real_protocol_tables": 20
+  }
+}

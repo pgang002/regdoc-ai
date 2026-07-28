@@ -1,0 +1,131 @@
+# HELP regdoc_http_requests_total HTTP requests received by the API.
+# TYPE regdoc_http_requests_total counter
+regdoc_http_requests_total{method="GET",route="/health/live",status="200"} 11.0
+regdoc_http_requests_total{method="GET",route="/health/ready",status="200"} 1.0
+regdoc_http_requests_total{method="POST",route="/v1/batches/{id}",status="202"} 1.0
+regdoc_http_requests_total{method="GET",route="/v1/batches/{id}",status="200"} 64.0
+regdoc_http_requests_total{method="GET",route="/v1/operations/summary",status="200"} 1.0
+# HELP regdoc_http_requests_created HTTP requests received by the API.
+# TYPE regdoc_http_requests_created gauge
+regdoc_http_requests_created{method="GET",route="/health/live",status="200"} 1.7851831402203794e+09
+regdoc_http_requests_created{method="GET",route="/health/ready",status="200"} 1.7851831402242122e+09
+regdoc_http_requests_created{method="POST",route="/v1/batches/{id}",status="202"} 1.785183140273321e+09
+regdoc_http_requests_created{method="GET",route="/v1/batches/{id}",status="200"} 1.78518314028615e+09
+regdoc_http_requests_created{method="GET",route="/v1/operations/summary",status="200"} 1.7851831570219512e+09
+# HELP regdoc_http_request_duration_seconds HTTP request latency in seconds.
+# TYPE regdoc_http_request_duration_seconds histogram
+regdoc_http_request_duration_seconds_bucket{le="0.005",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="0.01",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="0.025",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="0.05",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="0.1",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="0.25",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="0.5",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="1.0",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="2.5",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="5.0",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="15.0",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="30.0",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_bucket{le="+Inf",method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_count{method="GET",route="/health/live"} 11.0
+regdoc_http_request_duration_seconds_sum{method="GET",route="/health/live"} 0.00616586400064989
+regdoc_http_request_duration_seconds_bucket{le="0.005",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.01",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.025",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.05",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.1",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.25",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.5",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="1.0",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="2.5",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="5.0",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="15.0",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="30.0",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="+Inf",method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_count{method="GET",route="/health/ready"} 1.0
+regdoc_http_request_duration_seconds_sum{method="GET",route="/health/ready"} 0.002309497000169358
+regdoc_http_request_duration_seconds_bucket{le="0.005",method="POST",route="/v1/batches/{id}"} 0.0
+regdoc_http_request_duration_seconds_bucket{le="0.01",method="POST",route="/v1/batches/{id}"} 0.0
+regdoc_http_request_duration_seconds_bucket{le="0.025",method="POST",route="/v1/batches/{id}"} 0.0
+regdoc_http_request_duration_seconds_bucket{le="0.05",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.1",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.25",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.5",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="1.0",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="2.5",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="5.0",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="15.0",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="30.0",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="+Inf",method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_count{method="POST",route="/v1/batches/{id}"} 1.0
+regdoc_http_request_duration_seconds_sum{method="POST",route="/v1/batches/{id}"} 0.04711363900014476
+regdoc_http_request_duration_seconds_bucket{le="0.005",method="GET",route="/v1/batches/{id}"} 35.0
+regdoc_http_request_duration_seconds_bucket{le="0.01",method="GET",route="/v1/batches/{id}"} 60.0
+regdoc_http_request_duration_seconds_bucket{le="0.025",method="GET",route="/v1/batches/{id}"} 62.0
+regdoc_http_request_duration_seconds_bucket{le="0.05",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="0.1",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="0.25",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="0.5",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="1.0",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="2.5",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="5.0",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="15.0",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="30.0",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_bucket{le="+Inf",method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_count{method="GET",route="/v1/batches/{id}"} 64.0
+regdoc_http_request_duration_seconds_sum{method="GET",route="/v1/batches/{id}"} 0.3523183370011793
+regdoc_http_request_duration_seconds_bucket{le="0.005",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.01",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.025",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.05",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.1",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.25",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="0.5",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="1.0",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="2.5",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="5.0",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="15.0",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="30.0",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_bucket{le="+Inf",method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_count{method="GET",route="/v1/operations/summary"} 1.0
+regdoc_http_request_duration_seconds_sum{method="GET",route="/v1/operations/summary"} 0.004014350000034028
+# HELP regdoc_http_request_duration_seconds_created HTTP request latency in seconds.
+# TYPE regdoc_http_request_duration_seconds_created gauge
+regdoc_http_request_duration_seconds_created{method="GET",route="/health/live"} 1.7851831402204015e+09
+regdoc_http_request_duration_seconds_created{method="GET",route="/health/ready"} 1.7851831402242286e+09
+regdoc_http_request_duration_seconds_created{method="POST",route="/v1/batches/{id}"} 1.7851831402733443e+09
+regdoc_http_request_duration_seconds_created{method="GET",route="/v1/batches/{id}"} 1.7851831402861695e+09
+regdoc_http_request_duration_seconds_created{method="GET",route="/v1/operations/summary"} 1.785183157021977e+09
+# HELP regdoc_http_requests_in_flight HTTP requests currently being handled.
+# TYPE regdoc_http_requests_in_flight gauge
+regdoc_http_requests_in_flight 1.0
+# HELP regdoc_jobs Persisted processing jobs grouped by status.
+# TYPE regdoc_jobs gauge
+regdoc_jobs{status="queued"} 0.0
+regdoc_jobs{status="retrying"} 0.0
+regdoc_jobs{status="preprocessing"} 0.0
+regdoc_jobs{status="classifying"} 0.0
+regdoc_jobs{status="extracting"} 0.0
+regdoc_jobs{status="redacting"} 0.0
+regdoc_jobs{status="persisting"} 0.0
+regdoc_jobs{status="completed"} 1.0
+regdoc_jobs{status="needs_review"} 1.0
+regdoc_jobs{status="failed"} 0.0
+# HELP regdoc_job_processing_seconds Observed job processing-time statistics.
+# TYPE regdoc_job_processing_seconds gauge
+regdoc_job_processing_seconds{statistic="mean"} 12.157825
+regdoc_job_processing_seconds{statistic="p50"} 12.157825
+regdoc_job_processing_seconds{statistic="p95"} 16.064265
+regdoc_job_processing_seconds{statistic="max"} 16.498314
+# HELP regdoc_artifacts_total Persisted document artifacts.
+# TYPE regdoc_artifacts_total gauge
+regdoc_artifacts_total 12.0
+# HELP regdoc_artifact_bytes_total Total bytes represented by persisted artifacts.
+# TYPE regdoc_artifact_bytes_total gauge
+regdoc_artifact_bytes_total 6.192869e+06
+# HELP regdoc_dependency_ready Dependency readiness (1 ready, 0 unavailable).
+# TYPE regdoc_dependency_ready gauge
+regdoc_dependency_ready{dependency="database"} 1.0
+regdoc_dependency_ready{dependency="workspace"} 1.0
+regdoc_dependency_ready{dependency="tesseract"} 1.0
+regdoc_dependency_ready{dependency="queue"} 1.0

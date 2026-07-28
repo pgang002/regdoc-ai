@@ -1,0 +1,123 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Derived and large data
+/data/interim/**
+!/data/interim/.gitkeep
+/data/processed/**
+!/data/processed/.gitkeep
+/data/raw/pubtables/**
+!/data/raw/pubtables/README.md
+/data/raw/clinicaltrials/*.json
+/data/raw/clinicaltrials/*.csv
+/results/**
+!/results/README.md
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Keep compact reproducibility artifacts from the populated-form milestone
+!/data/interim/protocol_metadata/
+!/data/interim/protocol_metadata/studies.json
+!/data/processed/populated_forms/
+/data/processed/populated_forms/*
+!/data/processed/populated_forms/manifest.csv
+!/data/processed/populated_forms/ground_truth/
+!/data/processed/populated_forms/ground_truth/*.json
+!/results/populated_forms/
+/results/populated_forms/*
+!/results/populated_forms/README.md
+!/results/populated_forms/*.csv
+!/results/render_verification/
+/results/render_verification/*
+!/results/render_verification/*/
+/results/render_verification/*/*
+!/results/render_verification/*/summary.json
+
+# Keep compact reproducibility artifacts from the degradation milestone
+!/data/processed/degraded_forms/
+/data/processed/degraded_forms/*
+!/data/processed/degraded_forms/manifest.csv
+!/data/processed/degraded_forms/metadata.json
+!/data/processed/degraded_forms/README.md
+!/results/degradation_benchmark/
+/results/degradation_benchmark/*
+!/results/degradation_benchmark/README.md
+!/results/degradation_benchmark/*.csv
+!/results/degradation_benchmark/*.json
+!/results/degradation_benchmark/figures/
+!/results/degradation_benchmark/figures/*.png
+!/results/degradation_benchmark/conditions/
+!/results/degradation_benchmark/conditions/*/
+!/results/degradation_benchmark/conditions/*/*.csv
+
+# Keep compact Day 4 OCR-engine benchmark artifacts
+!/results/ocr_engine_benchmark/
+/results/ocr_engine_benchmark/*
+!/results/ocr_engine_benchmark/README.md
+!/results/ocr_engine_benchmark/*.csv
+!/results/ocr_engine_benchmark/*.json
+!/results/ocr_engine_benchmark/tesseract/
+!/results/ocr_engine_benchmark/tesseract/*.csv
+!/results/ocr_engine_benchmark/tesseract/*.json
+!/results/ocr_engine_benchmark/paddleocr/
+!/results/ocr_engine_benchmark/paddleocr/*.csv
+!/results/ocr_engine_benchmark/paddleocr/*.json
+
+# Keep compact Day 5 table-extraction results
+!/results/table_extraction_benchmark/
+!/results/table_extraction_benchmark/*.csv
+!/results/table_extraction_benchmark/*.json
+!/results/table_extraction_benchmark/*.md
+!/results/table_extraction_benchmark/figures/
+!/results/table_extraction_benchmark/figures/*.png
+!/results/table_extraction_benchmark/robustness/
+!/results/table_extraction_benchmark/robustness/*.csv
+!/results/table_extraction_benchmark/robustness/*.json
+!/results/table_extraction_benchmark/robustness/*.png
+
+# Keep compact Day 6 document-understanding results
+!/results/document_understanding/
+!/results/document_understanding/*.csv
+!/results/document_understanding/*.json
+!/results/document_understanding/*.md
+!/results/document_understanding/figures/
+!/results/document_understanding/figures/*.png
+
+# Keep compact Day 7 redaction results
+!/results/redaction_benchmark/
+!/results/redaction_benchmark/*.csv
+!/results/redaction_benchmark/*.json
+!/results/redaction_benchmark/*.md
+!/results/redaction_benchmark/figures/
+!/results/redaction_benchmark/figures/*.png
+!/results/redaction_benchmark/audit/
+!/results/redaction_benchmark/audit/*.json
+
+# Day 8 local application workspaces
+/runtime/**
+!/runtime/.gitkeep
+
+# Keep compact Day 8 API/UI evaluation artifacts
+!/results/day8_app/
+/results/day8_app/*
+!/results/day8_app/*.csv
+!/results/day8_app/*.json
+!/results/day8_app/*.png
+
+# Keep compact Day 9 asynchronous-processing results
+!/results/day9_async/
+!/results/day9_async/**
+
+# Keep final Day 10 portfolio and evaluation artifacts
+!/results/day10_final/
+!/results/day10_final/**

@@ -1,0 +1,12 @@
+{
+  "database": "sqlite_local_migration_validation",
+  "alembic_version": "0001_day9_metadata",
+  "tables": [
+    "alembic_version",
+    "artifacts",
+    "documents",
+    "job_events",
+    "processing_jobs"
+  ],
+  "status": "passed"
+}

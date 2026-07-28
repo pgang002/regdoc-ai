@@ -1,0 +1,9 @@
+.git
+__pycache__
+.pytest_cache
+*.pyc
+runtime/*
+!runtime/.gitkeep
+results/day8_app/workspace
+results/day9_async/workspace
+regdoc-ai-day*.zip

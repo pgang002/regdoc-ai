@@ -1,0 +1,171 @@
+{
+  "document_id": "FDA_3455_NCT04796896",
+  "form_type": "FDA_3455",
+  "source_ground_truth": "data/processed/populated_forms/ground_truth/FDA_3455_NCT04796896.json",
+  "source_classification": "template_real_content_controlled",
+  "policy": {
+    "name": "regdoc_default",
+    "version": "1.0.0"
+  },
+  "redaction_metadata": {
+    "source_pdf": "data/processed/populated_forms/flattened/FDA_3455_NCT04796896.pdf",
+    "output_pdf": "results/redaction_benchmark/redacted/FDA_3455_NCT04796896_redacted.pdf",
+    "source_sha256": "1f49c7bb210074c17eb26b6a3e4d7aeca00d16b7b902aa6749e6b2ed3c9e4546",
+    "output_sha256": "b8496eb87e32ec9227022305257f45dead15615c27479fe32c45398f143c6a92",
+    "redaction_count": 4,
+    "review_count": 3
+  },
+  "entities": [
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].invesname[0]",
+      "confidence": 0.9169024869999999,
+      "bbox_pdf": [
+        251.04,
+        119.39999999999999,
+        324.0,
+        132.72
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "cf0fd27bd2bc8f308a6c7561156b9d67b241999f13b13427a834210b1cbc22cb",
+      "masked_text": "O************T"
+    },
+    {
+      "entity_type": "CCI_STUDY_TITLE",
+      "action": "review",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].nameofstudy[0]",
+      "confidence": 0.9877241191333332,
+      "bbox_pdf": [
+        290.466,
+        140.837,
+        558.728,
+        159.846
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "CCI_STUDY_TITLE",
+      "needs_review": false,
+      "text_sha256": "4e3a7054c8b735889a09c30223a9b95bec00b2c3b6f7eb81e50ae0cd22deaa0c",
+      "masked_text": "m************y"
+    },
+    {
+      "entity_type": "CCI_PROTOCOL_ID",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].nameofstudy[0]",
+      "confidence": 0.9894778164,
+      "bbox_pdf": [
+        292.92,
+        147.23999999999998,
+        351.24,
+        152.64
+      ],
+      "detection_methods": [
+        "regex",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "CCI_PROTOCOL_ID",
+      "needs_review": false,
+      "text_sha256": "7142d40df4d05bb4a50138b9e18c65123205566eb06ce4e0fcd2f4ffb1b7ace8",
+      "masked_text": "m************4"
+    },
+    {
+      "entity_type": "CCI_STUDY_TITLE",
+      "action": "review",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].nameofstudy2[0]",
+      "confidence": 0.9534449817777778,
+      "bbox_pdf": [
+        62.345,
+        168.086,
+        279.056,
+        187.095
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "CCI_STUDY_TITLE",
+      "needs_review": false,
+      "text_sha256": "498bdc185f060564fd20aaf3abffa5a03cdb4b0e6da058a76a192aed0a6c1e8a",
+      "masked_text": "o************)"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].appName[0]",
+      "confidence": 0.988610131,
+      "bbox_pdf": [
+        71.16,
+        537.12,
+        121.32,
+        545.28
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "33f5ed06bf16a398bca366b3f19eb402a28ea7e4f0c4d477d5e0081f634bb633",
+      "masked_text": "T***********a"
+    },
+    {
+      "entity_type": "CCI_SPONSOR",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].appFirm[0]",
+      "confidence": 0.8893474174,
+      "bbox_pdf": [
+        69.004,
+        565.387,
+        553.879,
+        588.974
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "CCI_SPONSOR",
+      "needs_review": false,
+      "text_sha256": "78f6beff9c167b76b1c532c1a27875ab6f50e736033a45a1558df68fbfcaa50e",
+      "masked_text": "M************."
+    },
+    {
+      "entity_type": "DATE",
+      "action": "review",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].appSigDate[0]",
+      "confidence": 0.9899064172,
+      "bbox_pdf": [
+        400.56,
+        610.3199999999999,
+        442.32,
+        616.8
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "policy_rule": "DATE",
+      "needs_review": false,
+      "text_sha256": "81758b584a8f8ac3e5cb20a222c0eefcb4d58d8e67534cc91c62b3db9bb0e94b",
+      "masked_text": "0********2"
+    }
+  ],
+  "audit_note": "Raw detected sensitive text is excluded; only hashes and masked previews are logged."
+}

@@ -1,0 +1,25 @@
+{
+  "input_pdf": "data/processed/populated_forms/flattened/FDA_3455_NCT04470427.pdf",
+  "dpi": 160,
+  "engine_a": "pdftoppm",
+  "engine_b": "pdfium",
+  "pages": 1,
+  "changed_pages": 1,
+  "per_page": [
+    {
+      "page": 1,
+      "a": "results/render_verification/FDA_3455_NCT04470427/render_pdftoppm/page-1.png",
+      "b": "results/render_verification/FDA_3455_NCT04470427/render_pdfium/page-1.png",
+      "changed": true,
+      "pct_changed": 0.11190591577540107,
+      "bbox": [
+        85,
+        38,
+        1288,
+        1707
+      ],
+      "max_channel": 255,
+      "diff": "results/render_verification/FDA_3455_NCT04470427/diff/page-1.png"
+    }
+  ]
+}

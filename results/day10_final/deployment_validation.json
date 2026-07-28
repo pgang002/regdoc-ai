@@ -1,0 +1,12 @@
+{
+  "compose_yaml_valid": true,
+  "required_services_present": true,
+  "missing_services": [],
+  "api_healthcheck_present": true,
+  "prometheus_config_present": true,
+  "ci_workflow_present": true,
+  "dockerfile_present": true,
+  "docker_cli_available": false,
+  "static_configuration_passed": true,
+  "execution_note": "Docker CLI unavailable in this runtime; configuration was parsed and statically validated, but containers were not launched."
+}

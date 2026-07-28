@@ -1,0 +1,10 @@
+# Actual public ClinicalTrials.gov study identifiers selected for the first data pull.
+# The acquisition script retrieves the full official API record for each identifier.
+NCT04470427
+NCT04796896
+NCT05815498
+NCT05330975
+NCT04649151
+NCT04927065
+NCT04785144
+NCT03313778

@@ -1,0 +1,10 @@
+name: regdoc-ai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - tesseract=5
+  - poppler
+  - pip
+  - pip:
+      - -r requirements-core.txt

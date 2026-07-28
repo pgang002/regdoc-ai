@@ -1,0 +1,17 @@
+condition,pipeline,field_count,raw_exact_match_accuracy,validated_exact_match_accuracy,mean_character_accuracy,mean_character_error_rate,mean_ocr_confidence,mean_field_ocr_latency_seconds
+clean,baseline_raw,20,0.85,1.0,1.0,0.0,91.3802,0.119825
+clean,enhanced_deskew_restored,20,0.85,1.0,1.0,0.0,90.74495,0.10756000000000002
+combined_moderate,baseline_raw,20,0.15,0.3,0.4917695,0.95438435,62.5668,0.19166
+combined_moderate,enhanced_deskew_restored,20,0.85,0.85,0.86117645,0.62824665,85.98725,0.17215
+directional_shadow,baseline_raw,20,0.8,0.9,0.9,0.12,85.78785,0.126475
+directional_shadow,enhanced_deskew_restored,20,0.9,0.9,0.9,0.1,87.44494999999999,0.115345
+gaussian_blur,baseline_raw,20,0.95,1.0,1.0,0.0,92.36085,0.124725
+gaussian_blur,enhanced_deskew_restored,20,1.0,1.0,1.0,0.0,93.34445000000001,0.105185
+gaussian_noise,baseline_raw,20,0.8,1.0,1.0,0.0,90.24215,0.28121
+gaussian_noise,enhanced_deskew_restored,20,0.85,1.0,1.0,0.0,92.03914999999999,0.169765
+jpeg_compression,baseline_raw,20,0.85,1.0,1.0,0.0,92.31620000000001,0.12784
+jpeg_compression,enhanced_deskew_restored,20,0.95,1.0,1.0,0.0,92.0472,0.10645500000000001
+low_contrast,baseline_raw,20,0.85,1.0,1.0,0.0,91.55019999999999,0.12027000000000002
+low_contrast,enhanced_deskew_restored,20,0.8,1.0,1.0,0.0,93.0319,0.107625
+rotation_2deg,baseline_raw,20,0.15,0.15,0.4199834,0.9084483000000001,68.1886,0.16126000000000001
+rotation_2deg,enhanced_deskew_restored,20,0.85,1.0,1.0,0.0,90.3138,0.108685

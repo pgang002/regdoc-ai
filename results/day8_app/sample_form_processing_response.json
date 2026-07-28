@@ -1,0 +1,1082 @@
+{
+  "document_id": "FDA_1572_NCT04796896-a723b37a86213eba",
+  "source_filename": "FDA_1572_NCT04796896.pdf",
+  "status": "NEEDS_REVIEW",
+  "created_at": "2026-07-27T19:54:41.826035+00:00",
+  "completed_at": "2026-07-27T19:54:52.906660+00:00",
+  "processing_seconds": 11.080653544000143,
+  "page_count": 2,
+  "classifications": [
+    {
+      "page": 1,
+      "label": "FDA_1572",
+      "confidence": 0.99,
+      "decision_source": "rule",
+      "rule_reason": "FDA 1572 form number/title",
+      "table_line_score": 0.0
+    },
+    {
+      "page": 2,
+      "label": "FDA_1572",
+      "confidence": 0.99,
+      "decision_source": "rule",
+      "rule_reason": "FDA 1572 form number/title",
+      "table_line_score": 0.0
+    }
+  ],
+  "fields": [
+    {
+      "name": "db_invest_name",
+      "value": "Omar Rahman, MD",
+      "page": 1,
+      "confidence": 0.9644634233333333,
+      "bounding_box": {
+        "x_min": 35.058,
+        "y_min": 131.752,
+        "x_max": 576.731,
+        "y_max": 148.5
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_inv_address1",
+      "value": "725 Research Boulevard",
+      "page": 1,
+      "confidence": 0.9602063233333332,
+      "bounding_box": {
+        "x_min": 35.193,
+        "y_min": 158.587,
+        "x_max": 304.001,
+        "y_max": 175.335
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_inv_address2",
+      "value": "Building B",
+      "page": 1,
+      "confidence": 0.931624295,
+      "bounding_box": {
+        "x_min": 307.975,
+        "y_min": 158.561,
+        "x_max": 576.701,
+        "y_max": 175.309
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_inv_city",
+      "value": "Somerville",
+      "page": 1,
+      "confidence": 0.95748718,
+      "bounding_box": {
+        "x_min": 35.354,
+        "y_min": 185.247,
+        "x_max": 179.163,
+        "y_max": 201.995
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_inv_state",
+      "value": "MA",
+      "page": 1,
+      "confidence": 0.9635404200000001,
+      "bounding_box": {
+        "x_min": 182.811,
+        "y_min": 185.272,
+        "x_max": 304.037,
+        "y_max": 202.02
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_inv_country",
+      "value": "United States",
+      "page": 1,
+      "confidence": 0.965827865,
+      "bounding_box": {
+        "x_min": 307.891,
+        "y_min": 185.44,
+        "x_max": 462.151,
+        "y_max": 202.025
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_inv_zip",
+      "value": "02145",
+      "page": 1,
+      "confidence": 0.95968216,
+      "bounding_box": {
+        "x_min": 466.061,
+        "y_min": 185.438,
+        "x_max": 576.709,
+        "y_max": 202.023
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_loc_name",
+      "value": "Pediatric Vaccine Research Unit .",
+      "page": 1,
+      "confidence": 0.7825319980000001,
+      "bounding_box": {
+        "x_min": 35.372,
+        "y_min": 290.016,
+        "x_max": 577.043,
+        "y_max": 306.764
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_loc_address1",
+      "value": "88 Health Sciences Road",
+      "page": 1,
+      "confidence": 0.9670452325,
+      "bounding_box": {
+        "x_min": 35.507,
+        "y_min": 317.403,
+        "x_max": 304.314,
+        "y_max": 334.151
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_loc_city",
+      "value": "Boston",
+      "page": 1,
+      "confidence": 0.96856781,
+      "bounding_box": {
+        "x_min": 35.668,
+        "y_min": 344.063,
+        "x_max": 179.15,
+        "y_max": 360.811
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_loc_state",
+      "value": "MA",
+      "page": 1,
+      "confidence": 0.9634491,
+      "bounding_box": {
+        "x_min": 182.947,
+        "y_min": 344.162,
+        "x_max": 304.174,
+        "y_max": 360.801
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_loc_country",
+      "value": "United States",
+      "page": 1,
+      "confidence": 0.9660597599999999,
+      "bounding_box": {
+        "x_min": 308.205,
+        "y_min": 344.256,
+        "x_max": 461.808,
+        "y_max": 360.841
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_loc_zip",
+      "value": "02118",
+      "page": 1,
+      "confidence": 0.96133591,
+      "bounding_box": {
+        "x_min": 466.156,
+        "y_min": 344.255,
+        "x_max": 577.023,
+        "y_max": 360.839
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_lab_name",
+      "value": "Northeast Bioanalytical Laboratory",
+      "page": 1,
+      "confidence": 0.9635188266666667,
+      "bounding_box": {
+        "x_min": 35.102,
+        "y_min": 397.524,
+        "x_max": 576.774,
+        "y_max": 414.272
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_lab_address1",
+      "value": "45 Discovery Drive",
+      "page": 1,
+      "confidence": 0.9632115933333334,
+      "bounding_box": {
+        "x_min": 35.237,
+        "y_min": 424.359,
+        "x_max": 304.044,
+        "y_max": 441.107
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_lab_city",
+      "value": "Boston",
+      "page": 1,
+      "confidence": 0.9672243500000001,
+      "bounding_box": {
+        "x_min": 35.398,
+        "y_min": 451.02,
+        "x_max": 179.206,
+        "y_max": 467.768
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_lab_state",
+      "value": "MA",
+      "page": 1,
+      "confidence": 0.9635404200000001,
+      "bounding_box": {
+        "x_min": 183.056,
+        "y_min": 451.235,
+        "x_max": 304.283,
+        "y_max": 467.874
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_lab_country",
+      "value": "United States",
+      "page": 1,
+      "confidence": 0.967353825,
+      "bounding_box": {
+        "x_min": 308.383,
+        "y_min": 451.212,
+        "x_max": 461.987,
+        "y_max": 467.797
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_lab_zip",
+      "value": "02115",
+      "page": 1,
+      "confidence": 0.96022934,
+      "bounding_box": {
+        "x_min": 466.105,
+        "y_min": 451.211,
+        "x_max": 576.753,
+        "y_max": 467.795
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_irb_name",
+      "value": "Regional Human Research Board",
+      "page": 1,
+      "confidence": 0.9631132124999999,
+      "bounding_box": {
+        "x_min": 35.019,
+        "y_min": 504.637,
+        "x_max": 576.691,
+        "y_max": 521.385
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_irb_address1",
+      "value": "200 Review Avenue",
+      "page": 1,
+      "confidence": 0.9626552566666665,
+      "bounding_box": {
+        "x_min": 35.153,
+        "y_min": 531.472,
+        "x_max": 303.96,
+        "y_max": 548.22
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_irb_city",
+      "value": "Boston",
+      "page": 1,
+      "confidence": 0.96882362,
+      "bounding_box": {
+        "x_min": 35.315,
+        "y_min": 558.248,
+        "x_max": 179.123,
+        "y_max": 574.996
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_irb_state",
+      "value": "MA",
+      "page": 1,
+      "confidence": 0.48177021000000003,
+      "bounding_box": {
+        "x_min": 183.056,
+        "y_min": 557.926,
+        "x_max": 304.283,
+        "y_max": 574.565
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_irb_country",
+      "value": "United States",
+      "page": 1,
+      "confidence": 0.96453587,
+      "bounding_box": {
+        "x_min": 307.851,
+        "y_min": 558.325,
+        "x_max": 461.674,
+        "y_max": 574.91
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_irb_zip",
+      "value": "02110",
+      "page": 1,
+      "confidence": 0.9614069399999999,
+      "bounding_box": {
+        "x_min": 466.021,
+        "y_min": 558.324,
+        "x_max": 576.67,
+        "y_max": 574.908
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_sub_inv_names",
+      "value": "Sophia Kim, MD; Lucas Martin, MD",
+      "page": 1,
+      "confidence": 0.963495825,
+      "bounding_box": {
+        "x_min": 35.091,
+        "y_min": 591.307,
+        "x_max": 576.64,
+        "y_max": 639.815
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_prot_name_code",
+      "value": "mRNA-1273-P204 - A Phase 2/3, Three-Part, Open-Label, Dose-Escalation, Age De-escalation and Randomized, Observer-Blind, Placebo-Controlled Expansion Study to Evaluate the Safety, Tolerability, Reactogenicity, and Effectiveness of MRNA-1273 SARS-CoV-2 Vaccine in Healthy Children 6 Months to Less Than 12 Years of Age",
+      "page": 1,
+      "confidence": 0.9360251757500001,
+      "bounding_box": {
+        "x_min": 35.322,
+        "y_min": 674.278,
+        "x_max": 576.872,
+        "y_max": 744.827
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    },
+    {
+      "name": "db_sig_date",
+      "value": "08/04/2022",
+      "page": 2,
+      "confidence": 0.9651348900000001,
+      "bounding_box": {
+        "x_min": 34.193,
+        "y_min": 586.786,
+        "x_max": 163.732,
+        "y_max": 603.534
+      },
+      "extraction_method": "template_coordinates+tesseract+schema_validation"
+    }
+  ],
+  "checkboxes": [
+    {
+      "name": "db_cv",
+      "state": "unchecked",
+      "page": 1,
+      "confidence": 0.8700000000000001,
+      "bounding_box": {
+        "x_min": 153.126,
+        "y_min": 233.256,
+        "x_max": 161.389,
+        "y_max": 241.847
+      }
+    },
+    {
+      "name": "db_oth_qual",
+      "state": "checked",
+      "page": 1,
+      "confidence": 0.99,
+      "bounding_box": {
+        "x_min": 309.211,
+        "y_min": 233.491,
+        "x_max": 317.311,
+        "y_max": 242.0
+      }
+    },
+    {
+      "name": "db_phase_1",
+      "state": "unchecked",
+      "page": 2,
+      "confidence": 0.8700000000000001,
+      "bounding_box": {
+        "x_min": 58.298,
+        "y_min": 49.275,
+        "x_max": 66.316,
+        "y_max": 57.865
+      }
+    },
+    {
+      "name": "db_phase_2_3",
+      "state": "checked",
+      "page": 2,
+      "confidence": 0.99,
+      "bounding_box": {
+        "x_min": 58.253,
+        "y_min": 78.439,
+        "x_max": 66.271,
+        "y_max": 86.784
+      }
+    }
+  ],
+  "tables": [],
+  "redaction_candidates": [
+    {
+      "candidate_id": "f2d688500bcdfbf0",
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_invest_name",
+      "masked_text": "O************D",
+      "confidence": 0.989339027,
+      "bounding_box": [
+        37.44,
+        135.6,
+        123.24,
+        144.48
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "0258db726ba18eb4",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_address1",
+      "masked_text": "7************d",
+      "confidence": 0.9888577705333332,
+      "bounding_box": [
+        35.193,
+        158.587,
+        304.001,
+        175.335
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "e6da2cb3cef26f0e",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_address2",
+      "masked_text": "B********B",
+      "confidence": 0.980964424,
+      "bounding_box": [
+        307.975,
+        158.561,
+        576.701,
+        175.309
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "2b338c6dcda02ba7",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_city",
+      "masked_text": "S********e",
+      "confidence": 0.99,
+      "bounding_box": [
+        35.354,
+        185.247,
+        179.163,
+        201.995
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "f82cc84a706f440c",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_state",
+      "masked_text": "**",
+      "confidence": 0.9897913175999999,
+      "bounding_box": [
+        182.811,
+        185.272,
+        304.037,
+        202.02
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "5da25ad8ff5ae6d3",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_country",
+      "masked_text": "U***********s",
+      "confidence": 0.99,
+      "bounding_box": [
+        307.891,
+        185.44,
+        462.151,
+        202.025
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "2a017d360d2092a8",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_zip",
+      "masked_text": "0***5",
+      "confidence": 0.9887110048,
+      "bounding_box": [
+        468.47999999999996,
+        189.6,
+        495.47999999999996,
+        197.04
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "85ac1495e158b7c5",
+      "entity_type": "SENSITIVE_FACILITY",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_loc_name",
+      "masked_text": "P************.",
+      "confidence": 0.9464791082399999,
+      "bounding_box": [
+        35.372,
+        290.016,
+        577.043,
+        306.764
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "99c786cc2e9481c3",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_address1",
+      "masked_text": "8************d",
+      "confidence": 0.99,
+      "bounding_box": [
+        35.507,
+        317.403,
+        304.314,
+        334.151
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "eb5d72f00606d694",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_city",
+      "masked_text": "B****n",
+      "confidence": 0.99,
+      "bounding_box": [
+        35.668,
+        344.063,
+        179.15,
+        360.811
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "1633f57961ed2577",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_state",
+      "masked_text": "**",
+      "confidence": 0.989765748,
+      "bounding_box": [
+        182.947,
+        344.162,
+        304.174,
+        360.801
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "3841cd77c1a8196d",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_country",
+      "masked_text": "U***********s",
+      "confidence": 0.99,
+      "bounding_box": [
+        308.205,
+        344.256,
+        461.808,
+        360.841
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "8a29ecefe7a7f21a",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_zip",
+      "masked_text": "0***8",
+      "confidence": 0.9891740548,
+      "bounding_box": [
+        468.47999999999996,
+        348.24,
+        495.59999999999997,
+        355.68
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "5f0e36322b5b5c58",
+      "entity_type": "SENSITIVE_FACILITY",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_lab_name",
+      "masked_text": "N************y",
+      "confidence": 0.9897852714666666,
+      "bounding_box": [
+        35.102,
+        397.524,
+        576.774,
+        414.272
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "fafc208a43cfe37d",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_address1",
+      "masked_text": "4************e",
+      "confidence": 0.99,
+      "bounding_box": [
+        35.237,
+        424.359,
+        304.044,
+        441.107
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "85da5c5d0da1f405",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_city",
+      "masked_text": "B****n",
+      "confidence": 0.99,
+      "bounding_box": [
+        35.398,
+        451.02,
+        179.206,
+        467.768
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "f8c8075a450d50a9",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_state",
+      "masked_text": "**",
+      "confidence": 0.9897913175999999,
+      "bounding_box": [
+        183.056,
+        451.235,
+        304.283,
+        467.874
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "1d0e4c3cb5297ff8",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_country",
+      "masked_text": "U***********s",
+      "confidence": 0.99,
+      "bounding_box": [
+        308.383,
+        451.212,
+        461.987,
+        467.797
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "c85ca2eafe867a09",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_zip",
+      "masked_text": "0***5",
+      "confidence": 0.9888642152,
+      "bounding_box": [
+        468.47999999999996,
+        455.28,
+        495.47999999999996,
+        462.71999999999997
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "cc4a51554867aa46",
+      "entity_type": "SENSITIVE_FACILITY",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_irb_name",
+      "masked_text": "R************d",
+      "confidence": 0.9152580289333333,
+      "bounding_box": [
+        35.019,
+        504.637,
+        576.691,
+        521.385
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "b959a379d2957994",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_address1",
+      "masked_text": "2************e",
+      "confidence": 0.9895434718666667,
+      "bounding_box": [
+        35.153,
+        531.472,
+        303.96,
+        548.22
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "379eb90b9029b369",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_city",
+      "masked_text": "B****n",
+      "confidence": 0.99,
+      "bounding_box": [
+        35.315,
+        558.248,
+        179.123,
+        574.996
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "805e94211a1349ba",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_state",
+      "masked_text": "M**;",
+      "confidence": 0.8548956588,
+      "bounding_box": [
+        183.056,
+        557.926,
+        304.283,
+        574.565
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "2321bf5b4ce5d90b",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_country",
+      "masked_text": "U***********s",
+      "confidence": 0.99,
+      "bounding_box": [
+        307.851,
+        558.325,
+        461.674,
+        574.91
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "3e6ebef1e02ba843",
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_zip",
+      "masked_text": "0***0",
+      "confidence": 0.9891939432,
+      "bounding_box": [
+        468.47999999999996,
+        562.3199999999999,
+        495.35999999999996,
+        569.76
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "a2c51aed288a374c",
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_sub_inv_names",
+      "masked_text": "S************D",
+      "confidence": 0.9890487474999999,
+      "bounding_box": [
+        37.44,
+        596.16,
+        161.51999999999998,
+        603.84
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "b3af22889e090dc2",
+      "entity_type": "CCI_STUDY_TITLE",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_prot_name_code",
+      "masked_text": "m************e",
+      "confidence": 0.98208704921,
+      "bounding_box": [
+        35.322,
+        674.278,
+        576.872,
+        744.827
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "e244a268c93bcef7",
+      "entity_type": "CCI_PROTOCOL_ID",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_prot_name_code",
+      "masked_text": "m************4",
+      "confidence": 0.9846460421800001,
+      "bounding_box": [
+        37.68,
+        678.72,
+        90.24,
+        683.76
+      ],
+      "detection_methods": [
+        "regex",
+        "ocr_coordinates"
+      ],
+      "needs_review": false
+    },
+    {
+      "candidate_id": "b08275e4b2ffe197",
+      "entity_type": "DATE",
+      "action": "review",
+      "page": 2,
+      "field_name": "db_sig_date",
+      "masked_text": "0********2",
+      "confidence": 0.99,
+      "bounding_box": [
+        36.72,
+        590.76,
+        85.67999999999999,
+        598.3199999999999
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "needs_review": false
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "source.pdf",
+      "media_type": "application/pdf",
+      "size_bytes": 1401412,
+      "download_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba/artifacts/source.pdf"
+    },
+    {
+      "name": "policy_redacted.pdf",
+      "media_type": "application/pdf",
+      "size_bytes": 1411732,
+      "download_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba/artifacts/policy_redacted.pdf"
+    },
+    {
+      "name": "policy_audit.json",
+      "media_type": "application/json",
+      "size_bytes": 17583,
+      "download_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba/artifacts/policy_audit.json"
+    },
+    {
+      "name": "preview_page_1.png",
+      "media_type": "image/png",
+      "size_bytes": 897199,
+      "download_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba/artifacts/preview_page_1.png"
+    },
+    {
+      "name": "preview_page_2.png",
+      "media_type": "image/png",
+      "size_bytes": 1245963,
+      "download_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba/artifacts/preview_page_2.png"
+    }
+  ],
+  "warnings": [],
+  "metadata": {
+    "policy": {
+      "name": "regdoc_default",
+      "version": "1.0.0"
+    },
+    "source_sha256": "a723b37a86213ebab134a9d7cc01c71e70815f5d03a9eadbbe87e34e35874e95",
+    "processing_mode": "synchronous_day8",
+    "page_labels": [
+      "FDA_1572",
+      "FDA_1572"
+    ],
+    "field_count": 28,
+    "checkbox_count": 4,
+    "table_count": 0,
+    "redaction_candidate_count": 29
+  }
+}

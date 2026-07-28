@@ -1,0 +1,47 @@
+{
+  "submitted_status_code": 202,
+  "job_id": "e9a064d3-a6a0-4669-9e98-e169cd5aedc1",
+  "final_status": "completed",
+  "progress": 100,
+  "event_count": 9,
+  "page_count": 1,
+  "table_count": 1,
+  "artifact_count": 7,
+  "observed_states": [
+    {
+      "status": "queued",
+      "progress": 0,
+      "stage": "uploaded"
+    },
+    {
+      "status": "classifying",
+      "progress": 15,
+      "stage": "classifying"
+    },
+    {
+      "status": "classifying",
+      "progress": 15,
+      "stage": "classifying"
+    },
+    {
+      "status": "extracting",
+      "progress": 23,
+      "stage": "extracting"
+    },
+    {
+      "status": "extracting",
+      "progress": 23,
+      "stage": "extracting"
+    },
+    {
+      "status": "extracting",
+      "progress": 23,
+      "stage": "extracting"
+    },
+    {
+      "status": "completed",
+      "progress": 100,
+      "stage": "completed"
+    }
+  ]
+}

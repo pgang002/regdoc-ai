@@ -1,0 +1,96 @@
+{
+  "document_id": "NCT04796896_p116_t0-f9985653719f929d",
+  "source_filename": "NCT04796896_p116_t0.png",
+  "status": "COMPLETED",
+  "created_at": "2026-07-27T19:54:53.150068+00:00",
+  "completed_at": "2026-07-27T19:54:54.966213+00:00",
+  "processing_seconds": 1.816163523999876,
+  "page_count": 1,
+  "classifications": [
+    {
+      "page": 1,
+      "label": "CLINICAL_TABLE",
+      "confidence": 0.97,
+      "decision_source": "rule",
+      "rule_reason": "ruled-table geometry with clinical table language",
+      "table_line_score": 1.0
+    }
+  ],
+  "fields": [],
+  "checkboxes": [],
+  "tables": [
+    {
+      "page": 1,
+      "csv_path": "table_page_1.csv",
+      "json_path": "table_page_1.json",
+      "confidence": 0.88,
+      "metadata": {
+        "rows": 10,
+        "columns": 6,
+        "html_path": "table_page_1.html",
+        "method": "opencv_ruled_grid+tesseract"
+      }
+    }
+  ],
+  "redaction_candidates": [],
+  "artifacts": [
+    {
+      "name": "source.png",
+      "media_type": "image/png",
+      "size_bytes": 269486,
+      "download_path": "/v1/documents/NCT04796896_p116_t0-f9985653719f929d/artifacts/source.png"
+    },
+    {
+      "name": "policy_redacted.pdf",
+      "media_type": "application/pdf",
+      "size_bytes": 283454,
+      "download_path": "/v1/documents/NCT04796896_p116_t0-f9985653719f929d/artifacts/policy_redacted.pdf"
+    },
+    {
+      "name": "policy_audit.json",
+      "media_type": "application/json",
+      "size_bytes": 729,
+      "download_path": "/v1/documents/NCT04796896_p116_t0-f9985653719f929d/artifacts/policy_audit.json"
+    },
+    {
+      "name": "preview_page_1.png",
+      "media_type": "image/png",
+      "size_bytes": 658934,
+      "download_path": "/v1/documents/NCT04796896_p116_t0-f9985653719f929d/artifacts/preview_page_1.png"
+    },
+    {
+      "name": "table_page_1.csv",
+      "media_type": "text/csv",
+      "size_bytes": 1528,
+      "download_path": "/v1/documents/NCT04796896_p116_t0-f9985653719f929d/artifacts/table_page_1.csv"
+    },
+    {
+      "name": "table_page_1.json",
+      "media_type": "application/json",
+      "size_bytes": 2055,
+      "download_path": "/v1/documents/NCT04796896_p116_t0-f9985653719f929d/artifacts/table_page_1.json"
+    },
+    {
+      "name": "table_page_1.html",
+      "media_type": "text/html",
+      "size_bytes": 2706,
+      "download_path": "/v1/documents/NCT04796896_p116_t0-f9985653719f929d/artifacts/table_page_1.html"
+    }
+  ],
+  "warnings": [],
+  "metadata": {
+    "policy": {
+      "name": "regdoc_default",
+      "version": "1.0.0"
+    },
+    "source_sha256": "f9985653719f929df8bda1b3fbda5c6d58f09bdd444e421e1b466f34db5e9efd",
+    "processing_mode": "synchronous_day8",
+    "page_labels": [
+      "CLINICAL_TABLE"
+    ],
+    "field_count": 0,
+    "checkbox_count": 0,
+    "table_count": 1,
+    "redaction_candidate_count": 0
+  }
+}

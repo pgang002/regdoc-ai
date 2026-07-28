@@ -1,0 +1,69 @@
+{
+  "actual_data_basis": {
+    "identifiers": "controlled test values",
+    "public_metadata": "public Moderna clinical protocol metadata",
+    "scan_conditions": "deterministic synthetic degradation of the populated official forms",
+    "templates": "official FDA Forms 1572, 3454, and 3455"
+  },
+  "benchmark": "tesseract_vs_paddleocr",
+  "comparison_complete": false,
+  "completed_at_utc": "2026-07-27T06:30:15.044402+00:00",
+  "conditions": [
+    "clean",
+    "rotation_2deg",
+    "gaussian_blur",
+    "gaussian_noise",
+    "low_contrast",
+    "directional_shadow",
+    "jpeg_compression",
+    "combined_moderate"
+  ],
+  "engines": {
+    "paddleocr": {
+      "reason": "PaddleOCR is unavailable. Install requirements-paddle.txt in Python 3.10-3.13 or run notebooks/04_tesseract_vs_paddleocr.ipynb in Google Colab.",
+      "status": "unavailable"
+    },
+    "tesseract": {
+      "conditions": [
+        "clean",
+        "rotation_2deg",
+        "gaussian_blur",
+        "gaussian_noise",
+        "low_contrast",
+        "directional_shadow",
+        "jpeg_compression",
+        "combined_moderate"
+      ],
+      "engine_metadata": {
+        "engine": "tesseract",
+        "language": "eng",
+        "model_name": "tesseract-eng",
+        "page_segmentation_mode": 6,
+        "pytesseract_version": "0.3.13",
+        "tesseract_binary_version": "5.5.0"
+      },
+      "field_records": 160,
+      "page_records": 32,
+      "status": "completed",
+      "summary": {
+        "engine": "tesseract",
+        "field_count": 160,
+        "mean_character_accuracy": 0.9701470562500001,
+        "mean_character_error_rate": 0.09103083125,
+        "mean_field_ocr_latency_seconds": 0.12343249999999999,
+        "mean_ocr_confidence": 90.61920625,
+        "raw_exact_match_accuracy": 0.88125,
+        "total_field_ocr_latency_seconds": 19.7492,
+        "validated_exact_match_accuracy": 0.96875
+      },
+      "wall_clock_seconds": 30.777
+    }
+  },
+  "platform": "Linux-6.12.13-x86_64-with-glibc2.41",
+  "python_version": "3.13.5",
+  "requested_engines": [
+    "tesseract",
+    "paddleocr"
+  ],
+  "started_at_utc": "2026-07-27T06:29:44.250436+00:00"
+}

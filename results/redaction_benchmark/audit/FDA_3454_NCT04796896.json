@@ -1,0 +1,218 @@
+{
+  "document_id": "FDA_3454_NCT04796896",
+  "form_type": "FDA_3454",
+  "source_ground_truth": "data/processed/populated_forms/ground_truth/FDA_3454_NCT04796896.json",
+  "source_classification": "template_real_content_controlled",
+  "policy": {
+    "name": "regdoc_default",
+    "version": "1.0.0"
+  },
+  "redaction_metadata": {
+    "source_pdf": "data/processed/populated_forms/flattened/FDA_3454_NCT04796896.pdf",
+    "output_pdf": "results/redaction_benchmark/redacted/FDA_3454_NCT04796896_redacted.pdf",
+    "source_sha256": "212bfb4971b54043f8d787ba653ab36f02438951b9bbd18ead13e79b4827909e",
+    "output_sha256": "4f0b104b5774537623faed9fdb867f5514f718ec790af1fb01992db807589906",
+    "redaction_count": 8,
+    "review_count": 1
+  },
+  "entities": [
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].appName[0]",
+      "confidence": 0.9890288244999998,
+      "bbox_pdf": [
+        71.03999999999999,
+        570.9599999999999,
+        130.07999999999998,
+        580.3199999999999
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "33f5ed06bf16a398bca366b3f19eb402a28ea7e4f0c4d477d5e0081f634bb633",
+      "masked_text": "T***********a"
+    },
+    {
+      "entity_type": "CCI_SPONSOR",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].appFirm[0]",
+      "confidence": 0.8968979128,
+      "bbox_pdf": [
+        68.907,
+        598.714,
+        553.592,
+        622.661
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "CCI_SPONSOR",
+      "needs_review": false,
+      "text_sha256": "78f6beff9c167b76b1c532c1a27875ab6f50e736033a45a1558df68fbfcaa50e",
+      "masked_text": "M************."
+    },
+    {
+      "entity_type": "DATE",
+      "action": "review",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].appSigDate[0]",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        401.52,
+        643.1999999999999,
+        450.47999999999996,
+        650.64
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "policy_rule": "DATE",
+      "needs_review": false,
+      "text_sha256": "81758b584a8f8ac3e5cb20a222c0eefcb4d58d8e67534cc91c62b3db9bb0e94b",
+      "masked_text": "0********2"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI1[0].invName1[0]",
+      "confidence": 0.9891193079999999,
+      "bbox_pdf": [
+        126.11999999999999,
+        315.36,
+        211.92,
+        324.24
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "8fecc3d80ebfcffc36215f7d8ce7f0c878d296785f8a222a2f8133783823a5bd",
+      "masked_text": "O************D"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI2[0].invName2[0]",
+      "confidence": 0.9879602519999999,
+      "bbox_pdf": [
+        126.24,
+        339.12,
+        197.51999999999998,
+        348.71999999999997
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "e9677b4946b9da659a70c2f7b990e45395da0fbb721d270f754ee6f9ee35bf21",
+      "masked_text": "S************D"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI3[0].invName3[0]",
+      "confidence": 0.988083611,
+      "bbox_pdf": [
+        126.47999999999999,
+        363.24,
+        203.64,
+        372.0
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "0b39708b415c0b383cf3bf11f33cdabbd27e2fe443422989958bbacb32f4b022",
+      "masked_text": "L************D"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI4[0].invName4[0]",
+      "confidence": 0.9889677960000001,
+      "bbox_pdf": [
+        341.64,
+        315.47999999999996,
+        429.35999999999996,
+        324.96
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "2308fae469009299d361a3196b40c4f6a8d532686ef375ce8a88568480fa7ed5",
+      "masked_text": "A************D"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI5[0].invName5[0]",
+      "confidence": 0.985468551,
+      "bbox_pdf": [
+        342.24,
+        339.24,
+        420.96,
+        348.0
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "6f396a51f85400e21123353593e7721139ddf539159041606c735973cfad6f91",
+      "masked_text": "E************D"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI6[0].invName6[0]",
+      "confidence": 0.987101867,
+      "bbox_pdf": [
+        342.24,
+        363.24,
+        419.88,
+        372.0
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "0722207954a8f200ca0456f0ebe660ca2abe4fbb08bc75a9bd06089008868bf5",
+      "masked_text": "L************D"
+    }
+  ],
+  "audit_note": "Raw detected sensitive text is excluded; only hashes and masked previews are logged."
+}

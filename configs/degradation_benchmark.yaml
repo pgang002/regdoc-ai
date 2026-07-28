@@ -1,0 +1,55 @@
+version: 1
+source_classification: template_real_content_controlled
+output_classification: augmented_scan
+base_seed: 20260727
+evaluation_sample_ids:
+  - FDA_1572_NCT04470427
+  - FDA_3454_NCT04470427
+  - FDA_3455_NCT04470427
+evaluation_fields:
+  FDA_1572:
+    - db_invest_name
+    - db_inv_address1
+    - db_inv_zip
+    - db_loc_name
+    - db_lab_name
+    - db_irb_name
+    - db_sub_inv_names
+    - db_prot_name_code
+    - db_sig_date
+  FDA_3454:
+    - topmostSubform[0].Page1[0].Subform1[0].appName[0]
+    - topmostSubform[0].Page1[0].Subform1[0].appTitle[0]
+    - topmostSubform[0].Page1[0].Subform1[0].appFirm[0]
+    - topmostSubform[0].Page1[0].Subform1[0].appSigDate[0]
+    - topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI1[0].invName1[0]
+    - topmostSubform[0].Page1[0].Subform1[0].checkboxList[0].LI1[0].clinInvList[0].LI6[0].invName6[0]
+  FDA_3455:
+    - topmostSubform[0].Page1[0].invesname[0]
+    - topmostSubform[0].Page1[0].nameofstudy[0]
+    - topmostSubform[0].Page1[0].nameofstudy2[0]
+    - topmostSubform[0].Page1[0].appFirm[0]
+    - topmostSubform[0].Page1[0].appSigDate[0]
+conditions:
+  - name: clean
+  - name: rotation_2deg
+    rotation_degrees: 2.0
+  - name: gaussian_blur
+    gaussian_blur_kernel: 5
+  - name: gaussian_noise
+    gaussian_noise_sigma: 14.0
+  - name: low_contrast
+    contrast_factor: 0.58
+  - name: directional_shadow
+    shadow_strength: 0.38
+    shadow_angle_degrees: 32.0
+  - name: jpeg_compression
+    jpeg_quality: 38
+  - name: combined_moderate
+    rotation_degrees: -1.7
+    gaussian_blur_kernel: 3
+    gaussian_noise_sigma: 8.0
+    contrast_factor: 0.72
+    shadow_strength: 0.24
+    shadow_angle_degrees: -18.0
+    jpeg_quality: 55

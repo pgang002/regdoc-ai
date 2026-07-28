@@ -1,0 +1,3 @@
+nct_id,protocol_number,source_url,local_path,usage,retrieved_at_utc,page_count,size_bytes,sha256
+NCT04470427,mRNA-1273-P301,https://cdn.clinicaltrials.gov/large-docs/27/NCT04470427/Prot_000.pdf,data/raw/clinicaltrials/NCT04470427_Prot_000.pdf,actual_public_protocol_metadata_for_form_population,2026-07-27T05:56:14.454471+00:00,193,2728675,da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186
+NCT04796896,mRNA-1273-P204,https://cdn.clinicaltrials.gov/large-docs/96/NCT04796896/Prot_001.pdf,data/raw/clinicaltrials/NCT04796896_Prot_001.pdf,actual_public_protocol_metadata_for_form_population,2026-07-27T05:56:14.454471+00:00,217,3387078,f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da

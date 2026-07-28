@@ -1,0 +1,57 @@
+project: RegDocAI
+retrieved_on: '2026-07-27'
+sources:
+  fda_forms:
+    authority: U.S. Food and Drug Administration
+    landing_page: https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-forms-and-instructions
+    documents:
+      - id: FDA_1571
+        title: Investigational New Drug Application (IND)
+        url: https://www.fda.gov/media/123543/download?attachment=
+        local_path: data/raw/fda_forms/FDA_1571.pdf
+        usage: source_template
+        notes: Dynamic Adobe LiveCycle/XFA PDF; non-Adobe renderers may display a placeholder page.
+      - id: FDA_1572
+        title: Statement of Investigator
+        url: https://www.fda.gov/media/71816/download?attachment=
+        local_path: data/raw/fda_forms/FDA_1572.pdf
+        usage: source_template_and_ocr_benchmark
+      - id: FDA_3454
+        title: Certification - Financial Interests and Arrangements of Clinical Investigators
+        url: https://www.fda.gov/media/70465/download?attachment=
+        local_path: data/raw/fda_forms/FDA_3454.pdf
+        usage: source_template_and_checkbox_benchmark
+      - id: FDA_3455
+        title: Disclosure - Financial Interests and Arrangements of Clinical Investigators
+        url: https://www.fda.gov/media/69872/download?attachment=
+        local_path: data/raw/fda_forms/FDA_3455.pdf
+        usage: source_template_and_checkbox_benchmark
+  clinicaltrials:
+    authority: ClinicalTrials.gov, U.S. National Library of Medicine
+    api_documentation: https://clinicaltrials.gov/data-api/api
+    api_endpoint: https://clinicaltrials.gov/api/v2/studies
+    query_sponsor: ModernaTX, Inc.
+    usage: public_study_metadata_and_posted_aggregate_results
+    notes: No participant-level records are requested or stored.
+    day5_table_benchmark:
+      usage: actual_public_protocol_table_content_and_pdf_vector_ground_truth
+      table_count: 20
+      source_protocol_count: 2
+      notes: Table crops are deterministic renders; no table content is synthetically generated.
+    public_protocol_documents:
+      - nct_id: NCT04470427
+        protocol_number: mRNA-1273-P301
+        url: https://cdn.clinicaltrials.gov/large-docs/27/NCT04470427/Prot_000.pdf
+        local_path: data/raw/clinicaltrials/NCT04470427_Prot_000.pdf
+        usage: actual_public_protocol_metadata_for_form_population
+      - nct_id: NCT04796896
+        protocol_number: mRNA-1273-P204
+        url: https://cdn.clinicaltrials.gov/large-docs/96/NCT04796896/Prot_001.pdf
+        local_path: data/raw/clinicaltrials/NCT04796896_Prot_001.pdf
+        usage: actual_public_protocol_metadata_for_form_population
+  pubtables:
+    authority: Microsoft Table Transformer project
+    repository: https://github.com/microsoft/table-transformer
+    dataset_page: https://huggingface.co/datasets/bsmock/pubtables-1m
+    usage: annotated_table_detection_and_structure_benchmark
+    notes: Download only a documented evaluation subset; do not commit the full dataset.

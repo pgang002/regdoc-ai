@@ -1,0 +1,9 @@
+sample_id,form_type,page,condition,pipeline,true_rotation_degrees,estimated_skew_degrees,absolute_rotation_residual,page_preprocessing_latency_seconds,image_path
+FDA_1572_NCT04470427,FDA_1572,1,clean,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_1572_NCT04470427/clean/page-1.png
+FDA_1572_NCT04470427,FDA_1572,2,clean,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_1572_NCT04470427/clean/page-2.png
+FDA_3454_NCT04470427,FDA_3454,1,clean,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_3454_NCT04470427/clean/page-1.png
+FDA_3455_NCT04470427,FDA_3455,1,clean,baseline_raw,0.0,0.0,0.0,0.0,data/processed/degraded_forms/images/FDA_3455_NCT04470427/clean/page-1.png
+FDA_1572_NCT04470427,FDA_1572,1,clean,enhanced_deskew_restored,0.0,0.0,0.0,0.2254,data/processed/degraded_forms/images/FDA_1572_NCT04470427/clean/page-1.png
+FDA_1572_NCT04470427,FDA_1572,2,clean,enhanced_deskew_restored,0.0,0.0,0.0,0.2394,data/processed/degraded_forms/images/FDA_1572_NCT04470427/clean/page-2.png
+FDA_3454_NCT04470427,FDA_3454,1,clean,enhanced_deskew_restored,0.0,0.0,0.0,0.2438,data/processed/degraded_forms/images/FDA_3454_NCT04470427/clean/page-1.png
+FDA_3455_NCT04470427,FDA_3455,1,clean,enhanced_deskew_restored,0.0,0.0,0.0,0.2028,data/processed/degraded_forms/images/FDA_3455_NCT04470427/clean/page-1.png

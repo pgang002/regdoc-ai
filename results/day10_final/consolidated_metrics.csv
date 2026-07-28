@@ -1,0 +1,15 @@
+area,metric,value,unit,source,scope
+OCR robustness,Validated field exact match,0.9642857142857144,ratio,Day 3,140 field instances across seven degraded conditions
+OCR robustness,Mean character error rate,0.1040352357142857,ratio,Day 3,Enhanced deskew/restoration pipeline
+OCR robustness,Field error reduction vs raw,0.8484848484848491,ratio,Day 3,Validated exact-match error reduction
+Checkbox extraction,Accuracy,1.0,ratio,Day 3,77 checkbox instances across degraded conditions
+Table extraction,Clean exact grid shape,1.0,ratio,Day 5,20 real Moderna protocol tables
+Table extraction,Physical-cell F1,0.9252538735379684,ratio,Day 5,20 real Moderna protocol tables
+Table extraction,Combined-degradation exact grid shape,1.0,ratio,Day 5,Two representative complex tables
+Document understanding,Held-out classification accuracy,1.0,ratio,Day 6,96 page instances; source-separated protocol holdout
+Document understanding,Routed field exact match,0.9821428571428572,ratio,Day 6,224 field instances
+Redaction,Sensitive-entity F1,1.0,ratio,Day 7,168 expected entities across eight conditions
+Redaction,Automatic redaction coverage,0.9791666666666666,ratio,Day 7,Fields requiring redaction
+Redaction,False automatic redaction rate,0.0,ratio,Day 7,Hybrid policy benchmark
+API,FDA form processing latency,11.080653544000144,seconds/document,Day 8,Two-page populated FDA 1572
+Async processing,Local two-worker throughput,8.317450863445206,documents/minute,Day 9,Two-document actual-data validation; not Celery/PostgreSQL performance

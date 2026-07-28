@@ -1,0 +1,7 @@
+form_type,preprocessing,field_count,raw_exact_match_accuracy,validated_exact_match_accuracy,mean_character_accuracy,mean_character_error_rate
+FDA_1572,adaptive,56,1.0,1.0,1.0,0.0
+FDA_1572,raw,56,1.0,1.0,1.0,0.0
+FDA_3454,adaptive,20,0.9,1.0,1.0,0.0
+FDA_3454,raw,20,0.9,1.0,1.0,0.0
+FDA_3455,adaptive,14,0.7857142857142857,1.0,1.0,0.0
+FDA_3455,raw,14,0.7857142857142857,1.0,1.0,0.0

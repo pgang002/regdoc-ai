@@ -1,0 +1,54 @@
+{
+  "batch_id": "169bcdee-3cbe-40bb-9df3-ec5c7e7c99c2",
+  "job_count": 2,
+  "completed_count": 2,
+  "progress": 100.0,
+  "status_counts": {
+    "needs_review": 1,
+    "completed": 1
+  },
+  "jobs": [
+    {
+      "job_id": "1d1b9ffb-d539-45d9-9bcf-c72631e09a9f",
+      "document_id": "FDA_1572_NCT04796896-a723b37a86213eba",
+      "batch_id": "169bcdee-3cbe-40bb-9df3-ec5c7e7c99c2",
+      "source_filename": "FDA_1572_NCT04796896.pdf",
+      "status": "needs_review",
+      "progress": 100,
+      "current_stage": "needs_review",
+      "attempt_count": 1,
+      "max_retries": 2,
+      "celery_task_id": "local-thread-1d1b9ffb-d539-45d9-9bcf-c72631e09a9f",
+      "queue_mode": "thread",
+      "error_type": null,
+      "error_message": null,
+      "created_at": "2026-07-27T20:02:37.913661",
+      "queued_at": "2026-07-27T20:02:37.912598",
+      "started_at": "2026-07-27T20:02:37.933628",
+      "completed_at": "2026-07-27T20:02:52.084222",
+      "processing_seconds": 14.150594,
+      "result_path": "/v1/documents/FDA_1572_NCT04796896-a723b37a86213eba"
+    },
+    {
+      "job_id": "b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a",
+      "document_id": "NCT04796896_p014_t0-1cf19c0b92779ec0",
+      "batch_id": "169bcdee-3cbe-40bb-9df3-ec5c7e7c99c2",
+      "source_filename": "NCT04796896_p014_t0.png",
+      "status": "completed",
+      "progress": 100,
+      "current_stage": "completed",
+      "attempt_count": 1,
+      "max_retries": 2,
+      "celery_task_id": "local-thread-b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a",
+      "queue_mode": "thread",
+      "error_type": null,
+      "error_message": null,
+      "created_at": "2026-07-27T20:02:37.928884",
+      "queued_at": "2026-07-27T20:02:37.928619",
+      "started_at": "2026-07-27T20:02:37.950443",
+      "completed_at": "2026-07-27T20:02:42.124635",
+      "processing_seconds": 4.174192,
+      "result_path": "/v1/documents/NCT04796896_p014_t0-1cf19c0b92779ec0"
+    }
+  ]
+}

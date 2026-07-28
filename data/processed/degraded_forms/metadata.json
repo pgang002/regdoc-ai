@@ -1,0 +1,17 @@
+{
+  "config": "configs/degradation_benchmark.yaml",
+  "image_count": 64,
+  "source_page_count": 8,
+  "condition_count": 8,
+  "conditions": [
+    "clean",
+    "combined_moderate",
+    "directional_shadow",
+    "gaussian_blur",
+    "gaussian_noise",
+    "jpeg_compression",
+    "low_contrast",
+    "rotation_2deg"
+  ],
+  "privacy_and_data_use": "Pages are renderings of official FDA form templates populated with public clinical-protocol metadata and controlled test identifiers. Degradations are synthetic scan artifacts."
+}

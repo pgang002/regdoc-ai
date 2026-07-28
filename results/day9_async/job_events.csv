@@ -1,0 +1,21 @@
+job_id,sequence,status,stage,progress,message,details,created_at
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,1,queued,uploaded,0,Document accepted and queued for processing.,{'queue_mode': 'thread'},2026-07-27T20:02:37.914360
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,2,queued,uploaded,2,Upload validated and processing started.,{},2026-07-27T20:02:37.948172
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,3,preprocessing,preprocessing,10,Rendering pages and preparing document images.,{},2026-07-27T20:02:37.956953
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,4,classifying,classifying,15,Classifying page 1 of 2.,"{'page': 1, 'page_count': 2}",2026-07-27T20:02:38.077850
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,5,extracting,extracting,23,Extracting structured content from page 1.,"{'page': 1, 'label': 'FDA_1572'}",2026-07-27T20:02:42.891120
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,6,classifying,classifying,45,Classifying page 2 of 2.,"{'page': 2, 'page_count': 2}",2026-07-27T20:02:49.838497
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,7,extracting,extracting,53,Extracting structured content from page 2.,"{'page': 2, 'label': 'FDA_1572'}",2026-07-27T20:02:51.634092
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,8,redacting,redacting,82,Applying the configured PII/CCI policy and creating a default redacted PDF.,{},2026-07-27T20:02:51.863420
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,9,persisting,persisting,94,"Writing structured results, artifacts, and audit metadata.",{},2026-07-27T20:02:52.075486
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,10,needs_review,needs_review,99,Document pipeline completed; final metadata persistence is in progress.,"{'status': 'NEEDS_REVIEW', 'page_count': 2}",2026-07-27T20:02:52.078934
+1d1b9ffb-d539-45d9-9bcf-c72631e09a9f,11,needs_review,needs_review,100,Processing finished and metadata was persisted.,"{'document_id': 'FDA_1572_NCT04796896-a723b37a86213eba', 'page_count': 2, 'artifact_count': 5, 'processing_seconds': 14.147073}",2026-07-27T20:02:52.085444
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,1,queued,uploaded,0,Document accepted and queued for processing.,{'queue_mode': 'thread'},2026-07-27T20:02:37.929165
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,2,queued,uploaded,2,Upload validated and processing started.,{},2026-07-27T20:02:37.974485
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,3,preprocessing,preprocessing,10,Rendering pages and preparing document images.,{},2026-07-27T20:02:38.061328
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,4,classifying,classifying,15,Classifying page 1 of 1.,"{'page': 1, 'page_count': 1}",2026-07-27T20:02:38.129100
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,5,extracting,extracting,23,Extracting structured content from page 1.,"{'page': 1, 'label': 'CLINICAL_TABLE'}",2026-07-27T20:02:38.987046
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,6,redacting,redacting,82,Applying the configured PII/CCI policy and creating a default redacted PDF.,{},2026-07-27T20:02:42.109235
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,7,persisting,persisting,94,"Writing structured results, artifacts, and audit metadata.",{},2026-07-27T20:02:42.113180
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,8,completed,completed,99,Document pipeline completed; final metadata persistence is in progress.,"{'status': 'COMPLETED', 'page_count': 1}",2026-07-27T20:02:42.119674
+b80543e7-2b7c-4ff3-bd94-ca68e9ff0e1a,9,completed,completed,100,Processing finished and metadata was persisted.,"{'document_id': 'NCT04796896_p014_t0-1cf19c0b92779ec0', 'page_count': 1, 'artifact_count': 7, 'processing_seconds': 4.16736}",2026-07-27T20:02:42.125754

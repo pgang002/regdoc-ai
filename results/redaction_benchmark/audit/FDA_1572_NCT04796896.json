@@ -1,0 +1,637 @@
+{
+  "document_id": "FDA_1572_NCT04796896",
+  "form_type": "FDA_1572",
+  "source_ground_truth": "data/processed/populated_forms/ground_truth/FDA_1572_NCT04796896.json",
+  "source_classification": "template_real_content_controlled",
+  "policy": {
+    "name": "regdoc_default",
+    "version": "1.0.0"
+  },
+  "redaction_metadata": {
+    "source_pdf": "data/processed/populated_forms/flattened/FDA_1572_NCT04796896.pdf",
+    "output_pdf": "results/redaction_benchmark/redacted/FDA_1572_NCT04796896_redacted.pdf",
+    "source_sha256": "a723b37a86213ebab134a9d7cc01c71e70815f5d03a9eadbbe87e34e35874e95",
+    "output_sha256": "da2ba0ebb52f2d135808e56e0273a5955a6bf4e3da625297d7495fa284d4b4c9",
+    "redaction_count": 24,
+    "review_count": 5
+  },
+  "entities": [
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_invest_name",
+      "confidence": 0.989339027,
+      "bbox_pdf": [
+        37.44,
+        135.6,
+        123.24,
+        144.48
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "8fecc3d80ebfcffc36215f7d8ce7f0c878d296785f8a222a2f8133783823a5bd",
+      "masked_text": "O************D"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_address1",
+      "confidence": 0.9888577705333332,
+      "bbox_pdf": [
+        35.193,
+        158.587,
+        304.001,
+        175.335
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "b35f5be9378184d77206dcf10d5780082fe292c8bb6adcbae187141c20960d88",
+      "masked_text": "7************d"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_address2",
+      "confidence": 0.980964424,
+      "bbox_pdf": [
+        307.975,
+        158.561,
+        576.701,
+        175.309
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "d3c2ff550c9aa57aadf55a8676336491ebbcdff3678f3b566e55dac05108d706",
+      "masked_text": "B********B"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_city",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        35.354,
+        185.247,
+        179.163,
+        201.995
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "14d8338acefe4ff2db38f05011b10e2d91d667237f12d9562dbfaad8cac60134",
+      "masked_text": "S********e"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_state",
+      "confidence": 0.9897913175999999,
+      "bbox_pdf": [
+        182.811,
+        185.272,
+        304.037,
+        202.02
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "f0055891f09fff4839b344a4af5e0482696cab0e0bf307455661ba4056c787ee",
+      "masked_text": "**"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_country",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        307.891,
+        185.44,
+        462.151,
+        202.025
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd",
+      "masked_text": "U***********s"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_inv_zip",
+      "confidence": 0.9887110048,
+      "bbox_pdf": [
+        468.47999999999996,
+        189.6,
+        495.47999999999996,
+        197.04
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "f66f857eb9464c9e5b3fb3004676dd26df23e47474cec4d445c3e02c71401ddb",
+      "masked_text": "0***5"
+    },
+    {
+      "entity_type": "SENSITIVE_FACILITY",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_loc_name",
+      "confidence": 0.9464791082399999,
+      "bbox_pdf": [
+        35.372,
+        290.016,
+        577.043,
+        306.764
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "SENSITIVE_FACILITY",
+      "needs_review": false,
+      "text_sha256": "cc24f6c0a5595cd00a9c7f728a1d163ba9c52c0990287be327132cc19d9106d0",
+      "masked_text": "P************."
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_address1",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        35.507,
+        317.403,
+        304.314,
+        334.151
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "c63b192f0c79b7aac15038841b81eddcfc8b50bb4c1539a369e6cca339878c0b",
+      "masked_text": "8************d"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_city",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        35.668,
+        344.063,
+        179.15,
+        360.811
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "a06522bc4aab38ee55c831f2836c86646d5ff655e8ef5c10e98006d63584f4ba",
+      "masked_text": "B****n"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_state",
+      "confidence": 0.989765748,
+      "bbox_pdf": [
+        182.947,
+        344.162,
+        304.174,
+        360.801
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "f0055891f09fff4839b344a4af5e0482696cab0e0bf307455661ba4056c787ee",
+      "masked_text": "**"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_country",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        308.205,
+        344.256,
+        461.808,
+        360.841
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd",
+      "masked_text": "U***********s"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_loc_zip",
+      "confidence": 0.9891740548,
+      "bbox_pdf": [
+        468.47999999999996,
+        348.24,
+        495.59999999999997,
+        355.68
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "9004fec5dd32aa24d0d0fc068288d1455c9333ff6d459633a12874419077ff8c",
+      "masked_text": "0***8"
+    },
+    {
+      "entity_type": "SENSITIVE_FACILITY",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_lab_name",
+      "confidence": 0.9897852714666666,
+      "bbox_pdf": [
+        35.102,
+        397.524,
+        576.774,
+        414.272
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "SENSITIVE_FACILITY",
+      "needs_review": false,
+      "text_sha256": "359abaedec498ad9638f64ba6fc82ddb32ecfd596bb466f8b30d9a043ae7eca5",
+      "masked_text": "N************y"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_address1",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        35.237,
+        424.359,
+        304.044,
+        441.107
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "81a6e663d50ccfbd1d8f061e801cebafc5a7a2609cca09b742057089b2ddd465",
+      "masked_text": "4************e"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_city",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        35.398,
+        451.02,
+        179.206,
+        467.768
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "a06522bc4aab38ee55c831f2836c86646d5ff655e8ef5c10e98006d63584f4ba",
+      "masked_text": "B****n"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_state",
+      "confidence": 0.9897913175999999,
+      "bbox_pdf": [
+        183.056,
+        451.235,
+        304.283,
+        467.874
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "f0055891f09fff4839b344a4af5e0482696cab0e0bf307455661ba4056c787ee",
+      "masked_text": "**"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_country",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        308.383,
+        451.212,
+        461.987,
+        467.797
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd",
+      "masked_text": "U***********s"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_lab_zip",
+      "confidence": 0.9888642152,
+      "bbox_pdf": [
+        468.47999999999996,
+        455.28,
+        495.47999999999996,
+        462.71999999999997
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "20ec61f3ed1ad73b23d92be3cfa03d02ce0e62af40a5346b54febd85584f3435",
+      "masked_text": "0***5"
+    },
+    {
+      "entity_type": "SENSITIVE_FACILITY",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_irb_name",
+      "confidence": 0.9152580289333333,
+      "bbox_pdf": [
+        35.019,
+        504.637,
+        576.691,
+        521.385
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "SENSITIVE_FACILITY",
+      "needs_review": false,
+      "text_sha256": "001074da8654de394b9b99dd25149116be3fecb28dc5492fab1ba41199b347bc",
+      "masked_text": "R************d"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_address1",
+      "confidence": 0.9895434718666667,
+      "bbox_pdf": [
+        35.153,
+        531.472,
+        303.96,
+        548.22
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "3448410f87050530f515821311e6609c93e0773b27e893761ed0d808f53f790f",
+      "masked_text": "2************e"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_city",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        35.315,
+        558.248,
+        179.123,
+        574.996
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "a06522bc4aab38ee55c831f2836c86646d5ff655e8ef5c10e98006d63584f4ba",
+      "masked_text": "B****n"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_state",
+      "confidence": 0.8548956588,
+      "bbox_pdf": [
+        183.056,
+        557.926,
+        304.283,
+        574.565
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "4853b6f122ac3755edfa7af835107e0808f1006d632a78e15d4f5de0b88ef17e",
+      "masked_text": "M**;"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_country",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        307.851,
+        558.325,
+        461.674,
+        574.91
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd",
+      "masked_text": "U***********s"
+    },
+    {
+      "entity_type": "ADDRESS",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_irb_zip",
+      "confidence": 0.9891939432,
+      "bbox_pdf": [
+        468.47999999999996,
+        562.3199999999999,
+        495.35999999999996,
+        569.76
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "policy_rule": "ADDRESS",
+      "needs_review": false,
+      "text_sha256": "414664e0de1912d0b0c0b3133162323f002a37493896adb257f69225c687611b",
+      "masked_text": "0***0"
+    },
+    {
+      "entity_type": "PERSON",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_sub_inv_names",
+      "confidence": 0.9890487474999999,
+      "bbox_pdf": [
+        37.44,
+        596.16,
+        161.51999999999998,
+        603.84
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "spacy_entity_ruler",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "PERSON",
+      "needs_review": false,
+      "text_sha256": "31289836550a3ebfefee9b3ae3fffd85b5929bdbf5de0b78d9541195e1496633",
+      "masked_text": "S************D"
+    },
+    {
+      "entity_type": "CCI_STUDY_TITLE",
+      "action": "review",
+      "page": 1,
+      "field_name": "db_prot_name_code",
+      "confidence": 0.98208704921,
+      "bbox_pdf": [
+        35.322,
+        674.278,
+        576.872,
+        744.827
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "CCI_STUDY_TITLE",
+      "needs_review": false,
+      "text_sha256": "8f6be7bcf7af7fbbff772e422b1e865927d7859fe29db7d2a2c7169c28d115e7",
+      "masked_text": "m************e"
+    },
+    {
+      "entity_type": "CCI_PROTOCOL_ID",
+      "action": "redact",
+      "page": 1,
+      "field_name": "db_prot_name_code",
+      "confidence": 0.9846460421800001,
+      "bbox_pdf": [
+        37.68,
+        678.72,
+        90.24,
+        683.76
+      ],
+      "detection_methods": [
+        "regex",
+        "ocr_coordinates"
+      ],
+      "policy_rule": "CCI_PROTOCOL_ID",
+      "needs_review": false,
+      "text_sha256": "7142d40df4d05bb4a50138b9e18c65123205566eb06ce4e0fcd2f4ffb1b7ace8",
+      "masked_text": "m************4"
+    },
+    {
+      "entity_type": "DATE",
+      "action": "review",
+      "page": 2,
+      "field_name": "db_sig_date",
+      "confidence": 0.99,
+      "bbox_pdf": [
+        36.72,
+        590.76,
+        85.67999999999999,
+        598.3199999999999
+      ],
+      "detection_methods": [
+        "field_semantics",
+        "ocr_coordinates",
+        "regex"
+      ],
+      "policy_rule": "DATE",
+      "needs_review": false,
+      "text_sha256": "81758b584a8f8ac3e5cb20a222c0eefcb4d58d8e67534cc91c62b3db9bb0e94b",
+      "masked_text": "0********2"
+    }
+  ],
+  "audit_note": "Raw detected sensitive text is excluded; only hashes and masked previews are logged."
+}

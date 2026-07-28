@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    "clean",
+    "combined_moderate",
+    "directional_shadow",
+    "gaussian_blur",
+    "gaussian_noise",
+    "jpeg_compression",
+    "low_contrast",
+    "rotation_2deg"
+  ],
+  "pipelines": [
+    "baseline_raw",
+    "enhanced_deskew_restored"
+  ],
+  "evaluated_field_records": 320,
+  "evaluated_checkbox_records": 176,
+  "unique_reference_fields": 20,
+  "source_data": "Official FDA form templates populated with public Moderna protocol metadata and controlled test identifiers; degradations are deterministic synthetic scan artifacts."
+}

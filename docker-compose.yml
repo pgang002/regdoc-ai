@@ -1,0 +1,96 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: regdoc
+      POSTGRES_USER: regdoc
+      POSTGRES_PASSWORD: regdoc
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U regdoc -d regdoc"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--appendonly", "yes", "--appendfsync", "everysec"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    volumes:
+      - redis_data:/data
+
+  api:
+    build: .
+    command: >-
+      sh -c "python scripts/init_database.py &&
+      uvicorn api.main:app --host 0.0.0.0 --port 8000"
+    environment: &regdoc-env
+      REGDOC_DATABASE_URL: postgresql+psycopg://regdoc:regdoc@postgres:5432/regdoc
+      REGDOC_REDIS_BROKER_URL: redis://redis:6379/0
+      REGDOC_REDIS_RESULT_URL: redis://redis:6379/1
+      REGDOC_QUEUE_MODE: celery
+      REGDOC_WORKSPACE: /app/runtime/documents
+      REGDOC_CORS_ORIGINS: http://localhost:8501
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    volumes:
+      - document_data:/app/runtime/documents
+
+  worker:
+    build: .
+    command: >-
+      sh -c "python scripts/init_database.py &&
+      celery -A regdoc_ai.worker.celery_app:celery_app worker
+      --loglevel=INFO --queues=documents --concurrency=2"
+    environment: *regdoc-env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - document_data:/app/runtime/documents
+
+  ui:
+    build: .
+    command: streamlit run app/streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+    environment:
+      REGDOC_API_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "8501:8501"
+
+  prometheus:
+    image: prom/prometheus:v3.4.1
+    command: ["--config.file=/etc/prometheus/prometheus.yml", "--storage.tsdb.path=/prometheus"]
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./configs/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+
+volumes:
+  postgres_data:
+  redis_data:
+  document_data:
+  prometheus_data:

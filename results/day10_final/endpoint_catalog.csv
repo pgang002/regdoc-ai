@@ -1,0 +1,16 @@
+method,path,summary
+GET,/health,Health
+GET,/health/live,Liveness
+GET,/health/ready,Readiness
+GET,/model-info,Model Info
+POST,/v1/batches/process,Enqueue Batch
+GET,/v1/batches/{batch_id},Get Batch
+POST,/v1/documents/process,Process Document
+GET,/v1/documents/{document_id},Get Document
+GET,/v1/documents/{document_id}/artifacts/{artifact_name},Download Artifact
+POST,/v1/documents/{document_id}/redactions/apply,Apply Redactions
+POST,/v1/jobs/process,Enqueue Document
+GET,/v1/jobs/{job_id},Get Job
+GET,/v1/jobs/{job_id}/events,Get Job Events
+POST,/v1/jobs/{job_id}/retry,Retry Job
+GET,/v1/operations/summary,Operations Summary
