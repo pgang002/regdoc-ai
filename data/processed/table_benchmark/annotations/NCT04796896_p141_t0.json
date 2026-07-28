@@ -1,0 +1,491 @@
+{
+  "table_id": "NCT04796896_p141_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04796896_Prot_001.pdf",
+  "source_pdf_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+  "nct_id": "NCT04796896",
+  "protocol_number": "mRNA-1273-P204",
+  "page": 141,
+  "table_index": 0,
+  "category": "statistical_analysis",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.264,
+    90.05999999999995,
+    541.86,
+    715.016
+  ],
+  "table_bbox_pdf": [
+    72.264,
+    92.05999999999995,
+    539.86,
+    713.016
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    1730.433
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04796896_p141_t0.png",
+  "image_sha256": "e2f36bca771968d50e1b02ccc8f6e1d34e5e1c1b80592942ef45a80e3c8c3427",
+  "image_width": 1311,
+  "image_height": 1737,
+  "x_boundaries_image": [
+    5.556,
+    418.294,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    53.222,
+    141.556,
+    392.556,
+    632.639,
+    720.972,
+    1150.694,
+    1396.444,
+    1566.111,
+    1730.433
+  ],
+  "logical_rows": 9,
+  "logical_columns": 2,
+  "physical_cell_count": 18,
+  "matrix": [
+    [
+      "Analysis Set",
+      "Description"
+    ],
+    [
+      "Randomization Set",
+      "Part 2: All participants who are randomly assigned, regardless of the\nparticipants\u2019 treatment status in the study."
+    ],
+    [
+      "Full Analysis Set (FAS)",
+      "Part 1: All enrolled participants in Part 1 who receive at least\n1 injection of IP.\nPart 2: All randomly assigned participants who receive at least\n1 injection of IP.\nPart 3: All enrolled participants in Part 3 who receive at least\n1 injection of IP."
+    ],
+    [
+      "Per Protocol (PP) Set",
+      "All participants in the FAS who receive planned doses of IP per\nschedule, comply with the immunogenicity schedule, and have no\nmajor protocol deviations that impact key or critical data. Participants\nwho are RT-PCR positive or seropositive at baseline will be excluded\nfrom the PP Set. The PP Set in Part 1 will be used for all analyses of\nimmunogenicity in Part 1 unless specified otherwise."
+    ],
+    [
+      "Immunogenicity Subset",
+      "A subset of participants in the FAS will be selected for\nimmunogenicity sampling and testing."
+    ],
+    [
+      "Per Protocol Immunogenicity\nSubset",
+      "A subset of participants in the FAS will be selected for\nimmunogenicity testing. The PP Immunogenicity Subset includes\nparticipants selected for the Immunogenicity Subset who receive\nplanned doses of IP per schedule, comply with immunogenicity\ntesting schedule, and have no major protocol deviations that impact\nkey or critical data. Participants who are RT-PCR positive or\nseropositive at baseline will be excluded from the PP\nImmunogenicity Subset, in addition to participants with HIV who are\nreceiving highly active anti-retroviral therapy (HAART). The PP\nImmunogenicity Subset will be used for all analyses of\nimmunogenicity unless specified otherwise."
+    ],
+    [
+      "Safety Set",
+      "All enrolled participants (in Part 1 and Part 3) and all randomly\nassigned participants (in Part 2) who receive at least 1 dose of IP. The\nSafety Set will be used for all analyses of safety except for solicited\nARs.\nSafety Set for the booster/third dose phase will include all\nparticipants who receive a booster dose or third dose."
+    ],
+    [
+      "Solicited Safety Set",
+      "The Solicited Safety Set consists of participants in the Safety Set who\ncontributed any solicited AR data.\nThe Solicited Safety Set will be used for the analyses of solicited\nARs."
+    ],
+    [
+      "Modified Intent-to-Treat\n(mITT) Set",
+      "All participants in the FAS who have no serologic or virologic\nevidence of prior SARS-CoV-2 infection before the first dose of IP\n(both negative RT-PCR test for SARS-CoV-2 and negative serology\ntest based on bAb specific to SARS-CoV-2 nucleocapsid) at baseline."
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.264,
+        92.05999999999995,
+        220.85000000000002,
+        109.22000000000003
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        418.294,
+        53.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Analysis Set"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.264,
+        109.22000000000003,
+        220.85000000000002,
+        141.01999999999998
+      ],
+      "bbox_image": [
+        5.556,
+        53.222,
+        418.294,
+        141.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Randomization Set"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.264,
+        141.01999999999998,
+        220.85000000000002,
+        231.38
+      ],
+      "bbox_image": [
+        5.556,
+        141.556,
+        418.294,
+        392.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Full Analysis Set (FAS)"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.264,
+        231.38,
+        220.85000000000002,
+        317.81
+      ],
+      "bbox_image": [
+        5.556,
+        392.556,
+        418.294,
+        632.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Per Protocol (PP) Set"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        72.264,
+        317.81,
+        220.85000000000002,
+        349.61
+      ],
+      "bbox_image": [
+        5.556,
+        632.639,
+        418.294,
+        720.972
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Immunogenicity Subset"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        72.264,
+        349.61,
+        220.85000000000002,
+        504.31
+      ],
+      "bbox_image": [
+        5.556,
+        720.972,
+        418.294,
+        1150.694
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Per Protocol Immunogenicity\nSubset"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        72.264,
+        504.31,
+        220.85000000000002,
+        592.78
+      ],
+      "bbox_image": [
+        5.556,
+        1150.694,
+        418.294,
+        1396.444
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Safety Set"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        72.264,
+        592.78,
+        220.85000000000002,
+        653.86
+      ],
+      "bbox_image": [
+        5.556,
+        1396.444,
+        418.294,
+        1566.111
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Solicited Safety Set"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        72.264,
+        653.86,
+        220.85000000000002,
+        713.016
+      ],
+      "bbox_image": [
+        5.556,
+        1566.111,
+        418.294,
+        1730.433
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Modified Intent-to-Treat\n(mITT) Set"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        220.85000000000002,
+        92.05999999999995,
+        539.86,
+        109.22000000000003
+      ],
+      "bbox_image": [
+        418.294,
+        5.556,
+        1304.433,
+        53.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Description"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        220.85000000000002,
+        109.22000000000003,
+        539.86,
+        141.01999999999998
+      ],
+      "bbox_image": [
+        418.294,
+        53.222,
+        1304.433,
+        141.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part 2: All participants who are randomly assigned, regardless of the\nparticipants\u2019 treatment status in the study."
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        220.85000000000002,
+        141.01999999999998,
+        539.86,
+        231.38
+      ],
+      "bbox_image": [
+        418.294,
+        141.556,
+        1304.433,
+        392.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part 1: All enrolled participants in Part 1 who receive at least\n1 injection of IP.\nPart 2: All randomly assigned participants who receive at least\n1 injection of IP.\nPart 3: All enrolled participants in Part 3 who receive at least\n1 injection of IP."
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        220.85000000000002,
+        231.38,
+        539.86,
+        317.81
+      ],
+      "bbox_image": [
+        418.294,
+        392.556,
+        1304.433,
+        632.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "All participants in the FAS who receive planned doses of IP per\nschedule, comply with the immunogenicity schedule, and have no\nmajor protocol deviations that impact key or critical data. Participants\nwho are RT-PCR positive or seropositive at baseline will be excluded\nfrom the PP Set. The PP Set in Part 1 will be used for all analyses of\nimmunogenicity in Part 1 unless specified otherwise."
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        220.85000000000002,
+        317.81,
+        539.86,
+        349.61
+      ],
+      "bbox_image": [
+        418.294,
+        632.639,
+        1304.433,
+        720.972
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "A subset of participants in the FAS will be selected for\nimmunogenicity sampling and testing."
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        220.85000000000002,
+        349.61,
+        539.86,
+        504.31
+      ],
+      "bbox_image": [
+        418.294,
+        720.972,
+        1304.433,
+        1150.694
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "A subset of participants in the FAS will be selected for\nimmunogenicity testing. The PP Immunogenicity Subset includes\nparticipants selected for the Immunogenicity Subset who receive\nplanned doses of IP per schedule, comply with immunogenicity\ntesting schedule, and have no major protocol deviations that impact\nkey or critical data. Participants who are RT-PCR positive or\nseropositive at baseline will be excluded from the PP\nImmunogenicity Subset, in addition to participants with HIV who are\nreceiving highly active anti-retroviral therapy (HAART). The PP\nImmunogenicity Subset will be used for all analyses of\nimmunogenicity unless specified otherwise."
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        220.85000000000002,
+        504.31,
+        539.86,
+        592.78
+      ],
+      "bbox_image": [
+        418.294,
+        1150.694,
+        1304.433,
+        1396.444
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "All enrolled participants (in Part 1 and Part 3) and all randomly\nassigned participants (in Part 2) who receive at least 1 dose of IP. The\nSafety Set will be used for all analyses of safety except for solicited\nARs.\nSafety Set for the booster/third dose phase will include all\nparticipants who receive a booster dose or third dose."
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        220.85000000000002,
+        592.78,
+        539.86,
+        653.86
+      ],
+      "bbox_image": [
+        418.294,
+        1396.444,
+        1304.433,
+        1566.111
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "The Solicited Safety Set consists of participants in the Safety Set who\ncontributed any solicited AR data.\nThe Solicited Safety Set will be used for the analyses of solicited\nARs."
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        220.85000000000002,
+        653.86,
+        539.86,
+        713.016
+      ],
+      "bbox_image": [
+        418.294,
+        1566.111,
+        1304.433,
+        1730.433
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "All participants in the FAS who have no serologic or virologic\nevidence of prior SARS-CoV-2 infection before the first dose of IP\n(both negative RT-PCR test for SARS-CoV-2 and negative serology\ntest based on bAb specific to SARS-CoV-2 nucleocapsid) at baseline."
+    }
+  ]
+}

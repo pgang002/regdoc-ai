@@ -1,0 +1,991 @@
+{
+  "table_id": "NCT04470427_p099_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 99,
+  "table_index": 0,
+  "category": "schedule_of_events",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.264,
+    391.40999999999997,
+    541.86,
+    608.9100000000001
+  ],
+  "table_bbox_pdf": [
+    72.264,
+    393.40999999999997,
+    539.86,
+    606.9100000000001
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    598.611
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p099_t0.png",
+  "image_sha256": "40ba12b79d88b4aaba17966285b6016f32c13d265a9c80b94f4b3519f6be9dd7",
+  "image_width": 1311,
+  "image_height": 605,
+  "x_boundaries_image": [
+    5.556,
+    230.544,
+    383.961,
+    537.628,
+    690.961,
+    844.35,
+    998.017,
+    1151.433,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    198.278,
+    298.528,
+    398.528,
+    498.528,
+    598.611
+  ],
+  "logical_rows": 5,
+  "logical_columns": 8,
+  "physical_cell_count": 40,
+  "matrix": [
+    [
+      "Study Visit\nDay\nImmunogenicity\nblood samples a",
+      "Table 16\nD1\n50 mL",
+      "Table 16\nD29\n50 mL",
+      "Table 16\nD57\n50 mL",
+      "Table 17\nD209\n50 mL",
+      "Table 17\nD394\n50 mL",
+      "Table 18\nD759\n50 mL",
+      "Total\n300 mL"
+    ],
+    [
+      "Study Visit Day",
+      "Part B\nDay 1b",
+      "Part B\nDay 29b",
+      "Part B\nDay 57b",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "Immunogenicity\nblood samples a",
+      "20 mL",
+      "20 mL",
+      "20 mL",
+      "NA",
+      "NA",
+      "NA",
+      "60 mLc"
+    ],
+    [
+      "Study Visit Day",
+      "Part C\nDay 1d",
+      "Part C\nDay 4d",
+      "Part C\nDay 29d",
+      "Part C\nDay 181d",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "Immunogenicity\nblood samples a",
+      "24 mL",
+      "8 mL",
+      "24 mL",
+      "24 mL",
+      "NA",
+      "NA",
+      "80 mL"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.264,
+        393.40999999999997,
+        153.26000000000002,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        230.544,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Visit\nDay\nImmunogenicity\nblood samples a"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.264,
+        462.78999999999996,
+        153.26000000000002,
+        498.88
+      ],
+      "bbox_image": [
+        5.556,
+        198.278,
+        230.544,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Visit Day"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.264,
+        498.88,
+        153.26000000000002,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        5.556,
+        298.528,
+        230.544,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Immunogenicity\nblood samples a"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.264,
+        534.8800000000001,
+        153.26000000000002,
+        570.88
+      ],
+      "bbox_image": [
+        5.556,
+        398.528,
+        230.544,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Visit Day"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        72.264,
+        570.88,
+        153.26000000000002,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        5.556,
+        498.528,
+        230.544,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Immunogenicity\nblood samples a"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        153.26000000000002,
+        393.40999999999997,
+        208.49,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        230.544,
+        5.556,
+        383.961,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Table 16\nD1\n50 mL"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        153.26000000000002,
+        462.78999999999996,
+        208.49,
+        498.88
+      ],
+      "bbox_image": [
+        230.544,
+        198.278,
+        383.961,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part B\nDay 1b"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        153.26000000000002,
+        498.88,
+        208.49,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        230.544,
+        298.528,
+        383.961,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "20 mL"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        153.26000000000002,
+        534.8800000000001,
+        208.49,
+        570.88
+      ],
+      "bbox_image": [
+        230.544,
+        398.528,
+        383.961,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part C\nDay 1d"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        153.26000000000002,
+        570.88,
+        208.49,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        230.544,
+        498.528,
+        383.961,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "24 mL"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        208.49,
+        393.40999999999997,
+        263.81,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        383.961,
+        5.556,
+        537.628,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Table 16\nD29\n50 mL"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        208.49,
+        462.78999999999996,
+        263.81,
+        498.88
+      ],
+      "bbox_image": [
+        383.961,
+        198.278,
+        537.628,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part B\nDay 29b"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        208.49,
+        498.88,
+        263.81,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        383.961,
+        298.528,
+        537.628,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "20 mL"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        208.49,
+        534.8800000000001,
+        263.81,
+        570.88
+      ],
+      "bbox_image": [
+        383.961,
+        398.528,
+        537.628,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part C\nDay 4d"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        208.49,
+        570.88,
+        263.81,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        383.961,
+        498.528,
+        537.628,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "8 mL"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        263.81,
+        393.40999999999997,
+        319.01,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        537.628,
+        5.556,
+        690.961,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Table 16\nD57\n50 mL"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        263.81,
+        462.78999999999996,
+        319.01,
+        498.88
+      ],
+      "bbox_image": [
+        537.628,
+        198.278,
+        690.961,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part B\nDay 57b"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        263.81,
+        498.88,
+        319.01,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        537.628,
+        298.528,
+        690.961,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "20 mL"
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        263.81,
+        534.8800000000001,
+        319.01,
+        570.88
+      ],
+      "bbox_image": [
+        537.628,
+        398.528,
+        690.961,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part C\nDay 29d"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        263.81,
+        570.88,
+        319.01,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        537.628,
+        498.528,
+        690.961,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "24 mL"
+    },
+    {
+      "cell_id": 20,
+      "bbox_pdf": [
+        319.01,
+        393.40999999999997,
+        374.23,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        690.961,
+        5.556,
+        844.35,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Table 17\nD209\n50 mL"
+    },
+    {
+      "cell_id": 21,
+      "bbox_pdf": [
+        319.01,
+        462.78999999999996,
+        374.23,
+        498.88
+      ],
+      "bbox_image": [
+        690.961,
+        198.278,
+        844.35,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 22,
+      "bbox_pdf": [
+        319.01,
+        498.88,
+        374.23,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        690.961,
+        298.528,
+        844.35,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 23,
+      "bbox_pdf": [
+        319.01,
+        534.8800000000001,
+        374.23,
+        570.88
+      ],
+      "bbox_image": [
+        690.961,
+        398.528,
+        844.35,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part C\nDay 181d"
+    },
+    {
+      "cell_id": 24,
+      "bbox_pdf": [
+        319.01,
+        570.88,
+        374.23,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        690.961,
+        498.528,
+        844.35,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "24 mL"
+    },
+    {
+      "cell_id": 25,
+      "bbox_pdf": [
+        374.23,
+        393.40999999999997,
+        429.55,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        844.35,
+        5.556,
+        998.017,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Table 17\nD394\n50 mL"
+    },
+    {
+      "cell_id": 26,
+      "bbox_pdf": [
+        374.23,
+        462.78999999999996,
+        429.55,
+        498.88
+      ],
+      "bbox_image": [
+        844.35,
+        198.278,
+        998.017,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 27,
+      "bbox_pdf": [
+        374.23,
+        498.88,
+        429.55,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        844.35,
+        298.528,
+        998.017,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 28,
+      "bbox_pdf": [
+        374.23,
+        534.8800000000001,
+        429.55,
+        570.88
+      ],
+      "bbox_image": [
+        844.35,
+        398.528,
+        998.017,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 29,
+      "bbox_pdf": [
+        374.23,
+        570.88,
+        429.55,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        844.35,
+        498.528,
+        998.017,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 30,
+      "bbox_pdf": [
+        429.55,
+        393.40999999999997,
+        484.78000000000003,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        998.017,
+        5.556,
+        1151.433,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Table 18\nD759\n50 mL"
+    },
+    {
+      "cell_id": 31,
+      "bbox_pdf": [
+        429.55,
+        462.78999999999996,
+        484.78000000000003,
+        498.88
+      ],
+      "bbox_image": [
+        998.017,
+        198.278,
+        1151.433,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 32,
+      "bbox_pdf": [
+        429.55,
+        498.88,
+        484.78000000000003,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        998.017,
+        298.528,
+        1151.433,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 33,
+      "bbox_pdf": [
+        429.55,
+        534.8800000000001,
+        484.78000000000003,
+        570.88
+      ],
+      "bbox_image": [
+        998.017,
+        398.528,
+        1151.433,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 34,
+      "bbox_pdf": [
+        429.55,
+        570.88,
+        484.78000000000003,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        998.017,
+        498.528,
+        1151.433,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 35,
+      "bbox_pdf": [
+        484.78000000000003,
+        393.40999999999997,
+        539.86,
+        462.78999999999996
+      ],
+      "bbox_image": [
+        1151.433,
+        5.556,
+        1304.433,
+        198.278
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 7,
+      "column_end": 8,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Total\n300 mL"
+    },
+    {
+      "cell_id": 36,
+      "bbox_pdf": [
+        484.78000000000003,
+        462.78999999999996,
+        539.86,
+        498.88
+      ],
+      "bbox_image": [
+        1151.433,
+        198.278,
+        1304.433,
+        298.528
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 7,
+      "column_end": 8,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 37,
+      "bbox_pdf": [
+        484.78000000000003,
+        498.88,
+        539.86,
+        534.8800000000001
+      ],
+      "bbox_image": [
+        1151.433,
+        298.528,
+        1304.433,
+        398.528
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 7,
+      "column_end": 8,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "60 mLc"
+    },
+    {
+      "cell_id": 38,
+      "bbox_pdf": [
+        484.78000000000003,
+        534.8800000000001,
+        539.86,
+        570.88
+      ],
+      "bbox_image": [
+        1151.433,
+        398.528,
+        1304.433,
+        498.528
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 7,
+      "column_end": 8,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 39,
+      "bbox_pdf": [
+        484.78000000000003,
+        570.88,
+        539.86,
+        606.9100000000001
+      ],
+      "bbox_image": [
+        1151.433,
+        498.528,
+        1304.433,
+        598.611
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 7,
+      "column_end": 8,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "80 mL"
+    }
+  ]
+}

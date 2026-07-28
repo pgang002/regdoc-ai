@@ -1,0 +1,627 @@
+{
+  "table_id": "NCT04470427_p180_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 180,
+  "table_index": 0,
+  "category": "schedule_of_assessments",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.26400000000001,
+    80.70000000000005,
+    546.3,
+    719.096
+  ],
+  "table_bbox_pdf": [
+    72.26400000000001,
+    82.70000000000005,
+    544.3,
+    717.096
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1316.767,
+    1767.767
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p180_t0.png",
+  "image_sha256": "9d6423148a613dd8c6c252a6e8f8c9e25f64d7ddd62e95de992d94334c1ebd35",
+  "image_width": 1323,
+  "image_height": 1774,
+  "x_boundaries_image": [
+    5.556,
+    517.628,
+    930.017,
+    1316.767
+  ],
+  "y_boundaries_image": [
+    5.556,
+    69.222,
+    236.556,
+    559.972,
+    726.972,
+    924.694,
+    1122.028,
+    1376.028,
+    1767.767
+  ],
+  "logical_rows": 8,
+  "logical_columns": 3,
+  "physical_cell_count": 24,
+  "matrix": [
+    [
+      "Section # and Name",
+      "Description of Change",
+      "Brief Rationale"
+    ],
+    [
+      "Section 2.1 (Study Rationale);\nSection 2.2.2 (Clinical Studies);\nSection 2.3.2 (Risks from Study\nParticipation)",
+      "Updated the status of ongoing\nclinical research studies.",
+      "To provide context for Protocol\nAmendment 9."
+    ],
+    [
+      "Section 2.3.2 (Risks from Study\nParticipation)",
+      "Updated to include no clinical\nevidence for enhanced vaccine\ndisease from the Phase 3 clinical\ntrial. Also updated to include very\nrare reports of myocarditis and\npericarditis occurring after\nvaccination with Moderna\nCOVID-19 vaccine.",
+      "To provide updated information\nto the investigators in line with\nupdates made to the IB."
+    ],
+    [
+      "Section 3 (Objectives and Endpoints)",
+      "Updated to include evaluation of\nthe safety and immunogenicity of\na booster dose of mRNA-1273 as\nexploratory objectives.",
+      "To identify objectives related to\nthe initiation of Part C."
+    ],
+    [
+      "Section 8.1.1 (Efficacy Assessments\nRelated to COVID-19 and SARS-CoV-2\nInfection)",
+      "Definition of seroconversion for\nparticipants seropositive at\nBaseline has been deleted.",
+      "Seroconversion in participants\nseropositive at Baseline was not\nassessed for the Part A Blinded\nPhase and will not be assessed\nfor Part B or Part C."
+    ],
+    [
+      "Section 8.1.2 (Surveillance for COVID-19\nSymptoms); Section 11.1 (Appendix 1:\nSchedules of Events)",
+      "Clarified that 2 NP swab samples\nare collected at Illness Visits.",
+      "To enhance consistency of data\ncollection at study sites."
+    ],
+    [
+      "Section 8.3.3 (Adverse Events of Special\nInterest); Section 10 (References);\nSection 11.5 (Appendix 5: Adverse Events\nof Special Interest Terms)",
+      "Added CDC case definitions for\nmyocarditis and pericarditis, as\nwell as other terms for other\npotentially relevant adverse\nevents of special interest.",
+      "To provide guidance to the\ninvestigators regarding\nassessing and reporting adverse\nevents of special interest,\nincluding myocarditis and\npericarditis, for this study\npopulation."
+    ],
+    [
+      "Section 8.4.4 (Independent Cardiac Event\nAdjudication Committee)",
+      "Added Section 8.4.4, Independent\nCardiac Event Adjudication\nCommittee.",
+      "To describe the proposed\nmechanism to assess risk of\nmyocarditis and pericarditis in\nthe study population (to address\nCenter for Biologics Evaluation\nand Research [CBER] request\nto describe how risk of\nmyocarditis and pericarditis\nwill be assessed in the study\npopulation receiving\nmRNA-1273)."
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.26400000000001,
+        82.70000000000005,
+        256.61,
+        105.62
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        517.628,
+        69.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section # and Name"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.26400000000001,
+        105.62,
+        256.61,
+        165.86
+      ],
+      "bbox_image": [
+        5.556,
+        69.222,
+        517.628,
+        236.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section 2.1 (Study Rationale);\nSection 2.2.2 (Clinical Studies);\nSection 2.3.2 (Risks from Study\nParticipation)"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.26400000000001,
+        165.86,
+        256.61,
+        282.28999999999996
+      ],
+      "bbox_image": [
+        5.556,
+        236.556,
+        517.628,
+        559.972
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section 2.3.2 (Risks from Study\nParticipation)"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.26400000000001,
+        282.28999999999996,
+        256.61,
+        342.41
+      ],
+      "bbox_image": [
+        5.556,
+        559.972,
+        517.628,
+        726.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section 3 (Objectives and Endpoints)"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        72.26400000000001,
+        342.41,
+        256.61,
+        413.59
+      ],
+      "bbox_image": [
+        5.556,
+        726.972,
+        517.628,
+        924.694
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section 8.1.1 (Efficacy Assessments\nRelated to COVID-19 and SARS-CoV-2\nInfection)"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        72.26400000000001,
+        413.59,
+        256.61,
+        484.62999999999994
+      ],
+      "bbox_image": [
+        5.556,
+        924.694,
+        517.628,
+        1122.028
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section 8.1.2 (Surveillance for COVID-19\nSymptoms); Section 11.1 (Appendix 1:\nSchedules of Events)"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        72.26400000000001,
+        484.62999999999994,
+        256.61,
+        576.07
+      ],
+      "bbox_image": [
+        5.556,
+        1122.028,
+        517.628,
+        1376.028
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section 8.3.3 (Adverse Events of Special\nInterest); Section 10 (References);\nSection 11.5 (Appendix 5: Adverse Events\nof Special Interest Terms)"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        72.26400000000001,
+        576.07,
+        256.61,
+        717.096
+      ],
+      "bbox_image": [
+        5.556,
+        1376.028,
+        517.628,
+        1767.767
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Section 8.4.4 (Independent Cardiac Event\nAdjudication Committee)"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        256.61,
+        82.70000000000005,
+        405.07,
+        105.62
+      ],
+      "bbox_image": [
+        517.628,
+        5.556,
+        930.017,
+        69.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Description of Change"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        256.61,
+        105.62,
+        405.07,
+        165.86
+      ],
+      "bbox_image": [
+        517.628,
+        69.222,
+        930.017,
+        236.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Updated the status of ongoing\nclinical research studies."
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        256.61,
+        165.86,
+        405.07,
+        282.28999999999996
+      ],
+      "bbox_image": [
+        517.628,
+        236.556,
+        930.017,
+        559.972
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Updated to include no clinical\nevidence for enhanced vaccine\ndisease from the Phase 3 clinical\ntrial. Also updated to include very\nrare reports of myocarditis and\npericarditis occurring after\nvaccination with Moderna\nCOVID-19 vaccine."
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        256.61,
+        282.28999999999996,
+        405.07,
+        342.41
+      ],
+      "bbox_image": [
+        517.628,
+        559.972,
+        930.017,
+        726.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Updated to include evaluation of\nthe safety and immunogenicity of\na booster dose of mRNA-1273 as\nexploratory objectives."
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        256.61,
+        342.41,
+        405.07,
+        413.59
+      ],
+      "bbox_image": [
+        517.628,
+        726.972,
+        930.017,
+        924.694
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Definition of seroconversion for\nparticipants seropositive at\nBaseline has been deleted."
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        256.61,
+        413.59,
+        405.07,
+        484.62999999999994
+      ],
+      "bbox_image": [
+        517.628,
+        924.694,
+        930.017,
+        1122.028
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Clarified that 2 NP swab samples\nare collected at Illness Visits."
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        256.61,
+        484.62999999999994,
+        405.07,
+        576.07
+      ],
+      "bbox_image": [
+        517.628,
+        1122.028,
+        930.017,
+        1376.028
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Added CDC case definitions for\nmyocarditis and pericarditis, as\nwell as other terms for other\npotentially relevant adverse\nevents of special interest."
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        256.61,
+        576.07,
+        405.07,
+        717.096
+      ],
+      "bbox_image": [
+        517.628,
+        1376.028,
+        930.017,
+        1767.767
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Added Section 8.4.4, Independent\nCardiac Event Adjudication\nCommittee."
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        405.07,
+        82.70000000000005,
+        544.3,
+        105.62
+      ],
+      "bbox_image": [
+        930.017,
+        5.556,
+        1316.767,
+        69.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Brief Rationale"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        405.07,
+        105.62,
+        544.3,
+        165.86
+      ],
+      "bbox_image": [
+        930.017,
+        69.222,
+        1316.767,
+        236.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "To provide context for Protocol\nAmendment 9."
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        405.07,
+        165.86,
+        544.3,
+        282.28999999999996
+      ],
+      "bbox_image": [
+        930.017,
+        236.556,
+        1316.767,
+        559.972
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "To provide updated information\nto the investigators in line with\nupdates made to the IB."
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        405.07,
+        282.28999999999996,
+        544.3,
+        342.41
+      ],
+      "bbox_image": [
+        930.017,
+        559.972,
+        1316.767,
+        726.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "To identify objectives related to\nthe initiation of Part C."
+    },
+    {
+      "cell_id": 20,
+      "bbox_pdf": [
+        405.07,
+        342.41,
+        544.3,
+        413.59
+      ],
+      "bbox_image": [
+        930.017,
+        726.972,
+        1316.767,
+        924.694
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Seroconversion in participants\nseropositive at Baseline was not\nassessed for the Part A Blinded\nPhase and will not be assessed\nfor Part B or Part C."
+    },
+    {
+      "cell_id": 21,
+      "bbox_pdf": [
+        405.07,
+        413.59,
+        544.3,
+        484.62999999999994
+      ],
+      "bbox_image": [
+        930.017,
+        924.694,
+        1316.767,
+        1122.028
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "To enhance consistency of data\ncollection at study sites."
+    },
+    {
+      "cell_id": 22,
+      "bbox_pdf": [
+        405.07,
+        484.62999999999994,
+        544.3,
+        576.07
+      ],
+      "bbox_image": [
+        930.017,
+        1122.028,
+        1316.767,
+        1376.028
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "To provide guidance to the\ninvestigators regarding\nassessing and reporting adverse\nevents of special interest,\nincluding myocarditis and\npericarditis, for this study\npopulation."
+    },
+    {
+      "cell_id": 23,
+      "bbox_pdf": [
+        405.07,
+        576.07,
+        544.3,
+        717.096
+      ],
+      "bbox_image": [
+        930.017,
+        1376.028,
+        1316.767,
+        1767.767
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "To describe the proposed\nmechanism to assess risk of\nmyocarditis and pericarditis in\nthe study population (to address\nCenter for Biologics Evaluation\nand Research [CBER] request\nto describe how risk of\nmyocarditis and pericarditis\nwill be assessed in the study\npopulation receiving\nmRNA-1273)."
+    }
+  ]
+}

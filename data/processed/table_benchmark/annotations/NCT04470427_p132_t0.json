@@ -1,0 +1,525 @@
+{
+  "table_id": "NCT04470427_p132_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 132,
+  "table_index": 0,
+  "category": "interim_analysis",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.26400000000001,
+    181.01999999999998,
+    558.42,
+    371.05
+  ],
+  "table_bbox_pdf": [
+    72.26400000000001,
+    183.01999999999998,
+    556.42,
+    369.05
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1350.433,
+    522.306
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p132_t0.png",
+  "image_sha256": "ac037d18befd274a8e25d0c0ce8b9056f412376c89038193edbe6cb2c39e6ad0",
+  "image_width": 1357,
+  "image_height": 529,
+  "x_boundaries_image": [
+    5.556,
+    354.961,
+    517.628,
+    705.017,
+    1064.1,
+    1350.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    179.939,
+    294.306,
+    408.306,
+    522.306
+  ],
+  "logical_rows": 4,
+  "logical_columns": 5,
+  "physical_cell_count": 20,
+  "matrix": [
+    [
+      "Information Fraction\n(% of total #cases)",
+      "Number\nof Cases",
+      "Nominal\nAlpha",
+      "Efficacy Boundary\nRejecting H0: VE \u2264 30%",
+      "Cum Prob\n(crossing efficacy\nboundary if the\ntrue VE = 60%)"
+    ],
+    [
+      "IA1 35%",
+      "53",
+      "0.0002",
+      "VE \u2265 0.741\n(HR \u2264 0.259)",
+      "4.6%"
+    ],
+    [
+      "IA2 70%",
+      "106",
+      "0.0073",
+      "VE \u2265 0.565\n(HR \u2264 0.435)",
+      "61.5%"
+    ],
+    [
+      "Primary analysis 100%",
+      "151",
+      "0.0227",
+      "VE \u2265 0.495\n(HR \u2264 0.505)",
+      "90.0%"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.26400000000001,
+        183.01999999999998,
+        198.05,
+        245.79799999999994
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        354.961,
+        179.939
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Information Fraction\n(% of total #cases)"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.26400000000001,
+        245.79799999999994,
+        198.05,
+        286.96999999999997
+      ],
+      "bbox_image": [
+        5.556,
+        179.939,
+        354.961,
+        294.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "IA1 35%"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.26400000000001,
+        286.96999999999997,
+        198.05,
+        328.01
+      ],
+      "bbox_image": [
+        5.556,
+        294.306,
+        354.961,
+        408.306
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "IA2 70%"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.26400000000001,
+        328.01,
+        198.05,
+        369.05
+      ],
+      "bbox_image": [
+        5.556,
+        408.306,
+        354.961,
+        522.306
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Primary analysis 100%"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        198.05,
+        183.01999999999998,
+        256.61,
+        245.79799999999994
+      ],
+      "bbox_image": [
+        354.961,
+        5.556,
+        517.628,
+        179.939
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Number\nof Cases"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        198.05,
+        245.79799999999994,
+        256.61,
+        286.96999999999997
+      ],
+      "bbox_image": [
+        354.961,
+        179.939,
+        517.628,
+        294.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "53"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        198.05,
+        286.96999999999997,
+        256.61,
+        328.01
+      ],
+      "bbox_image": [
+        354.961,
+        294.306,
+        517.628,
+        408.306
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "106"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        198.05,
+        328.01,
+        256.61,
+        369.05
+      ],
+      "bbox_image": [
+        354.961,
+        408.306,
+        517.628,
+        522.306
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "151"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        256.61,
+        183.01999999999998,
+        324.07,
+        245.79799999999994
+      ],
+      "bbox_image": [
+        517.628,
+        5.556,
+        705.017,
+        179.939
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Nominal\nAlpha"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        256.61,
+        245.79799999999994,
+        324.07,
+        286.96999999999997
+      ],
+      "bbox_image": [
+        517.628,
+        179.939,
+        705.017,
+        294.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "0.0002"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        256.61,
+        286.96999999999997,
+        324.07,
+        328.01
+      ],
+      "bbox_image": [
+        517.628,
+        294.306,
+        705.017,
+        408.306
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "0.0073"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        256.61,
+        328.01,
+        324.07,
+        369.05
+      ],
+      "bbox_image": [
+        517.628,
+        408.306,
+        705.017,
+        522.306
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "0.0227"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        324.07,
+        183.01999999999998,
+        453.34000000000003,
+        245.79799999999994
+      ],
+      "bbox_image": [
+        705.017,
+        5.556,
+        1064.1,
+        179.939
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Efficacy Boundary\nRejecting H0: VE \u2264 30%"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        324.07,
+        245.79799999999994,
+        453.34000000000003,
+        286.96999999999997
+      ],
+      "bbox_image": [
+        705.017,
+        179.939,
+        1064.1,
+        294.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "VE \u2265 0.741\n(HR \u2264 0.259)"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        324.07,
+        286.96999999999997,
+        453.34000000000003,
+        328.01
+      ],
+      "bbox_image": [
+        705.017,
+        294.306,
+        1064.1,
+        408.306
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "VE \u2265 0.565\n(HR \u2264 0.435)"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        324.07,
+        328.01,
+        453.34000000000003,
+        369.05
+      ],
+      "bbox_image": [
+        705.017,
+        408.306,
+        1064.1,
+        522.306
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "VE \u2265 0.495\n(HR \u2264 0.505)"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        453.34000000000003,
+        183.01999999999998,
+        556.42,
+        245.79799999999994
+      ],
+      "bbox_image": [
+        1064.1,
+        5.556,
+        1350.433,
+        179.939
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Cum Prob\n(crossing efficacy\nboundary if the\ntrue VE = 60%)"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        453.34000000000003,
+        245.79799999999994,
+        556.42,
+        286.96999999999997
+      ],
+      "bbox_image": [
+        1064.1,
+        179.939,
+        1350.433,
+        294.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "4.6%"
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        453.34000000000003,
+        286.96999999999997,
+        556.42,
+        328.01
+      ],
+      "bbox_image": [
+        1064.1,
+        294.306,
+        1350.433,
+        408.306
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "61.5%"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        453.34000000000003,
+        328.01,
+        556.42,
+        369.05
+      ],
+      "bbox_image": [
+        1064.1,
+        408.306,
+        1350.433,
+        522.306
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "90.0%"
+    }
+  ]
+}

@@ -1,0 +1,1464 @@
+{
+  "table_id": "NCT04796896_p116_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04796896_Prot_001.pdf",
+  "source_pdf_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+  "nct_id": "NCT04796896",
+  "protocol_number": "mRNA-1273-P204",
+  "page": 116,
+  "table_index": 0,
+  "category": "adverse_reaction_grading",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.264,
+    211.5,
+    541.86,
+    720.176
+  ],
+  "table_bbox_pdf": [
+    72.264,
+    213.5,
+    539.86,
+    718.176
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    1407.433
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04796896_p116_t0.png",
+  "image_sha256": "f9985653719f929df8bda1b3fbda5c6d58f09bdd444e421e1b466f34db5e9efd",
+  "image_width": 1311,
+  "image_height": 1414,
+  "x_boundaries_image": [
+    5.556,
+    270.211,
+    413.294,
+    617.628,
+    821.683,
+    1026.017,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    72.889,
+    210.306,
+    347.639,
+    484.972,
+    736.028,
+    878.361,
+    1015.694,
+    1153.444,
+    1290.778,
+    1407.433
+  ],
+  "logical_rows": 10,
+  "logical_columns": 6,
+  "physical_cell_count": 60,
+  "matrix": [
+    [
+      "Reaction",
+      "Grade 0",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 42"
+    ],
+    [
+      "Injection site pain",
+      "None",
+      "Does not\ninterfere with\nactivity",
+      "Interferes with\nactivity",
+      "Prevents daily\nactivity",
+      "Requires emergency\nroom visit3 or\nhospitalization"
+    ],
+    [
+      "Injection site\nerythema (redness)",
+      "< 25 mm/\n< 2.5 cm",
+      "25-50 mm/\n2.5-5 cm",
+      "51-100 mm/\n5.1-10 cm",
+      "> 100 mm/\n> 10 cm",
+      "Necrosis or\nexfoliative\ndermatitis"
+    ],
+    [
+      "Injection site\nswelling/induration\n(hardness)",
+      "< 25 mm/\n< 2.5 cm",
+      "25-50 mm/\n2.5-5 cm",
+      "51-100 mm/\n5.1-10 cm",
+      "> 100 mm/\n> 10 cm",
+      "Necrosis"
+    ],
+    [
+      "Axillary\n(underarm)\nswelling or\ntenderness\nipsilateral to the\nside of injection",
+      "None",
+      "No\ninterference\nwith activity",
+      "Some\ninterference\nwith activity",
+      "Prevents daily\nactivity",
+      "Emergency room\nvisit3 or\nhospitalization"
+    ],
+    [
+      "Headache",
+      "None",
+      "No\ninterference\nwith activity",
+      "Some\ninterference\nwith activity",
+      "Significant;\nPrevents daily\nactivity",
+      "Requires emergency\nroom visit3 or\nhospitalization"
+    ],
+    [
+      "Fatigue",
+      "None",
+      "No\ninterference\nwith activity",
+      "Some\ninterference\nwith activity",
+      "Significant;\nprevents daily\nactivity",
+      "Requires emergency\nroom visit3 or\nhospitalization"
+    ],
+    [
+      "Myalgia (muscle\naches all over\nbody)",
+      "None",
+      "No\ninterference\nwith activity",
+      "Some\ninterference\nwith activity",
+      "Significant;\nprevents daily\nactivity",
+      "Requires emergency\nroom visit3 or\nhospitalization"
+    ],
+    [
+      "Arthralgia (joint\naches in several\njoints)",
+      "None",
+      "No\ninterference\nwith activity",
+      "Some\ninterference\nwith activity",
+      "Significant;\nprevents daily\nactivity",
+      "Requires emergency\nroom visit3 or\nhospitalization"
+    ],
+    [
+      "Nausea/vomiting",
+      "None",
+      "No\ninterference",
+      "Some\ninterference",
+      "Prevents daily\nactivity,",
+      "Requires emergency\nroom visit3 or"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.264,
+        213.5,
+        167.54000000000002,
+        237.74
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        270.211,
+        72.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Reaction"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.264,
+        237.74,
+        167.54000000000002,
+        287.21
+      ],
+      "bbox_image": [
+        5.556,
+        72.889,
+        270.211,
+        210.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Injection site pain"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.264,
+        287.21,
+        167.54000000000002,
+        336.65
+      ],
+      "bbox_image": [
+        5.556,
+        210.306,
+        270.211,
+        347.639
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Injection site\nerythema (redness)"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.264,
+        336.65,
+        167.54000000000002,
+        386.09
+      ],
+      "bbox_image": [
+        5.556,
+        347.639,
+        270.211,
+        484.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Injection site\nswelling/induration\n(hardness)"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        72.264,
+        386.09,
+        167.54000000000002,
+        476.46999999999997
+      ],
+      "bbox_image": [
+        5.556,
+        484.972,
+        270.211,
+        736.028
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Axillary\n(underarm)\nswelling or\ntenderness\nipsilateral to the\nside of injection"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        72.264,
+        476.46999999999997,
+        167.54000000000002,
+        527.71
+      ],
+      "bbox_image": [
+        5.556,
+        736.028,
+        270.211,
+        878.361
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Headache"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        72.264,
+        527.71,
+        167.54000000000002,
+        577.15
+      ],
+      "bbox_image": [
+        5.556,
+        878.361,
+        270.211,
+        1015.694
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Fatigue"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        72.264,
+        577.15,
+        167.54000000000002,
+        626.74
+      ],
+      "bbox_image": [
+        5.556,
+        1015.694,
+        270.211,
+        1153.444
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Myalgia (muscle\naches all over\nbody)"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        72.264,
+        626.74,
+        167.54000000000002,
+        676.1800000000001
+      ],
+      "bbox_image": [
+        5.556,
+        1153.444,
+        270.211,
+        1290.778
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Arthralgia (joint\naches in several\njoints)"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        72.264,
+        676.1800000000001,
+        167.54000000000002,
+        718.176
+      ],
+      "bbox_image": [
+        5.556,
+        1290.778,
+        270.211,
+        1407.433
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Nausea/vomiting"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        167.54000000000002,
+        213.5,
+        219.05,
+        237.74
+      ],
+      "bbox_image": [
+        270.211,
+        5.556,
+        413.294,
+        72.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 0"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        167.54000000000002,
+        237.74,
+        219.05,
+        287.21
+      ],
+      "bbox_image": [
+        270.211,
+        72.889,
+        413.294,
+        210.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        167.54000000000002,
+        287.21,
+        219.05,
+        336.65
+      ],
+      "bbox_image": [
+        270.211,
+        210.306,
+        413.294,
+        347.639
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 25 mm/\n< 2.5 cm"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        167.54000000000002,
+        336.65,
+        219.05,
+        386.09
+      ],
+      "bbox_image": [
+        270.211,
+        347.639,
+        413.294,
+        484.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 25 mm/\n< 2.5 cm"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        167.54000000000002,
+        386.09,
+        219.05,
+        476.46999999999997
+      ],
+      "bbox_image": [
+        270.211,
+        484.972,
+        413.294,
+        736.028
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        167.54000000000002,
+        476.46999999999997,
+        219.05,
+        527.71
+      ],
+      "bbox_image": [
+        270.211,
+        736.028,
+        413.294,
+        878.361
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        167.54000000000002,
+        527.71,
+        219.05,
+        577.15
+      ],
+      "bbox_image": [
+        270.211,
+        878.361,
+        413.294,
+        1015.694
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        167.54000000000002,
+        577.15,
+        219.05,
+        626.74
+      ],
+      "bbox_image": [
+        270.211,
+        1015.694,
+        413.294,
+        1153.444
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        167.54000000000002,
+        626.74,
+        219.05,
+        676.1800000000001
+      ],
+      "bbox_image": [
+        270.211,
+        1153.444,
+        413.294,
+        1290.778
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        167.54000000000002,
+        676.1800000000001,
+        219.05,
+        718.176
+      ],
+      "bbox_image": [
+        270.211,
+        1290.778,
+        413.294,
+        1407.433
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 20,
+      "bbox_pdf": [
+        219.05,
+        213.5,
+        292.61,
+        237.74
+      ],
+      "bbox_image": [
+        413.294,
+        5.556,
+        617.628,
+        72.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 1"
+    },
+    {
+      "cell_id": 21,
+      "bbox_pdf": [
+        219.05,
+        237.74,
+        292.61,
+        287.21
+      ],
+      "bbox_image": [
+        413.294,
+        72.889,
+        617.628,
+        210.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Does not\ninterfere with\nactivity"
+    },
+    {
+      "cell_id": 22,
+      "bbox_pdf": [
+        219.05,
+        287.21,
+        292.61,
+        336.65
+      ],
+      "bbox_image": [
+        413.294,
+        210.306,
+        617.628,
+        347.639
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "25-50 mm/\n2.5-5 cm"
+    },
+    {
+      "cell_id": 23,
+      "bbox_pdf": [
+        219.05,
+        336.65,
+        292.61,
+        386.09
+      ],
+      "bbox_image": [
+        413.294,
+        347.639,
+        617.628,
+        484.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "25-50 mm/\n2.5-5 cm"
+    },
+    {
+      "cell_id": 24,
+      "bbox_pdf": [
+        219.05,
+        386.09,
+        292.61,
+        476.46999999999997
+      ],
+      "bbox_image": [
+        413.294,
+        484.972,
+        617.628,
+        736.028
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 25,
+      "bbox_pdf": [
+        219.05,
+        476.46999999999997,
+        292.61,
+        527.71
+      ],
+      "bbox_image": [
+        413.294,
+        736.028,
+        617.628,
+        878.361
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 26,
+      "bbox_pdf": [
+        219.05,
+        527.71,
+        292.61,
+        577.15
+      ],
+      "bbox_image": [
+        413.294,
+        878.361,
+        617.628,
+        1015.694
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 27,
+      "bbox_pdf": [
+        219.05,
+        577.15,
+        292.61,
+        626.74
+      ],
+      "bbox_image": [
+        413.294,
+        1015.694,
+        617.628,
+        1153.444
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 28,
+      "bbox_pdf": [
+        219.05,
+        626.74,
+        292.61,
+        676.1800000000001
+      ],
+      "bbox_image": [
+        413.294,
+        1153.444,
+        617.628,
+        1290.778
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 29,
+      "bbox_pdf": [
+        219.05,
+        676.1800000000001,
+        292.61,
+        718.176
+      ],
+      "bbox_image": [
+        413.294,
+        1290.778,
+        617.628,
+        1407.433
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No\ninterference"
+    },
+    {
+      "cell_id": 30,
+      "bbox_pdf": [
+        292.61,
+        213.5,
+        366.07,
+        237.74
+      ],
+      "bbox_image": [
+        617.628,
+        5.556,
+        821.683,
+        72.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 2"
+    },
+    {
+      "cell_id": 31,
+      "bbox_pdf": [
+        292.61,
+        237.74,
+        366.07,
+        287.21
+      ],
+      "bbox_image": [
+        617.628,
+        72.889,
+        821.683,
+        210.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Interferes with\nactivity"
+    },
+    {
+      "cell_id": 32,
+      "bbox_pdf": [
+        292.61,
+        287.21,
+        366.07,
+        336.65
+      ],
+      "bbox_image": [
+        617.628,
+        210.306,
+        821.683,
+        347.639
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "51-100 mm/\n5.1-10 cm"
+    },
+    {
+      "cell_id": 33,
+      "bbox_pdf": [
+        292.61,
+        336.65,
+        366.07,
+        386.09
+      ],
+      "bbox_image": [
+        617.628,
+        347.639,
+        821.683,
+        484.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "51-100 mm/\n5.1-10 cm"
+    },
+    {
+      "cell_id": 34,
+      "bbox_pdf": [
+        292.61,
+        386.09,
+        366.07,
+        476.46999999999997
+      ],
+      "bbox_image": [
+        617.628,
+        484.972,
+        821.683,
+        736.028
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Some\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 35,
+      "bbox_pdf": [
+        292.61,
+        476.46999999999997,
+        366.07,
+        527.71
+      ],
+      "bbox_image": [
+        617.628,
+        736.028,
+        821.683,
+        878.361
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Some\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 36,
+      "bbox_pdf": [
+        292.61,
+        527.71,
+        366.07,
+        577.15
+      ],
+      "bbox_image": [
+        617.628,
+        878.361,
+        821.683,
+        1015.694
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Some\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 37,
+      "bbox_pdf": [
+        292.61,
+        577.15,
+        366.07,
+        626.74
+      ],
+      "bbox_image": [
+        617.628,
+        1015.694,
+        821.683,
+        1153.444
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Some\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 38,
+      "bbox_pdf": [
+        292.61,
+        626.74,
+        366.07,
+        676.1800000000001
+      ],
+      "bbox_image": [
+        617.628,
+        1153.444,
+        821.683,
+        1290.778
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Some\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 39,
+      "bbox_pdf": [
+        292.61,
+        676.1800000000001,
+        366.07,
+        718.176
+      ],
+      "bbox_image": [
+        617.628,
+        1290.778,
+        821.683,
+        1407.433
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Some\ninterference"
+    },
+    {
+      "cell_id": 40,
+      "bbox_pdf": [
+        366.07,
+        213.5,
+        439.63,
+        237.74
+      ],
+      "bbox_image": [
+        821.683,
+        5.556,
+        1026.017,
+        72.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 3"
+    },
+    {
+      "cell_id": 41,
+      "bbox_pdf": [
+        366.07,
+        237.74,
+        439.63,
+        287.21
+      ],
+      "bbox_image": [
+        821.683,
+        72.889,
+        1026.017,
+        210.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Prevents daily\nactivity"
+    },
+    {
+      "cell_id": 42,
+      "bbox_pdf": [
+        366.07,
+        287.21,
+        439.63,
+        336.65
+      ],
+      "bbox_image": [
+        821.683,
+        210.306,
+        1026.017,
+        347.639
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 100 mm/\n> 10 cm"
+    },
+    {
+      "cell_id": 43,
+      "bbox_pdf": [
+        366.07,
+        336.65,
+        439.63,
+        386.09
+      ],
+      "bbox_image": [
+        821.683,
+        347.639,
+        1026.017,
+        484.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 100 mm/\n> 10 cm"
+    },
+    {
+      "cell_id": 44,
+      "bbox_pdf": [
+        366.07,
+        386.09,
+        439.63,
+        476.46999999999997
+      ],
+      "bbox_image": [
+        821.683,
+        484.972,
+        1026.017,
+        736.028
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Prevents daily\nactivity"
+    },
+    {
+      "cell_id": 45,
+      "bbox_pdf": [
+        366.07,
+        476.46999999999997,
+        439.63,
+        527.71
+      ],
+      "bbox_image": [
+        821.683,
+        736.028,
+        1026.017,
+        878.361
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Significant;\nPrevents daily\nactivity"
+    },
+    {
+      "cell_id": 46,
+      "bbox_pdf": [
+        366.07,
+        527.71,
+        439.63,
+        577.15
+      ],
+      "bbox_image": [
+        821.683,
+        878.361,
+        1026.017,
+        1015.694
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Significant;\nprevents daily\nactivity"
+    },
+    {
+      "cell_id": 47,
+      "bbox_pdf": [
+        366.07,
+        577.15,
+        439.63,
+        626.74
+      ],
+      "bbox_image": [
+        821.683,
+        1015.694,
+        1026.017,
+        1153.444
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Significant;\nprevents daily\nactivity"
+    },
+    {
+      "cell_id": 48,
+      "bbox_pdf": [
+        366.07,
+        626.74,
+        439.63,
+        676.1800000000001
+      ],
+      "bbox_image": [
+        821.683,
+        1153.444,
+        1026.017,
+        1290.778
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Significant;\nprevents daily\nactivity"
+    },
+    {
+      "cell_id": 49,
+      "bbox_pdf": [
+        366.07,
+        676.1800000000001,
+        439.63,
+        718.176
+      ],
+      "bbox_image": [
+        821.683,
+        1290.778,
+        1026.017,
+        1407.433
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Prevents daily\nactivity,"
+    },
+    {
+      "cell_id": 50,
+      "bbox_pdf": [
+        439.63,
+        213.5,
+        539.86,
+        237.74
+      ],
+      "bbox_image": [
+        1026.017,
+        5.556,
+        1304.433,
+        72.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 42"
+    },
+    {
+      "cell_id": 51,
+      "bbox_pdf": [
+        439.63,
+        237.74,
+        539.86,
+        287.21
+      ],
+      "bbox_image": [
+        1026.017,
+        72.889,
+        1304.433,
+        210.306
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Requires emergency\nroom visit3 or\nhospitalization"
+    },
+    {
+      "cell_id": 52,
+      "bbox_pdf": [
+        439.63,
+        287.21,
+        539.86,
+        336.65
+      ],
+      "bbox_image": [
+        1026.017,
+        210.306,
+        1304.433,
+        347.639
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Necrosis or\nexfoliative\ndermatitis"
+    },
+    {
+      "cell_id": 53,
+      "bbox_pdf": [
+        439.63,
+        336.65,
+        539.86,
+        386.09
+      ],
+      "bbox_image": [
+        1026.017,
+        347.639,
+        1304.433,
+        484.972
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Necrosis"
+    },
+    {
+      "cell_id": 54,
+      "bbox_pdf": [
+        439.63,
+        386.09,
+        539.86,
+        476.46999999999997
+      ],
+      "bbox_image": [
+        1026.017,
+        484.972,
+        1304.433,
+        736.028
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Emergency room\nvisit3 or\nhospitalization"
+    },
+    {
+      "cell_id": 55,
+      "bbox_pdf": [
+        439.63,
+        476.46999999999997,
+        539.86,
+        527.71
+      ],
+      "bbox_image": [
+        1026.017,
+        736.028,
+        1304.433,
+        878.361
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Requires emergency\nroom visit3 or\nhospitalization"
+    },
+    {
+      "cell_id": 56,
+      "bbox_pdf": [
+        439.63,
+        527.71,
+        539.86,
+        577.15
+      ],
+      "bbox_image": [
+        1026.017,
+        878.361,
+        1304.433,
+        1015.694
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Requires emergency\nroom visit3 or\nhospitalization"
+    },
+    {
+      "cell_id": 57,
+      "bbox_pdf": [
+        439.63,
+        577.15,
+        539.86,
+        626.74
+      ],
+      "bbox_image": [
+        1026.017,
+        1015.694,
+        1304.433,
+        1153.444
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Requires emergency\nroom visit3 or\nhospitalization"
+    },
+    {
+      "cell_id": 58,
+      "bbox_pdf": [
+        439.63,
+        626.74,
+        539.86,
+        676.1800000000001
+      ],
+      "bbox_image": [
+        1026.017,
+        1153.444,
+        1304.433,
+        1290.778
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Requires emergency\nroom visit3 or\nhospitalization"
+    },
+    {
+      "cell_id": 59,
+      "bbox_pdf": [
+        439.63,
+        676.1800000000001,
+        539.86,
+        718.176
+      ],
+      "bbox_image": [
+        1026.017,
+        1290.778,
+        1304.433,
+        1407.433
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Requires emergency\nroom visit3 or"
+    }
+  ]
+}

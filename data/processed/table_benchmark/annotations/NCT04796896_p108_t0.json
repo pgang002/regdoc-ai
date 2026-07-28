@@ -1,0 +1,790 @@
+{
+  "table_id": "NCT04796896_p108_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04796896_Prot_001.pdf",
+  "source_pdf_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+  "nct_id": "NCT04796896",
+  "protocol_number": "mRNA-1273-P204",
+  "page": 108,
+  "table_index": 0,
+  "category": "laboratory_assessments",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.264,
+    356.25,
+    541.86,
+    519.27
+  ],
+  "table_bbox_pdf": [
+    72.264,
+    358.25,
+    539.86,
+    517.27
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    447.278
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04796896_p108_t0.png",
+  "image_sha256": "cb8a26733f3217680eb61bd1ac49604e89e8c6d7e1635cc9825ce07a07b3ac41",
+  "image_width": 1311,
+  "image_height": 454,
+  "x_boundaries_image": [
+    5.556,
+    287.544,
+    482.628,
+    677.294,
+    874.017,
+    1115.1,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    93.889,
+    169.611,
+    220.278,
+    308.611,
+    396.944,
+    447.278
+  ],
+  "logical_rows": 6,
+  "logical_columns": 6,
+  "physical_cell_count": 31,
+  "matrix": [
+    [
+      "Age Group",
+      "Heart Rate,\nBeats/Min",
+      "",
+      "Respiratory\nRate,\nBreaths/Min",
+      "Leukocyte\nCount,\nLeukocytes \u00d7\n103/mm3",
+      "Systolic\nBlood\nPressure,\nmm Hg"
+    ],
+    [
+      "",
+      "Tachycardia",
+      "Bradycardia",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1 month to 1 year",
+      "> 180",
+      "< 90",
+      "> 34",
+      "> 17.5 or < 5",
+      "< 70"
+    ],
+    [
+      "2 years to 5 years",
+      "> 140",
+      "NA",
+      "> 22",
+      "> 15.5 or < 6",
+      "< 70 + (age\nin years x 2)"
+    ],
+    [
+      "6 years to 10 years",
+      "> 130",
+      "NA",
+      "> 18",
+      "> 13.5 or < 4.5",
+      "< 70 + (age\nin years x 2)"
+    ],
+    [
+      ">10 years",
+      "> 130",
+      "NA",
+      ">18",
+      "> 13.5 or < 4.5",
+      "< 90"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.264,
+        358.25,
+        173.77999999999997,
+        417.31
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        287.544,
+        169.611
+      ],
+      "row_start": 0,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 2,
+      "column_span": 1,
+      "text": "Age Group"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.264,
+        417.31,
+        173.77999999999997,
+        435.55
+      ],
+      "bbox_image": [
+        5.556,
+        169.611,
+        287.544,
+        220.278
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "1 month to 1 year"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.264,
+        435.55,
+        173.77999999999997,
+        467.34999999999997
+      ],
+      "bbox_image": [
+        5.556,
+        220.278,
+        287.544,
+        308.611
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "2 years to 5 years"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.264,
+        467.34999999999997,
+        173.77999999999997,
+        499.1499999999999
+      ],
+      "bbox_image": [
+        5.556,
+        308.611,
+        287.544,
+        396.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "6 years to 10 years"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        72.264,
+        499.1499999999999,
+        173.77999999999997,
+        517.27
+      ],
+      "bbox_image": [
+        5.556,
+        396.944,
+        287.544,
+        447.278
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ">10 years"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        173.77999999999997,
+        358.25,
+        314.09000000000003,
+        390.05
+      ],
+      "bbox_image": [
+        287.544,
+        5.556,
+        677.294,
+        93.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 2,
+      "text": "Heart Rate,\nBeats/Min"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        173.77999999999997,
+        390.05,
+        244.01,
+        417.31
+      ],
+      "bbox_image": [
+        287.544,
+        93.889,
+        482.628,
+        169.611
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Tachycardia"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        173.77999999999997,
+        417.31,
+        244.01,
+        435.55
+      ],
+      "bbox_image": [
+        287.544,
+        169.611,
+        482.628,
+        220.278
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 180"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        173.77999999999997,
+        435.55,
+        244.01,
+        467.34999999999997
+      ],
+      "bbox_image": [
+        287.544,
+        220.278,
+        482.628,
+        308.611
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 140"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        173.77999999999997,
+        467.34999999999997,
+        244.01,
+        499.1499999999999
+      ],
+      "bbox_image": [
+        287.544,
+        308.611,
+        482.628,
+        396.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 130"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        173.77999999999997,
+        499.1499999999999,
+        244.01,
+        517.27
+      ],
+      "bbox_image": [
+        287.544,
+        396.944,
+        482.628,
+        447.278
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 130"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        244.01,
+        390.05,
+        314.09000000000003,
+        417.31
+      ],
+      "bbox_image": [
+        482.628,
+        93.889,
+        677.294,
+        169.611
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Bradycardia"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        244.01,
+        417.31,
+        314.09000000000003,
+        435.55
+      ],
+      "bbox_image": [
+        482.628,
+        169.611,
+        677.294,
+        220.278
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 90"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        244.01,
+        435.55,
+        314.09000000000003,
+        467.34999999999997
+      ],
+      "bbox_image": [
+        482.628,
+        220.278,
+        677.294,
+        308.611
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        244.01,
+        467.34999999999997,
+        314.09000000000003,
+        499.1499999999999
+      ],
+      "bbox_image": [
+        482.628,
+        308.611,
+        677.294,
+        396.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        244.01,
+        499.1499999999999,
+        314.09000000000003,
+        517.27
+      ],
+      "bbox_image": [
+        482.628,
+        396.944,
+        677.294,
+        447.278
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "NA"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        314.09000000000003,
+        358.25,
+        384.91,
+        417.31
+      ],
+      "bbox_image": [
+        677.294,
+        5.556,
+        874.017,
+        169.611
+      ],
+      "row_start": 0,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 2,
+      "column_span": 1,
+      "text": "Respiratory\nRate,\nBreaths/Min"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        314.09000000000003,
+        417.31,
+        384.91,
+        435.55
+      ],
+      "bbox_image": [
+        677.294,
+        169.611,
+        874.017,
+        220.278
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 34"
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        314.09000000000003,
+        435.55,
+        384.91,
+        467.34999999999997
+      ],
+      "bbox_image": [
+        677.294,
+        220.278,
+        874.017,
+        308.611
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 22"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        314.09000000000003,
+        467.34999999999997,
+        384.91,
+        499.1499999999999
+      ],
+      "bbox_image": [
+        677.294,
+        308.611,
+        874.017,
+        396.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 18"
+    },
+    {
+      "cell_id": 20,
+      "bbox_pdf": [
+        314.09000000000003,
+        499.1499999999999,
+        384.91,
+        517.27
+      ],
+      "bbox_image": [
+        677.294,
+        396.944,
+        874.017,
+        447.278
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ">18"
+    },
+    {
+      "cell_id": 21,
+      "bbox_pdf": [
+        384.91,
+        358.25,
+        471.7,
+        417.31
+      ],
+      "bbox_image": [
+        874.017,
+        5.556,
+        1115.1,
+        169.611
+      ],
+      "row_start": 0,
+      "row_end": 2,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 2,
+      "column_span": 1,
+      "text": "Leukocyte\nCount,\nLeukocytes \u00d7\n103/mm3"
+    },
+    {
+      "cell_id": 22,
+      "bbox_pdf": [
+        384.91,
+        417.31,
+        471.7,
+        435.55
+      ],
+      "bbox_image": [
+        874.017,
+        169.611,
+        1115.1,
+        220.278
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 17.5 or < 5"
+    },
+    {
+      "cell_id": 23,
+      "bbox_pdf": [
+        384.91,
+        435.55,
+        471.7,
+        467.34999999999997
+      ],
+      "bbox_image": [
+        874.017,
+        220.278,
+        1115.1,
+        308.611
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 15.5 or < 6"
+    },
+    {
+      "cell_id": 24,
+      "bbox_pdf": [
+        384.91,
+        467.34999999999997,
+        471.7,
+        499.1499999999999
+      ],
+      "bbox_image": [
+        874.017,
+        308.611,
+        1115.1,
+        396.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 13.5 or < 4.5"
+    },
+    {
+      "cell_id": 25,
+      "bbox_pdf": [
+        384.91,
+        499.1499999999999,
+        471.7,
+        517.27
+      ],
+      "bbox_image": [
+        874.017,
+        396.944,
+        1115.1,
+        447.278
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 13.5 or < 4.5"
+    },
+    {
+      "cell_id": 26,
+      "bbox_pdf": [
+        471.7,
+        358.25,
+        539.86,
+        417.31
+      ],
+      "bbox_image": [
+        1115.1,
+        5.556,
+        1304.433,
+        169.611
+      ],
+      "row_start": 0,
+      "row_end": 2,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 2,
+      "column_span": 1,
+      "text": "Systolic\nBlood\nPressure,\nmm Hg"
+    },
+    {
+      "cell_id": 27,
+      "bbox_pdf": [
+        471.7,
+        417.31,
+        539.86,
+        435.55
+      ],
+      "bbox_image": [
+        1115.1,
+        169.611,
+        1304.433,
+        220.278
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 70"
+    },
+    {
+      "cell_id": 28,
+      "bbox_pdf": [
+        471.7,
+        435.55,
+        539.86,
+        467.34999999999997
+      ],
+      "bbox_image": [
+        1115.1,
+        220.278,
+        1304.433,
+        308.611
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 70 + (age\nin years x 2)"
+    },
+    {
+      "cell_id": 29,
+      "bbox_pdf": [
+        471.7,
+        467.34999999999997,
+        539.86,
+        499.1499999999999
+      ],
+      "bbox_image": [
+        1115.1,
+        308.611,
+        1304.433,
+        396.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 70 + (age\nin years x 2)"
+    },
+    {
+      "cell_id": 30,
+      "bbox_pdf": [
+        471.7,
+        499.1499999999999,
+        539.86,
+        517.27
+      ],
+      "bbox_image": [
+        1115.1,
+        396.944,
+        1304.433,
+        447.278
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 90"
+    }
+  ]
+}

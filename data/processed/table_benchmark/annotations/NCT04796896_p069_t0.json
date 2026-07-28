@@ -1,0 +1,246 @@
+{
+  "table_id": "NCT04796896_p069_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04796896_Prot_001.pdf",
+  "source_pdf_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+  "nct_id": "NCT04796896",
+  "protocol_number": "mRNA-1273-P204",
+  "page": 69,
+  "table_index": 0,
+  "category": "booster_dose",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.024,
+    90.05999999999995,
+    343.71000000000004,
+    172.89999999999998
+  ],
+  "table_bbox_pdf": [
+    72.024,
+    92.05999999999995,
+    341.71000000000004,
+    170.89999999999998
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    754.683,
+    224.556
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04796896_p069_t0.png",
+  "image_sha256": "f7b7ecad1d49501b15c8ca56312a4d910040be09e5b698e555f7ee2154be19b4",
+  "image_width": 761,
+  "image_height": 231,
+  "x_boundaries_image": [
+    5.556,
+    497.961,
+    754.683
+  ],
+  "y_boundaries_image": [
+    5.556,
+    112.556,
+    149.889,
+    187.222,
+    224.556
+  ],
+  "logical_rows": 4,
+  "logical_columns": 2,
+  "physical_cell_count": 8,
+  "matrix": [
+    [
+      "Age at Time of Booster",
+      "Booster dose\n(mRNA-1273 or\nmRNA-1273.214)"
+    ],
+    [
+      "6 to 12 years",
+      "25 \u00b5g"
+    ],
+    [
+      "2 to < 6 years",
+      "10 \u00b5g"
+    ],
+    [
+      "6 months to < 2 years",
+      "10 \u00b5g"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.024,
+        92.05999999999995,
+        249.29000000000002,
+        130.58000000000004
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        497.961,
+        112.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Age at Time of Booster"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.024,
+        130.58000000000004,
+        249.29000000000002,
+        144.01999999999998
+      ],
+      "bbox_image": [
+        5.556,
+        112.556,
+        497.961,
+        149.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "6 to 12 years"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.024,
+        144.01999999999998,
+        249.29000000000002,
+        157.46000000000004
+      ],
+      "bbox_image": [
+        5.556,
+        149.889,
+        497.961,
+        187.222
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "6 to 12 years\n2 to < 6 years"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.024,
+        157.46000000000004,
+        249.29000000000002,
+        170.89999999999998
+      ],
+      "bbox_image": [
+        5.556,
+        187.222,
+        497.961,
+        224.556
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "2 to < 6 years\n6 months to < 2 years"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        249.29000000000002,
+        92.05999999999995,
+        341.71000000000004,
+        130.58000000000004
+      ],
+      "bbox_image": [
+        497.961,
+        5.556,
+        754.683,
+        112.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Booster dose\n(mRNA-1273 or\nmRNA-1273.214)"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        249.29000000000002,
+        130.58000000000004,
+        341.71000000000004,
+        144.01999999999998
+      ],
+      "bbox_image": [
+        497.961,
+        112.556,
+        754.683,
+        149.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-1273.214)\n25 \u00b5g"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        249.29000000000002,
+        144.01999999999998,
+        341.71000000000004,
+        157.46000000000004
+      ],
+      "bbox_image": [
+        497.961,
+        149.889,
+        754.683,
+        187.222
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "25 \u00b5g\n10 \u00b5g"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        249.29000000000002,
+        157.46000000000004,
+        341.71000000000004,
+        170.89999999999998
+      ],
+      "bbox_image": [
+        497.961,
+        187.222,
+        754.683,
+        224.556
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "10 \u00b5g\n10 \u00b5g"
+    }
+  ]
+}

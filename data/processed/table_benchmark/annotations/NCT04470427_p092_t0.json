@@ -1,0 +1,527 @@
+{
+  "table_id": "NCT04470427_p092_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 92,
+  "table_index": 0,
+  "category": "adverse_reaction_grading",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.264,
+    131.70000000000005,
+    541.86,
+    309.96999999999997
+  ],
+  "table_bbox_pdf": [
+    72.264,
+    133.70000000000005,
+    539.86,
+    307.96999999999997
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    489.639
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p092_t0.png",
+  "image_sha256": "ef0ba2d24fa570107570df6cef05839a68d2a813ddb98edc9d46b9a6a434f8e9",
+  "image_width": 1311,
+  "image_height": 497,
+  "x_boundaries_image": [
+    5.556,
+    179.878,
+    567.628,
+    942.683,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    88.222,
+    135.889,
+    253.889,
+    371.639,
+    489.639
+  ],
+  "logical_rows": 5,
+  "logical_columns": 4,
+  "physical_cell_count": 20,
+  "matrix": [
+    [
+      "Grading",
+      "All Symptoms",
+      "For Nausea/Vomiting\nONLY",
+      "For Sense of Smell/Taste\nONLY"
+    ],
+    [
+      "None",
+      "No symptom",
+      "",
+      ""
+    ],
+    [
+      "Mild",
+      "I had the symptom, but I\ncould still do my normal\nactivities.",
+      "I was able to eat and drink\nnormally.",
+      "I had the symptom, but I\nretained some taste/smell."
+    ],
+    [
+      "Moderate",
+      "The symptom really\nbothered me. It was hard to\ndo my normal activities.",
+      "It bothered me enough that\nI did not eat or drink\nnormally.",
+      "My taste/smell was\nsignificantly affected."
+    ],
+    [
+      "Severe",
+      "The symptom was very bad.\nI was not able to do\nactivities that I usually do.",
+      "I could not eat or drink.",
+      "I have no taste or smell."
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.264,
+        133.70000000000005,
+        135.02,
+        163.46000000000004
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        179.878,
+        88.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grading"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.264,
+        163.46000000000004,
+        135.02,
+        180.62
+      ],
+      "bbox_image": [
+        5.556,
+        88.222,
+        179.878,
+        135.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.264,
+        180.62,
+        135.02,
+        223.10000000000002
+      ],
+      "bbox_image": [
+        5.556,
+        135.889,
+        179.878,
+        253.889
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Mild"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.264,
+        223.10000000000002,
+        135.02,
+        265.49
+      ],
+      "bbox_image": [
+        5.556,
+        253.889,
+        179.878,
+        371.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Moderate"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        72.264,
+        265.49,
+        135.02,
+        307.96999999999997
+      ],
+      "bbox_image": [
+        5.556,
+        371.639,
+        179.878,
+        489.639
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Severe"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        135.02,
+        133.70000000000005,
+        274.61,
+        163.46000000000004
+      ],
+      "bbox_image": [
+        179.878,
+        5.556,
+        567.628,
+        88.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "All Symptoms"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        135.02,
+        163.46000000000004,
+        274.61,
+        180.62
+      ],
+      "bbox_image": [
+        179.878,
+        88.222,
+        567.628,
+        135.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No symptom"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        135.02,
+        180.62,
+        274.61,
+        223.10000000000002
+      ],
+      "bbox_image": [
+        179.878,
+        135.889,
+        567.628,
+        253.889
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "I had the symptom, but I\ncould still do my normal\nactivities."
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        135.02,
+        223.10000000000002,
+        274.61,
+        265.49
+      ],
+      "bbox_image": [
+        179.878,
+        253.889,
+        567.628,
+        371.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "The symptom really\nbothered me. It was hard to\ndo my normal activities."
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        135.02,
+        265.49,
+        274.61,
+        307.96999999999997
+      ],
+      "bbox_image": [
+        179.878,
+        371.639,
+        567.628,
+        489.639
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "The symptom was very bad.\nI was not able to do\nactivities that I usually do."
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        274.61,
+        133.70000000000005,
+        409.63,
+        163.46000000000004
+      ],
+      "bbox_image": [
+        567.628,
+        5.556,
+        942.683,
+        88.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "For Nausea/Vomiting\nONLY"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        274.61,
+        163.46000000000004,
+        409.63,
+        180.62
+      ],
+      "bbox_image": [
+        567.628,
+        88.222,
+        942.683,
+        135.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        274.61,
+        180.62,
+        409.63,
+        223.10000000000002
+      ],
+      "bbox_image": [
+        567.628,
+        135.889,
+        942.683,
+        253.889
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "I was able to eat and drink\nnormally."
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        274.61,
+        223.10000000000002,
+        409.63,
+        265.49
+      ],
+      "bbox_image": [
+        567.628,
+        253.889,
+        942.683,
+        371.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "It bothered me enough that\nI did not eat or drink\nnormally."
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        274.61,
+        265.49,
+        409.63,
+        307.96999999999997
+      ],
+      "bbox_image": [
+        567.628,
+        371.639,
+        942.683,
+        489.639
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "I could not eat or drink."
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        409.63,
+        133.70000000000005,
+        539.86,
+        163.46000000000004
+      ],
+      "bbox_image": [
+        942.683,
+        5.556,
+        1304.433,
+        88.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "For Sense of Smell/Taste\nONLY"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        409.63,
+        163.46000000000004,
+        539.86,
+        180.62
+      ],
+      "bbox_image": [
+        942.683,
+        88.222,
+        1304.433,
+        135.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        409.63,
+        180.62,
+        539.86,
+        223.10000000000002
+      ],
+      "bbox_image": [
+        942.683,
+        135.889,
+        1304.433,
+        253.889
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "I had the symptom, but I\nretained some taste/smell."
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        409.63,
+        223.10000000000002,
+        539.86,
+        265.49
+      ],
+      "bbox_image": [
+        942.683,
+        253.889,
+        1304.433,
+        371.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "My taste/smell was\nsignificantly affected."
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        409.63,
+        265.49,
+        539.86,
+        307.96999999999997
+      ],
+      "bbox_image": [
+        942.683,
+        371.639,
+        1304.433,
+        489.639
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "I have no taste or smell."
+    }
+  ]
+}

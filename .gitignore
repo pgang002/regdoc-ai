@@ -122,3 +122,17 @@ __pycache__/
 !/results/day10_final/
 !/results/day10_final/**
 *.egg-info/
+
+# Keep Day 5 table-benchmark fixtures required by automated tests
+!/data/processed/table_benchmark/
+!/data/processed/table_benchmark/manifest.csv
+!/data/processed/table_benchmark/images/
+!/data/processed/table_benchmark/images/*.png
+!/data/processed/table_benchmark/annotations/
+!/data/processed/table_benchmark/annotations/*.json
+
+# Keep Day 6 document-understanding fixtures required by automated tests
+!/data/processed/document_understanding/
+!/data/processed/document_understanding/manifest.csv
+!/data/processed/document_understanding/base_images/
+!/data/processed/document_understanding/base_images/*.png

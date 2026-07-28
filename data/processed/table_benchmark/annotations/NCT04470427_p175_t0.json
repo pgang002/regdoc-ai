@@ -1,0 +1,271 @@
+{
+  "table_id": "NCT04470427_p175_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 175,
+  "table_index": 0,
+  "category": "statistical_estimand",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    137.58,
+    127.5,
+    618.66,
+    360.39000000000004
+  ],
+  "table_bbox_pdf": [
+    139.58,
+    129.5,
+    616.66,
+    358.39000000000004
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1330.778,
+    641.361
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p175_t0.png",
+  "image_sha256": "552ff8159a44226c3be748eb469f39cad7f086203375b7f5829fd0431a0d54fd",
+  "image_width": 1337,
+  "image_height": 648,
+  "x_boundaries_image": [
+    5.556,
+    205.556,
+    417.972,
+    930.694,
+    1330.778
+  ],
+  "y_boundaries_image": [
+    5.556,
+    83.889,
+    162.556,
+    641.361
+  ],
+  "logical_rows": 3,
+  "logical_columns": 4,
+  "physical_cell_count": 9,
+  "matrix": [
+    [
+      "Estimand\nDescription",
+      "Main Estimation",
+      "",
+      ""
+    ],
+    [
+      "",
+      "Analysis Set",
+      "Imputation/Data/Censoring Rules",
+      "Analysis Model/Method"
+    ],
+    [
+      "See Table 25",
+      "PP Set",
+      "Participants who did not develop\nCOVID-19, ongoing or complete the\nstudy will be censored at the last\nassessment.\nParticipants who discontinue early or\ndie without COVID-19 will be\ncensored at the date of discontinuation\nor death, respectively.\nParticipant who is a confirmed case\nprior to 14 days after the second dose\nof IP will be censored on the date of\nconfirmation.",
+      "The (1 - HR) with 95% CI\nwill be estimated using Cox\nproportional hazard\nregression analysis with\ntreatment arm as a fixed\neffect stratified by\nrandomization stratification\nfactors. And the null\nhypothesis will be tested\nusing Wald Chi-square\nmethod."
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        139.58,
+        129.5,
+        211.58,
+        186.01999999999998
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        205.556,
+        162.556
+      ],
+      "row_start": 0,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 2,
+      "column_span": 1,
+      "text": "Estimand\nDescription"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        139.58,
+        186.01999999999998,
+        211.58,
+        358.39000000000004
+      ],
+      "bbox_image": [
+        5.556,
+        162.556,
+        205.556,
+        641.361
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "See Table 25"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        211.58,
+        129.5,
+        616.66,
+        157.7
+      ],
+      "bbox_image": [
+        205.556,
+        5.556,
+        1330.778,
+        83.889
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 3,
+      "text": "Main Estimation"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        211.58,
+        157.7,
+        288.05,
+        186.01999999999998
+      ],
+      "bbox_image": [
+        205.556,
+        83.889,
+        417.972,
+        162.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Analysis Set"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        211.58,
+        186.01999999999998,
+        288.05,
+        358.39000000000004
+      ],
+      "bbox_image": [
+        205.556,
+        162.556,
+        417.972,
+        641.361
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "PP Set"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        288.05,
+        157.7,
+        472.63,
+        186.01999999999998
+      ],
+      "bbox_image": [
+        417.972,
+        83.889,
+        930.694,
+        162.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Imputation/Data/Censoring Rules"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        288.05,
+        186.01999999999998,
+        472.63,
+        358.39000000000004
+      ],
+      "bbox_image": [
+        417.972,
+        162.556,
+        930.694,
+        641.361
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Participants who did not develop\nCOVID-19, ongoing or complete the\nstudy will be censored at the last\nassessment.\nParticipants who discontinue early or\ndie without COVID-19 will be\ncensored at the date of discontinuation\nor death, respectively.\nParticipant who is a confirmed case\nprior to 14 days after the second dose\nof IP will be censored on the date of\nconfirmation."
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        472.63,
+        157.7,
+        616.66,
+        186.01999999999998
+      ],
+      "bbox_image": [
+        930.694,
+        83.889,
+        1330.778,
+        162.556
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Analysis Model/Method"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        472.63,
+        186.01999999999998,
+        616.66,
+        358.39000000000004
+      ],
+      "bbox_image": [
+        930.694,
+        162.556,
+        1330.778,
+        641.361
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "The (1 - HR) with 95% CI\nwill be estimated using Cox\nproportional hazard\nregression analysis with\ntreatment arm as a fixed\neffect stratified by\nrandomization stratification\nfactors. And the null\nhypothesis will be tested\nusing Wald Chi-square\nmethod."
+    }
+  ]
+}

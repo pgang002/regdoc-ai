@@ -1,0 +1,525 @@
+{
+  "table_id": "NCT04470427_p117_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 117,
+  "table_index": 0,
+  "category": "efficacy_sample_size",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.264,
+    91.13999999999999,
+    530.58,
+    172.89999999999995
+  ],
+  "table_bbox_pdf": [
+    72.264,
+    93.13999999999999,
+    528.58,
+    170.89999999999995
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1273.1,
+    221.556
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p117_t0.png",
+  "image_sha256": "5c0da17b01eb6c4cd9236c1d152ce026630f6ac494f70df12a8811c6ca50e07f",
+  "image_width": 1279,
+  "image_height": 228,
+  "x_boundaries_image": [
+    5.556,
+    175.211,
+    345.294,
+    578.961,
+    753.35,
+    905.017,
+    1101.767,
+    1273.1
+  ],
+  "y_boundaries_image": [
+    5.556,
+    123.556,
+    171.222,
+    221.556
+  ],
+  "logical_rows": 3,
+  "logical_columns": 7,
+  "physical_cell_count": 20,
+  "matrix": [
+    [
+      "Target VE",
+      "Lower\nBound",
+      "Randomization\nRatio",
+      "Total # of\nCases",
+      "6-Month Incidence Rate",
+      "",
+      "Total\nSample\nSizea"
+    ],
+    [
+      "--",
+      "--",
+      "--",
+      "--",
+      "Placebo",
+      "mRNA-1273",
+      "--"
+    ],
+    [
+      "60%",
+      "30%",
+      "1:1",
+      "151",
+      "0.75%",
+      "0.30%",
+      "30,000"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.264,
+        93.13999999999999,
+        133.34,
+        135.62
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        175.211,
+        123.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Target VE"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.264,
+        135.62,
+        133.34,
+        152.77999999999997
+      ],
+      "bbox_image": [
+        5.556,
+        123.556,
+        175.211,
+        171.222
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "--"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.264,
+        152.77999999999997,
+        133.34,
+        170.89999999999995
+      ],
+      "bbox_image": [
+        5.556,
+        171.222,
+        175.211,
+        221.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "60%"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        133.34,
+        93.13999999999999,
+        194.57000000000002,
+        135.62
+      ],
+      "bbox_image": [
+        175.211,
+        5.556,
+        345.294,
+        123.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Lower\nBound"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        133.34,
+        135.62,
+        194.57000000000002,
+        152.77999999999997
+      ],
+      "bbox_image": [
+        175.211,
+        123.556,
+        345.294,
+        171.222
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "--"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        133.34,
+        152.77999999999997,
+        194.57000000000002,
+        170.89999999999995
+      ],
+      "bbox_image": [
+        175.211,
+        171.222,
+        345.294,
+        221.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "30%"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        194.57000000000002,
+        93.13999999999999,
+        278.69,
+        135.62
+      ],
+      "bbox_image": [
+        345.294,
+        5.556,
+        578.961,
+        123.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Randomization\nRatio"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        194.57000000000002,
+        135.62,
+        278.69,
+        152.77999999999997
+      ],
+      "bbox_image": [
+        345.294,
+        123.556,
+        578.961,
+        171.222
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "--"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        194.57000000000002,
+        152.77999999999997,
+        278.69,
+        170.89999999999995
+      ],
+      "bbox_image": [
+        345.294,
+        171.222,
+        578.961,
+        221.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "1:1"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        278.69,
+        93.13999999999999,
+        341.47,
+        135.62
+      ],
+      "bbox_image": [
+        578.961,
+        5.556,
+        753.35,
+        123.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Total # of\nCases"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        278.69,
+        135.62,
+        341.47,
+        152.77999999999997
+      ],
+      "bbox_image": [
+        578.961,
+        123.556,
+        753.35,
+        171.222
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "--"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        278.69,
+        152.77999999999997,
+        341.47,
+        170.89999999999995
+      ],
+      "bbox_image": [
+        578.961,
+        171.222,
+        753.35,
+        221.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "151"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        341.47,
+        93.13999999999999,
+        466.90000000000003,
+        135.62
+      ],
+      "bbox_image": [
+        753.35,
+        5.556,
+        1101.767,
+        123.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 4,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 2,
+      "text": "6-Month Incidence Rate"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        341.47,
+        135.62,
+        396.07,
+        152.77999999999997
+      ],
+      "bbox_image": [
+        753.35,
+        123.556,
+        905.017,
+        171.222
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Placebo"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        341.47,
+        152.77999999999997,
+        396.07,
+        170.89999999999995
+      ],
+      "bbox_image": [
+        753.35,
+        171.222,
+        905.017,
+        221.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "0.75%"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        396.07,
+        135.62,
+        466.90000000000003,
+        152.77999999999997
+      ],
+      "bbox_image": [
+        905.017,
+        123.556,
+        1101.767,
+        171.222
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-1273"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        396.07,
+        152.77999999999997,
+        466.90000000000003,
+        170.89999999999995
+      ],
+      "bbox_image": [
+        905.017,
+        171.222,
+        1101.767,
+        221.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "0.30%"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        466.90000000000003,
+        93.13999999999999,
+        528.58,
+        135.62
+      ],
+      "bbox_image": [
+        1101.767,
+        5.556,
+        1273.1,
+        123.556
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Total\nSample\nSizea"
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        466.90000000000003,
+        135.62,
+        528.58,
+        152.77999999999997
+      ],
+      "bbox_image": [
+        1101.767,
+        123.556,
+        1273.1,
+        171.222
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "--"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        466.90000000000003,
+        152.77999999999997,
+        528.58,
+        170.89999999999995
+      ],
+      "bbox_image": [
+        1101.767,
+        171.222,
+        1273.1,
+        221.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "30,000"
+    }
+  ]
+}

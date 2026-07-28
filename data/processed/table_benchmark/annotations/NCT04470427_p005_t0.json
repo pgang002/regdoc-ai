@@ -1,0 +1,665 @@
+{
+  "table_id": "NCT04470427_p005_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 5,
+  "table_index": 0,
+  "category": "document_history",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.26400000000001,
+    100.01999999999998,
+    541.86,
+    289.93
+  ],
+  "table_bbox_pdf": [
+    72.26400000000001,
+    102.01999999999998,
+    539.86,
+    287.93
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    521.972
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p005_t0.png",
+  "image_sha256": "4587f7991d32565d4f5eec432ecaa92580cb8e4e5403806d6dcea09366e559e8",
+  "image_width": 1311,
+  "image_height": 529,
+  "x_boundaries_image": [
+    5.556,
+    657.961,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    45.222,
+    84.889,
+    124.556,
+    164.222,
+    204.222,
+    243.889,
+    283.556,
+    323.222,
+    362.889,
+    402.556,
+    442.306,
+    482.306,
+    521.972
+  ],
+  "logical_rows": 13,
+  "logical_columns": 2,
+  "physical_cell_count": 25,
+  "matrix": [
+    [
+      "DOCUMENT HISTORY",
+      ""
+    ],
+    [
+      "Document",
+      "Date"
+    ],
+    [
+      "Amendment 10",
+      "07 Apr 2022"
+    ],
+    [
+      "Amendment 9",
+      "10 Sep 2021"
+    ],
+    [
+      "Amendment 8",
+      "23 Mar 2021"
+    ],
+    [
+      "Amendment 7",
+      "10 Feb 2021"
+    ],
+    [
+      "Amendment 6",
+      "23 Dec 2020"
+    ],
+    [
+      "Amendment 5",
+      "11 Nov 2020"
+    ],
+    [
+      "Amendment 4",
+      "30 Sep 2020"
+    ],
+    [
+      "Amendment 3",
+      "20 Aug 2020"
+    ],
+    [
+      "Amendment 2",
+      "31 Jul 2020"
+    ],
+    [
+      "Amendment 1",
+      "26 Jun 2020"
+    ],
+    [
+      "Original Protocol",
+      "15 Jun 2020"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.26400000000001,
+        102.01999999999998,
+        539.86,
+        116.29999999999995
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        1304.433,
+        45.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 2,
+      "text": "DOCUMENT HISTORY"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.26400000000001,
+        116.29999999999995,
+        307.13,
+        130.58000000000004
+      ],
+      "bbox_image": [
+        5.556,
+        45.222,
+        657.961,
+        84.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "DOCUMENT\nDocument"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.26400000000001,
+        130.58000000000004,
+        307.13,
+        144.86
+      ],
+      "bbox_image": [
+        5.556,
+        84.889,
+        657.961,
+        124.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Document\nAmendment 10"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.26400000000001,
+        144.86,
+        307.13,
+        159.14
+      ],
+      "bbox_image": [
+        5.556,
+        124.556,
+        657.961,
+        164.222
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 10\nAmendment 9"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        72.26400000000001,
+        159.14,
+        307.13,
+        173.53999999999996
+      ],
+      "bbox_image": [
+        5.556,
+        164.222,
+        657.961,
+        204.222
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 9\nAmendment 8"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        72.26400000000001,
+        173.53999999999996,
+        307.13,
+        187.81999999999994
+      ],
+      "bbox_image": [
+        5.556,
+        204.222,
+        657.961,
+        243.889
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 8\nAmendment 7"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        72.26400000000001,
+        187.81999999999994,
+        307.13,
+        202.10000000000002
+      ],
+      "bbox_image": [
+        5.556,
+        243.889,
+        657.961,
+        283.556
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 7\nAmendment 6"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        72.26400000000001,
+        202.10000000000002,
+        307.13,
+        216.38
+      ],
+      "bbox_image": [
+        5.556,
+        283.556,
+        657.961,
+        323.222
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 6\nAmendment 5"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        72.26400000000001,
+        216.38,
+        307.13,
+        230.65999999999997
+      ],
+      "bbox_image": [
+        5.556,
+        323.222,
+        657.961,
+        362.889
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 5\nAmendment 4"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        72.26400000000001,
+        230.65999999999997,
+        307.13,
+        244.93999999999994
+      ],
+      "bbox_image": [
+        5.556,
+        362.889,
+        657.961,
+        402.556
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 4\nAmendment 3"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        72.26400000000001,
+        244.93999999999994,
+        307.13,
+        259.25
+      ],
+      "bbox_image": [
+        5.556,
+        402.556,
+        657.961,
+        442.306
+      ],
+      "row_start": 10,
+      "row_end": 11,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 3\nAmendment 2"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        72.26400000000001,
+        259.25,
+        307.13,
+        273.65
+      ],
+      "bbox_image": [
+        5.556,
+        442.306,
+        657.961,
+        482.306
+      ],
+      "row_start": 11,
+      "row_end": 12,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 2\nAmendment 1"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        72.26400000000001,
+        273.65,
+        307.13,
+        287.93
+      ],
+      "bbox_image": [
+        5.556,
+        482.306,
+        657.961,
+        521.972
+      ],
+      "row_start": 12,
+      "row_end": 13,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Amendment 1\nOriginal Protocol"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        307.13,
+        116.29999999999995,
+        539.86,
+        130.58000000000004
+      ],
+      "bbox_image": [
+        657.961,
+        45.222,
+        1304.433,
+        84.889
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "T HISTORY\nDate"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        307.13,
+        130.58000000000004,
+        539.86,
+        144.86
+      ],
+      "bbox_image": [
+        657.961,
+        84.889,
+        1304.433,
+        124.556
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Date\n07 Apr 2022"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        307.13,
+        144.86,
+        539.86,
+        159.14
+      ],
+      "bbox_image": [
+        657.961,
+        124.556,
+        1304.433,
+        164.222
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "07 Apr 2022\n10 Sep 2021"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        307.13,
+        159.14,
+        539.86,
+        173.53999999999996
+      ],
+      "bbox_image": [
+        657.961,
+        164.222,
+        1304.433,
+        204.222
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "10 Sep 2021\n23 Mar 2021"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        307.13,
+        173.53999999999996,
+        539.86,
+        187.81999999999994
+      ],
+      "bbox_image": [
+        657.961,
+        204.222,
+        1304.433,
+        243.889
+      ],
+      "row_start": 5,
+      "row_end": 6,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "23 Mar 2021\n10 Feb 2021"
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        307.13,
+        187.81999999999994,
+        539.86,
+        202.10000000000002
+      ],
+      "bbox_image": [
+        657.961,
+        243.889,
+        1304.433,
+        283.556
+      ],
+      "row_start": 6,
+      "row_end": 7,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "10 Feb 2021\n23 Dec 2020"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        307.13,
+        202.10000000000002,
+        539.86,
+        216.38
+      ],
+      "bbox_image": [
+        657.961,
+        283.556,
+        1304.433,
+        323.222
+      ],
+      "row_start": 7,
+      "row_end": 8,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "23 Dec 2020\n11 Nov 2020"
+    },
+    {
+      "cell_id": 20,
+      "bbox_pdf": [
+        307.13,
+        216.38,
+        539.86,
+        230.65999999999997
+      ],
+      "bbox_image": [
+        657.961,
+        323.222,
+        1304.433,
+        362.889
+      ],
+      "row_start": 8,
+      "row_end": 9,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "11 Nov 2020\n30 Sep 2020"
+    },
+    {
+      "cell_id": 21,
+      "bbox_pdf": [
+        307.13,
+        230.65999999999997,
+        539.86,
+        244.93999999999994
+      ],
+      "bbox_image": [
+        657.961,
+        362.889,
+        1304.433,
+        402.556
+      ],
+      "row_start": 9,
+      "row_end": 10,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "30 Sep 2020\n20 Aug 2020"
+    },
+    {
+      "cell_id": 22,
+      "bbox_pdf": [
+        307.13,
+        244.93999999999994,
+        539.86,
+        259.25
+      ],
+      "bbox_image": [
+        657.961,
+        402.556,
+        1304.433,
+        442.306
+      ],
+      "row_start": 10,
+      "row_end": 11,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "20 Aug 2020\n31 Jul 2020"
+    },
+    {
+      "cell_id": 23,
+      "bbox_pdf": [
+        307.13,
+        259.25,
+        539.86,
+        273.65
+      ],
+      "bbox_image": [
+        657.961,
+        442.306,
+        1304.433,
+        482.306
+      ],
+      "row_start": 11,
+      "row_end": 12,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "31 Jul 2020\n26 Jun 2020"
+    },
+    {
+      "cell_id": 24,
+      "bbox_pdf": [
+        307.13,
+        273.65,
+        539.86,
+        287.93
+      ],
+      "bbox_image": [
+        657.961,
+        482.306,
+        1304.433,
+        521.972
+      ],
+      "row_start": 12,
+      "row_end": 13,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "26 Jun 2020\n15 Jun 2020"
+    }
+  ]
+}

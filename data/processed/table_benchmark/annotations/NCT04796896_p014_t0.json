@@ -1,0 +1,787 @@
+{
+  "table_id": "NCT04796896_p014_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04796896_Prot_001.pdf",
+  "source_pdf_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+  "nct_id": "NCT04796896",
+  "protocol_number": "mRNA-1273-P204",
+  "page": 14,
+  "table_index": 0,
+  "category": "objectives_endpoints",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    76.00218181818182,
+    330.21,
+    536.0590000000001,
+    592.47
+  ],
+  "table_bbox_pdf": [
+    78.00218181818182,
+    332.21,
+    534.0590000000001,
+    590.47
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1272.38,
+    722.944
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04796896_p014_t0.png",
+  "image_sha256": "1cf19c0b92779ec00f71885e94d80d4e9e2cc40497748b9ea7b150a83b614488",
+  "image_width": 1279,
+  "image_height": 729,
+  "x_boundaries_image": [
+    5.556,
+    163.332,
+    325.946,
+    491.096,
+    668.294,
+    857.744,
+    1035.188,
+    1272.38
+  ],
+  "y_boundaries_image": [
+    5.556,
+    53.222,
+    288.028,
+    446.356,
+    605.051,
+    722.944
+  ],
+  "logical_rows": 5,
+  "logical_columns": 7,
+  "physical_cell_count": 31,
+  "matrix": [
+    [
+      "Age\nGroup",
+      "Part 1",
+      "",
+      "",
+      "Part 2",
+      "",
+      "Part 3"
+    ],
+    [
+      "",
+      "mRNA-\n1273\n25 \u00b5g",
+      "mRNA-\n1273\n50 \u00b5g",
+      "mRNA-\n1273\n100 \u00b5g",
+      "Selected\nDose Level\nof mRNA-\n1273 From\nPart 1",
+      "Placebo",
+      "mRNA-1273\n25 \u00b5g\n2 doses of\nprimary series\n+a third dose\n(Month 0, 1, 51)"
+    ],
+    [
+      "6 years to\n< 12 years",
+      "",
+      "Study Arm\n1 (n=375)",
+      "Study Arm\n2 (n=375)",
+      "Study Arm 8\n(n=3,000)",
+      "Study Arm\n9 (n=1,000)",
+      "Study Arm 14\n(n =\napproximately\n300)"
+    ],
+    [
+      "2 years to\n< 6 years",
+      "Study\nArm 7\n(Optional)\n(n=75)",
+      "Study Arm\n3 (n=75)",
+      "Study Arm\n4 (n=75)",
+      "Study\nArm 10\n(n= up to\n3,000)",
+      "Study Arm\n11 (n= up\nto 1,000)",
+      ""
+    ],
+    [
+      "6 months\nto\n< 2 years",
+      "Study\nArm 5\n(n=150)",
+      "Study Arm\n6 (n=150)",
+      "",
+      "Study Arm\n12 (n= up to\n3,000)",
+      "Study Arm\n13 (n= up\nto 1,000)",
+      ""
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        78.00218181818182,
+        332.21,
+        134.80181818181816,
+        433.9
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        163.332,
+        288.028
+      ],
+      "row_start": 0,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 2,
+      "column_span": 1,
+      "text": "Age\nGroup"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        78.00218181818182,
+        433.9,
+        134.80181818181816,
+        490.8982352941177
+      ],
+      "bbox_image": [
+        5.556,
+        288.028,
+        163.332,
+        446.356
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "6 years to\n< 12 years"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        78.00218181818182,
+        490.8982352941177,
+        134.80181818181816,
+        548.0285263157895
+      ],
+      "bbox_image": [
+        5.556,
+        446.356,
+        163.332,
+        605.051
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "2 years to\n< 6 years"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        78.00218181818182,
+        548.0285263157895,
+        134.80181818181816,
+        590.47
+      ],
+      "bbox_image": [
+        5.556,
+        605.051,
+        163.332,
+        722.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "6 months\nto\n< 2 years"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        134.80181818181816,
+        332.21,
+        316.58818181818185,
+        349.37000000000006
+      ],
+      "bbox_image": [
+        163.332,
+        5.556,
+        668.294,
+        53.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 3,
+      "text": "Part 1"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        134.80181818181816,
+        349.37000000000006,
+        193.34266666666664,
+        433.9
+      ],
+      "bbox_image": [
+        163.332,
+        53.222,
+        325.946,
+        288.028
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-\n1273\n25 \u00b5g"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        134.80181818181816,
+        433.9,
+        193.34266666666664,
+        490.8982352941177
+      ],
+      "bbox_image": [
+        163.332,
+        288.028,
+        325.946,
+        446.356
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        134.80181818181816,
+        490.8982352941177,
+        193.34266666666664,
+        548.0285263157895
+      ],
+      "bbox_image": [
+        163.332,
+        446.356,
+        325.946,
+        605.051
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study\nArm 7\n(Optional)\n(n=75)"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        134.80181818181816,
+        548.0285263157895,
+        193.34266666666664,
+        590.47
+      ],
+      "bbox_image": [
+        163.332,
+        605.051,
+        325.946,
+        722.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study\nArm 5\n(n=150)"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        193.34266666666664,
+        349.37000000000006,
+        252.79666666666668,
+        433.9
+      ],
+      "bbox_image": [
+        325.946,
+        53.222,
+        491.096,
+        288.028
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-\n1273\n50 \u00b5g"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        193.34266666666664,
+        433.9,
+        252.79666666666668,
+        490.8982352941177
+      ],
+      "bbox_image": [
+        325.946,
+        288.028,
+        491.096,
+        446.356
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n1 (n=375)"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        193.34266666666664,
+        490.8982352941177,
+        252.79666666666668,
+        548.0285263157895
+      ],
+      "bbox_image": [
+        325.946,
+        446.356,
+        491.096,
+        605.051
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n3 (n=75)"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        193.34266666666664,
+        548.0285263157895,
+        252.79666666666668,
+        590.47
+      ],
+      "bbox_image": [
+        325.946,
+        605.051,
+        491.096,
+        722.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n6 (n=150)"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        252.79666666666668,
+        349.37000000000006,
+        316.58818181818185,
+        433.9
+      ],
+      "bbox_image": [
+        491.096,
+        53.222,
+        668.294,
+        288.028
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-\n1273\n100 \u00b5g"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        252.79666666666668,
+        433.9,
+        316.58818181818185,
+        490.8982352941177
+      ],
+      "bbox_image": [
+        491.096,
+        288.028,
+        668.294,
+        446.356
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n2 (n=375)"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        252.79666666666668,
+        490.8982352941177,
+        316.58818181818185,
+        548.0285263157895
+      ],
+      "bbox_image": [
+        491.096,
+        446.356,
+        668.294,
+        605.051
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n4 (n=75)"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        252.79666666666668,
+        548.0285263157895,
+        316.58818181818185,
+        590.47
+      ],
+      "bbox_image": [
+        491.096,
+        605.051,
+        668.294,
+        722.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        316.58818181818185,
+        332.21,
+        448.67,
+        349.37000000000006
+      ],
+      "bbox_image": [
+        668.294,
+        5.556,
+        1035.188,
+        53.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 4,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 2,
+      "text": "Part 2"
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        316.58818181818185,
+        349.37000000000006,
+        384.79,
+        433.9
+      ],
+      "bbox_image": [
+        668.294,
+        53.222,
+        857.744,
+        288.028
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Selected\nDose Level\nof mRNA-\n1273 From\nPart 1"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        316.58818181818185,
+        433.9,
+        384.79,
+        490.8982352941177
+      ],
+      "bbox_image": [
+        668.294,
+        288.028,
+        857.744,
+        446.356
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm 8\n(n=3,000)"
+    },
+    {
+      "cell_id": 20,
+      "bbox_pdf": [
+        316.58818181818185,
+        490.8982352941177,
+        384.79,
+        548.0285263157895
+      ],
+      "bbox_image": [
+        668.294,
+        446.356,
+        857.744,
+        605.051
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study\nArm 10\n(n= up to\n3,000)"
+    },
+    {
+      "cell_id": 21,
+      "bbox_pdf": [
+        316.58818181818185,
+        548.0285263157895,
+        384.79,
+        590.47
+      ],
+      "bbox_image": [
+        668.294,
+        605.051,
+        857.744,
+        722.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n12 (n= up to\n3,000)"
+    },
+    {
+      "cell_id": 22,
+      "bbox_pdf": [
+        384.79,
+        349.37000000000006,
+        448.67,
+        433.9
+      ],
+      "bbox_image": [
+        857.744,
+        53.222,
+        1035.188,
+        288.028
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Placebo"
+    },
+    {
+      "cell_id": 23,
+      "bbox_pdf": [
+        384.79,
+        433.9,
+        448.67,
+        490.8982352941177
+      ],
+      "bbox_image": [
+        857.744,
+        288.028,
+        1035.188,
+        446.356
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n9 (n=1,000)"
+    },
+    {
+      "cell_id": 24,
+      "bbox_pdf": [
+        384.79,
+        490.8982352941177,
+        448.67,
+        548.0285263157895
+      ],
+      "bbox_image": [
+        857.744,
+        446.356,
+        1035.188,
+        605.051
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n11 (n= up\nto 1,000)"
+    },
+    {
+      "cell_id": 25,
+      "bbox_pdf": [
+        384.79,
+        548.0285263157895,
+        448.67,
+        590.47
+      ],
+      "bbox_image": [
+        857.744,
+        605.051,
+        1035.188,
+        722.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm\n13 (n= up\nto 1,000)"
+    },
+    {
+      "cell_id": 26,
+      "bbox_pdf": [
+        448.67,
+        332.21,
+        534.0590000000001,
+        349.37000000000006
+      ],
+      "bbox_image": [
+        1035.188,
+        5.556,
+        1272.38,
+        53.222
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Part 3"
+    },
+    {
+      "cell_id": 27,
+      "bbox_pdf": [
+        448.67,
+        349.37000000000006,
+        534.0590000000001,
+        433.9
+      ],
+      "bbox_image": [
+        1035.188,
+        53.222,
+        1272.38,
+        288.028
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-1273\n25 \u00b5g\n2 doses of\nprimary series\n+a third dose\n(Month 0, 1, 51)"
+    },
+    {
+      "cell_id": 28,
+      "bbox_pdf": [
+        448.67,
+        433.9,
+        534.0590000000001,
+        490.8982352941177
+      ],
+      "bbox_image": [
+        1035.188,
+        288.028,
+        1272.38,
+        446.356
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Study Arm 14\n(n =\napproximately\n300)"
+    },
+    {
+      "cell_id": 29,
+      "bbox_pdf": [
+        448.67,
+        490.8982352941177,
+        534.0590000000001,
+        548.0285263157895
+      ],
+      "bbox_image": [
+        1035.188,
+        446.356,
+        1272.38,
+        605.051
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 30,
+      "bbox_pdf": [
+        448.67,
+        548.0285263157895,
+        534.0590000000001,
+        590.47
+      ],
+      "bbox_image": [
+        1035.188,
+        605.051,
+        1272.38,
+        722.944
+      ],
+      "row_start": 4,
+      "row_end": 5,
+      "column_start": 6,
+      "column_end": 7,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    }
+  ]
+}

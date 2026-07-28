@@ -1,0 +1,618 @@
+{
+  "table_id": "NCT04796896_p117_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04796896_Prot_001.pdf",
+  "source_pdf_sha256": "f3b116a39c478eac0ed474339f1bda90996a26e60ee7b93242ab8d0c53d340da",
+  "nct_id": "NCT04796896",
+  "protocol_number": "mRNA-1273-P204",
+  "page": 117,
+  "table_index": 0,
+  "category": "adverse_reaction_grading",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.264,
+    70.24000000000001,
+    541.86,
+    301.45
+  ],
+  "table_bbox_pdf": [
+    72.264,
+    72.24000000000001,
+    539.86,
+    299.45
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    636.694
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04796896_p117_t0.png",
+  "image_sha256": "f1b785156a592fc0c667ef637d79d1e4c8ef8c346707d2ac8c0ce848d1709801",
+  "image_width": 1311,
+  "image_height": 643,
+  "x_boundaries_image": [
+    5.556,
+    267.878,
+    413.294,
+    621.294,
+    821.683,
+    1026.017,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    72.611,
+    247.944,
+    499.028,
+    636.694
+  ],
+  "logical_rows": 4,
+  "logical_columns": 6,
+  "physical_cell_count": 24,
+  "matrix": [
+    [
+      "Reaction",
+      "Grade 0",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 42"
+    ],
+    [
+      "",
+      "",
+      "with activity\nor 1-2\nepisodes/\n24 hours",
+      "with activity\nor\n> 2 episodes/\n24 hours",
+      "",
+      "hospitalization for\nhypotensive shock"
+    ],
+    [
+      "Chills",
+      "None",
+      "No\ninterference\nwith activity",
+      "Some\ninterference\nwith activity\nnot requiring\nmedical\nintervention",
+      "Prevents daily\nactivity and\nrequires\nmedical\nintervention",
+      "Requires emergency\nroom visit3 or\nhospitalization"
+    ],
+    [
+      "Fever",
+      "< 38.0\u00b0C\n< 100.4\u00b0\nF",
+      "38.0-38.4\u00b0C\n100.4-101.1\u00b0F",
+      "38.5-38.9\u00b0C\n101.2-102.0\u00b0F",
+      "39.0-40.0\u00b0C\n102.1-104.0\u00b0F",
+      "> 40.0\u00b0C\n> 104.0\u00b0F"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.264,
+        72.24000000000001,
+        166.7,
+        96.38
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        267.878,
+        72.611
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Reaction"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.264,
+        96.38,
+        166.7,
+        159.5
+      ],
+      "bbox_image": [
+        5.556,
+        72.611,
+        267.878,
+        247.944
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.264,
+        159.5,
+        166.7,
+        249.89
+      ],
+      "bbox_image": [
+        5.556,
+        247.944,
+        267.878,
+        499.028
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Chills"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.264,
+        249.89,
+        166.7,
+        299.45
+      ],
+      "bbox_image": [
+        5.556,
+        499.028,
+        267.878,
+        636.694
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Fever"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        166.7,
+        72.24000000000001,
+        219.05,
+        96.38
+      ],
+      "bbox_image": [
+        267.878,
+        5.556,
+        413.294,
+        72.611
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 0"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        166.7,
+        96.38,
+        219.05,
+        159.5
+      ],
+      "bbox_image": [
+        267.878,
+        72.611,
+        413.294,
+        247.944
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        166.7,
+        159.5,
+        219.05,
+        249.89
+      ],
+      "bbox_image": [
+        267.878,
+        247.944,
+        413.294,
+        499.028
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "None"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        166.7,
+        249.89,
+        219.05,
+        299.45
+      ],
+      "bbox_image": [
+        267.878,
+        499.028,
+        413.294,
+        636.694
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "< 38.0\u00b0C\n< 100.4\u00b0\nF"
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        219.05,
+        72.24000000000001,
+        293.93,
+        96.38
+      ],
+      "bbox_image": [
+        413.294,
+        5.556,
+        621.294,
+        72.611
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 1"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        219.05,
+        96.38,
+        293.93,
+        159.5
+      ],
+      "bbox_image": [
+        413.294,
+        72.611,
+        621.294,
+        247.944
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "with activity\nor 1-2\nepisodes/\n24 hours"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        219.05,
+        159.5,
+        293.93,
+        249.89
+      ],
+      "bbox_image": [
+        413.294,
+        247.944,
+        621.294,
+        499.028
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "No\ninterference\nwith activity"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        219.05,
+        249.89,
+        293.93,
+        299.45
+      ],
+      "bbox_image": [
+        413.294,
+        499.028,
+        621.294,
+        636.694
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "38.0-38.4\u00b0C\n100.4-101.1\u00b0F"
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        293.93,
+        72.24000000000001,
+        366.07,
+        96.38
+      ],
+      "bbox_image": [
+        621.294,
+        5.556,
+        821.683,
+        72.611
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 2"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        293.93,
+        96.38,
+        366.07,
+        159.5
+      ],
+      "bbox_image": [
+        621.294,
+        72.611,
+        821.683,
+        247.944
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "with activity\nor\n> 2 episodes/\n24 hours"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        293.93,
+        159.5,
+        366.07,
+        249.89
+      ],
+      "bbox_image": [
+        621.294,
+        247.944,
+        821.683,
+        499.028
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Some\ninterference\nwith activity\nnot requiring\nmedical\nintervention"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        293.93,
+        249.89,
+        366.07,
+        299.45
+      ],
+      "bbox_image": [
+        621.294,
+        499.028,
+        821.683,
+        636.694
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "38.5-38.9\u00b0C\n101.2-102.0\u00b0F"
+    },
+    {
+      "cell_id": 16,
+      "bbox_pdf": [
+        366.07,
+        72.24000000000001,
+        439.63,
+        96.38
+      ],
+      "bbox_image": [
+        821.683,
+        5.556,
+        1026.017,
+        72.611
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 3"
+    },
+    {
+      "cell_id": 17,
+      "bbox_pdf": [
+        366.07,
+        96.38,
+        439.63,
+        159.5
+      ],
+      "bbox_image": [
+        821.683,
+        72.611,
+        1026.017,
+        247.944
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 18,
+      "bbox_pdf": [
+        366.07,
+        159.5,
+        439.63,
+        249.89
+      ],
+      "bbox_image": [
+        821.683,
+        247.944,
+        1026.017,
+        499.028
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Prevents daily\nactivity and\nrequires\nmedical\nintervention"
+    },
+    {
+      "cell_id": 19,
+      "bbox_pdf": [
+        366.07,
+        249.89,
+        439.63,
+        299.45
+      ],
+      "bbox_image": [
+        821.683,
+        499.028,
+        1026.017,
+        636.694
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 4,
+      "column_end": 5,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "39.0-40.0\u00b0C\n102.1-104.0\u00b0F"
+    },
+    {
+      "cell_id": 20,
+      "bbox_pdf": [
+        439.63,
+        72.24000000000001,
+        539.86,
+        96.38
+      ],
+      "bbox_image": [
+        1026.017,
+        5.556,
+        1304.433,
+        72.611
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Grade 42"
+    },
+    {
+      "cell_id": 21,
+      "bbox_pdf": [
+        439.63,
+        96.38,
+        539.86,
+        159.5
+      ],
+      "bbox_image": [
+        1026.017,
+        72.611,
+        1304.433,
+        247.944
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "hospitalization for\nhypotensive shock"
+    },
+    {
+      "cell_id": 22,
+      "bbox_pdf": [
+        439.63,
+        159.5,
+        539.86,
+        249.89
+      ],
+      "bbox_image": [
+        1026.017,
+        247.944,
+        1304.433,
+        499.028
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Requires emergency\nroom visit3 or\nhospitalization"
+    },
+    {
+      "cell_id": 23,
+      "bbox_pdf": [
+        439.63,
+        249.89,
+        539.86,
+        299.45
+      ],
+      "bbox_image": [
+        1026.017,
+        499.028,
+        1304.433,
+        636.694
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 5,
+      "column_end": 6,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "> 40.0\u00b0C\n> 104.0\u00b0F"
+    }
+  ]
+}

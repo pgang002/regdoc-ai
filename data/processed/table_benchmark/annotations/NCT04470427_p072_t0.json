@@ -1,0 +1,432 @@
+{
+  "table_id": "NCT04470427_p072_t0",
+  "source_type": "actual_public_clinical_protocol_table",
+  "source_pdf": "data/raw/clinicaltrials/NCT04470427_Prot_000.pdf",
+  "source_pdf_sha256": "da946b1ae23d40c41b332f1d0cb3311f0634e57009b4a37b9c6d6c60ee8bf186",
+  "nct_id": "NCT04470427",
+  "protocol_number": "mRNA-1273-P301",
+  "page": 72,
+  "table_index": 0,
+  "category": "treatment_groups",
+  "render_dpi": 200,
+  "crop_padding_points": 2.0,
+  "crop_bbox_pdf": [
+    70.26400000000001,
+    542.63,
+    541.86,
+    637.02
+  ],
+  "table_bbox_pdf": [
+    72.26400000000001,
+    544.63,
+    539.86,
+    635.02
+  ],
+  "table_bbox_image": [
+    5.556,
+    5.556,
+    1304.433,
+    256.639
+  ],
+  "image_path": "data/processed/table_benchmark/images/NCT04470427_p072_t0.png",
+  "image_sha256": "fd0eb07da2d696ba8e03a1e85211899b05a91c8af5898273ada312f69fa69fb3",
+  "image_width": 1311,
+  "image_height": 263,
+  "x_boundaries_image": [
+    5.556,
+    344.294,
+    756.35,
+    976.017,
+    1304.433
+  ],
+  "y_boundaries_image": [
+    5.556,
+    105.272,
+    155.639,
+    205.972,
+    256.639
+  ],
+  "logical_rows": 4,
+  "logical_columns": 4,
+  "physical_cell_count": 16,
+  "matrix": [
+    [
+      "Treatment Groups",
+      "Investigational Product",
+      "Age (years)",
+      "Estimated Total\nParticipants"
+    ],
+    [
+      "mRNA-1273",
+      "mRNA-1273 100 \u00b5g",
+      "\u2265 18",
+      "15,000"
+    ],
+    [
+      "Placebo",
+      "Placebo",
+      "\u2265 18",
+      "15,000"
+    ],
+    [
+      "Total",
+      "",
+      "",
+      "30,000"
+    ]
+  ],
+  "cells": [
+    {
+      "cell_id": 0,
+      "bbox_pdf": [
+        72.26400000000001,
+        544.63,
+        194.20999999999998,
+        580.528
+      ],
+      "bbox_image": [
+        5.556,
+        5.556,
+        344.294,
+        105.272
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Treatment Groups"
+    },
+    {
+      "cell_id": 1,
+      "bbox_pdf": [
+        72.26400000000001,
+        580.528,
+        194.20999999999998,
+        598.6600000000001
+      ],
+      "bbox_image": [
+        5.556,
+        105.272,
+        344.294,
+        155.639
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-1273"
+    },
+    {
+      "cell_id": 2,
+      "bbox_pdf": [
+        72.26400000000001,
+        598.6600000000001,
+        194.20999999999998,
+        616.78
+      ],
+      "bbox_image": [
+        5.556,
+        155.639,
+        344.294,
+        205.972
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Placebo"
+    },
+    {
+      "cell_id": 3,
+      "bbox_pdf": [
+        72.26400000000001,
+        616.78,
+        194.20999999999998,
+        635.02
+      ],
+      "bbox_image": [
+        5.556,
+        205.972,
+        344.294,
+        256.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 0,
+      "column_end": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Total"
+    },
+    {
+      "cell_id": 4,
+      "bbox_pdf": [
+        194.20999999999998,
+        544.63,
+        342.55,
+        580.528
+      ],
+      "bbox_image": [
+        344.294,
+        5.556,
+        756.35,
+        105.272
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Investigational Product"
+    },
+    {
+      "cell_id": 5,
+      "bbox_pdf": [
+        194.20999999999998,
+        580.528,
+        342.55,
+        598.6600000000001
+      ],
+      "bbox_image": [
+        344.294,
+        105.272,
+        756.35,
+        155.639
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "mRNA-1273 100 \u00b5g"
+    },
+    {
+      "cell_id": 6,
+      "bbox_pdf": [
+        194.20999999999998,
+        598.6600000000001,
+        342.55,
+        616.78
+      ],
+      "bbox_image": [
+        344.294,
+        155.639,
+        756.35,
+        205.972
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Placebo"
+    },
+    {
+      "cell_id": 7,
+      "bbox_pdf": [
+        194.20999999999998,
+        616.78,
+        342.55,
+        635.02
+      ],
+      "bbox_image": [
+        344.294,
+        205.972,
+        756.35,
+        256.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 1,
+      "column_end": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 8,
+      "bbox_pdf": [
+        342.55,
+        544.63,
+        421.63,
+        580.528
+      ],
+      "bbox_image": [
+        756.35,
+        5.556,
+        976.017,
+        105.272
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Age (years)"
+    },
+    {
+      "cell_id": 9,
+      "bbox_pdf": [
+        342.55,
+        580.528,
+        421.63,
+        598.6600000000001
+      ],
+      "bbox_image": [
+        756.35,
+        105.272,
+        976.017,
+        155.639
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "\u2265 18"
+    },
+    {
+      "cell_id": 10,
+      "bbox_pdf": [
+        342.55,
+        598.6600000000001,
+        421.63,
+        616.78
+      ],
+      "bbox_image": [
+        756.35,
+        155.639,
+        976.017,
+        205.972
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "\u2265 18"
+    },
+    {
+      "cell_id": 11,
+      "bbox_pdf": [
+        342.55,
+        616.78,
+        421.63,
+        635.02
+      ],
+      "bbox_image": [
+        756.35,
+        205.972,
+        976.017,
+        256.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 2,
+      "column_end": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "text": ""
+    },
+    {
+      "cell_id": 12,
+      "bbox_pdf": [
+        421.63,
+        544.63,
+        539.86,
+        580.528
+      ],
+      "bbox_image": [
+        976.017,
+        5.556,
+        1304.433,
+        105.272
+      ],
+      "row_start": 0,
+      "row_end": 1,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "Estimated Total\nParticipants"
+    },
+    {
+      "cell_id": 13,
+      "bbox_pdf": [
+        421.63,
+        580.528,
+        539.86,
+        598.6600000000001
+      ],
+      "bbox_image": [
+        976.017,
+        105.272,
+        1304.433,
+        155.639
+      ],
+      "row_start": 1,
+      "row_end": 2,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "15,000"
+    },
+    {
+      "cell_id": 14,
+      "bbox_pdf": [
+        421.63,
+        598.6600000000001,
+        539.86,
+        616.78
+      ],
+      "bbox_image": [
+        976.017,
+        155.639,
+        1304.433,
+        205.972
+      ],
+      "row_start": 2,
+      "row_end": 3,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "15,000"
+    },
+    {
+      "cell_id": 15,
+      "bbox_pdf": [
+        421.63,
+        616.78,
+        539.86,
+        635.02
+      ],
+      "bbox_image": [
+        976.017,
+        205.972,
+        1304.433,
+        256.639
+      ],
+      "row_start": 3,
+      "row_end": 4,
+      "column_start": 3,
+      "column_end": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "text": "30,000"
+    }
+  ]
+}
