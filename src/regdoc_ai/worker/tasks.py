@@ -1,8 +1,7 @@
 from __future__ import annotations
 
 import time
-from pathlib import Path
-from typing import Callable
+from collections.abc import Callable
 
 from regdoc_ai.schemas.document import ProcessingStatus
 

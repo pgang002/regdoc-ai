@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 import re
+from dataclasses import dataclass
 
 import cv2
 import numpy as np
@@ -55,7 +55,7 @@ def ruled_table_score(image: np.ndarray) -> float:
             projection_threshold_fraction=0.12,
             merge_tolerance_px=4,
         )
-    except Exception:
+    except Exception:  # noqa: BLE001
         return 0.0
     row_rules = max(0, len(grid.y_boundaries) - 2)
     col_rules = max(0, len(grid.x_boundaries) - 2)

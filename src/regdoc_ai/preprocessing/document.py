@@ -23,7 +23,7 @@ def estimate_skew_degrees(image: np.ndarray, *, max_abs_angle: float = 7.0) -> f
         gray = cv2.resize(gray, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
     normalized = cv2.normalize(gray, None, 0, 255, cv2.NORM_MINMAX)
     edges = cv2.Canny(normalized, 50, 150, apertureSize=3)
-    h, w = edges.shape
+    _, w = edges.shape
     lines = cv2.HoughLinesP(
         edges,
         rho=1,

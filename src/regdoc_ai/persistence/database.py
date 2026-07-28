@@ -8,7 +8,6 @@ from sqlalchemy.orm import Session, sessionmaker
 
 from .models import Base
 
-
 DEFAULT_SQLITE_PATH = Path("runtime/day9/regdoc_ai.db")
 
 
@@ -48,7 +47,7 @@ class Database:
         )
 
     @classmethod
-    def from_env(cls, project_root: str | Path | None = None) -> "Database":
+    def from_env(cls, project_root: str | Path | None = None) -> Database:
         return cls(database_url_from_env(project_root))
 
     def create_schema(self) -> None:
@@ -65,5 +64,5 @@ class Database:
             with self.engine.connect() as connection:
                 connection.execute(text("SELECT 1"))
             return True
-        except Exception:
+        except Exception:  # noqa: BLE001
             return False

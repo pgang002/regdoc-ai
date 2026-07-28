@@ -40,7 +40,7 @@ class RedactionPolicy:
                 self._entities[entity_type] = EntityPolicy(entity_type, action, threshold)
 
     @classmethod
-    def from_yaml(cls, path: str | Path) -> "RedactionPolicy":
+    def from_yaml(cls, path: str | Path) -> RedactionPolicy:
         config = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
         return cls(config)
 

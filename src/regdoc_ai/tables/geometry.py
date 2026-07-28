@@ -29,7 +29,7 @@ def merge_nearby(values: Iterable[int], tolerance: int = 4) -> list[int]:
             groups[-1].append(value)
         else:
             groups.append([value])
-    return [int(round(sum(group) / len(group))) for group in groups]
+    return [round(sum(group) / len(group)) for group in groups]
 
 
 def adjacent_cells(x_boundaries: list[int], y_boundaries: list[int]) -> list[tuple[int, int, int, int]]:

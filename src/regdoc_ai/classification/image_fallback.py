@@ -24,7 +24,7 @@ def _letterbox_grayscale(image: np.ndarray, *, width: int, height: int) -> np.nd
     scale = min(width / w, height / h)
     resized = cv2.resize(
         gray,
-        (max(1, int(round(w * scale))), max(1, int(round(h * scale)))),
+        (max(1, round(w * scale)), max(1, round(h * scale))),
         interpolation=cv2.INTER_AREA if scale < 1 else cv2.INTER_CUBIC,
     )
     canvas = np.full((height, width), 255, dtype=np.uint8)
@@ -59,7 +59,7 @@ class HOGLinearSVCClassifier:
         self.height = height
         self.model = LinearSVC(C=1.0, class_weight="balanced", random_state=random_state, max_iter=20000)
 
-    def fit(self, images: list[np.ndarray], labels: list[str]) -> "HOGLinearSVCClassifier":
+    def fit(self, images: list[np.ndarray], labels: list[str]) -> HOGLinearSVCClassifier:
         if len(images) != len(labels) or not images:
             raise ValueError("images and labels must be non-empty and aligned")
         matrix = np.vstack(
@@ -94,7 +94,7 @@ class HOGLinearSVCClassifier:
         )
 
     @classmethod
-    def load(cls, path: Path) -> "HOGLinearSVCClassifier":
+    def load(cls, path: Path) -> HOGLinearSVCClassifier:
         payload = joblib.load(path)
         instance = cls(width=int(payload["width"]), height=int(payload["height"]))
         instance.model = payload["model"]

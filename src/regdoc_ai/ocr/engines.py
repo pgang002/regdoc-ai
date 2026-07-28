@@ -6,9 +6,10 @@ PaddleOCR is imported lazily so the core repository and Tesseract pipeline remai
 usable when the optional PaddlePaddle runtime is not installed.
 """
 
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from importlib import metadata
-from typing import Any, Mapping, Protocol, Sequence
+from typing import Any, Protocol
 
 import cv2
 import numpy as np
@@ -62,7 +63,7 @@ class TesseractFieldEngine:
 
         try:
             binary_version = str(pytesseract.get_tesseract_version())
-        except Exception:  # pragma: no cover - diagnostic only
+        except Exception:  # noqa: BLE001  # pragma: no cover - diagnostic only
             binary_version = None
         return {
             "engine": self.name,

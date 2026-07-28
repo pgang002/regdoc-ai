@@ -5,7 +5,7 @@ from .metrics import boundary_metrics, cell_box_metrics
 
 __all__ = [
     "GridPrediction",
-    "detect_ruled_table_grid",
     "boundary_metrics",
     "cell_box_metrics",
+    "detect_ruled_table_grid",
 ]

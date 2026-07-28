@@ -31,8 +31,8 @@ def detect_checkbox(
     crop = crop_image(image, box)
     gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY) if crop.ndim == 3 else crop
     height, width = gray.shape
-    margin_y = max(1, int(round(height * 0.25)))
-    margin_x = max(1, int(round(width * 0.25)))
+    margin_y = max(1, round(height * 0.25))
+    margin_x = max(1, round(width * 0.25))
     inner = gray[margin_y : height - margin_y, margin_x : width - margin_x]
     if inner.size == 0:
         inner = gray

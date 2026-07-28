@@ -6,7 +6,6 @@ import numpy as np
 from regdoc_ai.classification.image_fallback import extract_hog_features
 from regdoc_ai.classification.rule_based import classify_with_rules
 
-
 ROOT = Path(__file__).resolve().parents[1]
 
 

@@ -4,9 +4,10 @@ import csv
 import hashlib
 import json
 import time
+from collections.abc import Callable
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
 
 import cv2
 import fitz
@@ -22,16 +23,21 @@ from regdoc_ai.extraction.protocol_fields import extract_protocol_cover_fields
 from regdoc_ai.extraction.template_fields import recognize_field
 from regdoc_ai.preprocessing.document import enhance_document_page
 from regdoc_ai.redaction.detectors import detect_hybrid_policy, ocr_field_tokens
-from regdoc_ai.redaction.models import DetectedEntity, RedactionAction
+from regdoc_ai.redaction.models import DetectedEntity
 from regdoc_ai.redaction.pdf_redactor import redact_pdf
 from regdoc_ai.redaction.policy import RedactionPolicy
-from regdoc_ai.schemas.document import BoundingBox, CheckboxResult, ExtractedField, ProcessingStatus, TableArtifact
+from regdoc_ai.schemas.document import (
+    BoundingBox,
+    CheckboxResult,
+    ExtractedField,
+    ProcessingStatus,
+    TableArtifact,
+)
 from regdoc_ai.tables.classical import detect_ruled_table_grid
 from regdoc_ai.tables.reconstruction import assign_words_to_grid, matrix_to_dataframe, ocr_words
 
 from .models import PageClassification, ProcessingResponse, RedactionCandidate
 from .storage import WorkspaceStore
-
 
 SUPPORTED_SUFFIXES = {".pdf", ".png", ".jpg", ".jpeg", ".tif", ".tiff"}
 MAX_UPLOAD_BYTES = 25 * 1024 * 1024
@@ -179,7 +185,7 @@ class DocumentPipeline:
                         str(field["name"]), field_ocr, rect, page_number, self.policy
                     )
                 )
-            except Exception as exc:
+            except Exception as exc:  # noqa: BLE001
                 warnings.append(f"Field {field['name']} failed: {type(exc).__name__}: {exc}")
         for item in template.get("checkboxes", []):
             if int(item["page"]) != page_number:
@@ -198,7 +204,7 @@ class DocumentPipeline:
                         bounding_box=_bbox(rect),
                     )
                 )
-            except Exception as exc:
+            except Exception as exc:  # noqa: BLE001
                 warnings.append(f"Checkbox {item['name']} failed: {type(exc).__name__}: {exc}")
         return fields, checkboxes, entities, warnings
 
@@ -262,7 +268,7 @@ class DocumentPipeline:
                 warnings,
                 box,
             )
-        except Exception as exc:
+        except Exception as exc:  # noqa: BLE001
             return None, [f"Table extraction failed: {type(exc).__name__}: {exc}"], None
 
     def _write_annotated_preview(

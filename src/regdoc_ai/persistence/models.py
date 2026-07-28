@@ -30,8 +30,8 @@ class DocumentRecord(Base):
         DateTime(timezone=True), default=utc_now, onupdate=utc_now, nullable=False
     )
 
-    jobs: Mapped[list["ProcessingJobRecord"]] = relationship(back_populates="document")
-    artifacts: Mapped[list["ArtifactRecord"]] = relationship(back_populates="document")
+    jobs: Mapped[list[ProcessingJobRecord]] = relationship(back_populates="document")
+    artifacts: Mapped[list[ArtifactRecord]] = relationship(back_populates="document")
 
 
 class ProcessingJobRecord(Base):
@@ -58,10 +58,10 @@ class ProcessingJobRecord(Base):
     processing_seconds: Mapped[float | None] = mapped_column(Float, nullable=True)
 
     document: Mapped[DocumentRecord] = relationship(back_populates="jobs")
-    events: Mapped[list["JobEventRecord"]] = relationship(
+    events: Mapped[list[JobEventRecord]] = relationship(
         back_populates="job", cascade="all, delete-orphan", order_by="JobEventRecord.sequence"
     )
-    artifacts: Mapped[list["ArtifactRecord"]] = relationship(back_populates="job")
+    artifacts: Mapped[list[ArtifactRecord]] = relationship(back_populates="job")
 
     __table_args__ = (Index("ix_processing_jobs_batch_status", "batch_id", "status"),)
 

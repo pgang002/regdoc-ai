@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 import re
-from functools import lru_cache
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Iterable
+from functools import lru_cache
 
 import cv2
 import numpy as np
@@ -14,7 +14,6 @@ from regdoc_ai.extraction.template_fields import pdf_rect_to_pixels
 
 from .models import DetectedEntity, RedactionAction
 from .policy import RedactionPolicy
-
 
 PROTOCOL_RE = re.compile(r"\b[A-Za-z]?mRNA[- ]?\d{4}[- ]?P\d{3}\b", re.IGNORECASE)
 DATE_RE = re.compile(r"\b(?:0?[1-9]|1[0-2])[/-](?:0?[1-9]|[12]\d|3[01])[/-](?:19|20)\d{2}\b")
@@ -181,7 +180,7 @@ def _spacy_person_ruler():
             ]
         )
         return nlp
-    except Exception:
+    except Exception:  # noqa: BLE001
         return None
 
 

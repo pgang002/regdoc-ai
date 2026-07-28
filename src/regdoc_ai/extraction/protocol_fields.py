@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 import re
+from dataclasses import dataclass
 
 from regdoc_ai.evaluation.text_metrics import normalize_text
 
@@ -59,7 +59,7 @@ def extract_protocol_cover_fields(
     if title_match:
         title = _clean(title_match.group(1))
         fields["protocol_title"] = title
-        phase_match = re.search(r"\bPhase\s+([0-9]+(?:\s*/\s*[0-9]+)?)", title, re.I)
+        phase_match = re.search(r"\bPhase\s+([0-9]+(?:\s*/\s*[0-9]+)?)", title, re.IGNORECASE)
         if phase_match:
             fields["phase"] = "Phase " + re.sub(r"\s+", "", phase_match.group(1))
         else:
@@ -96,6 +96,6 @@ def extract_protocol_cover_fields(
             r"\bCambridge\s*,?\s*MA\s*(\d{5})\b",
             r"Cambridge, MA \1",
             fields["sponsor_address"],
-            flags=re.I,
+            flags=re.IGNORECASE,
         )
     return ProtocolFieldResult(fields=fields, warnings=warnings)

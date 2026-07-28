@@ -26,10 +26,10 @@ def pdf_rect_to_pixels(
     scale = dpi / 72.0
     x0, y0, x1, y1 = rect
     return (
-        max(0, int(round((x0 - padding_points) * scale))),
-        max(0, int(round((y0 - padding_points) * scale))),
-        int(round((x1 + padding_points) * scale)),
-        int(round((y1 + padding_points) * scale)),
+        max(0, round((x0 - padding_points) * scale)),
+        max(0, round((y0 - padding_points) * scale)),
+        round((x1 + padding_points) * scale),
+        round((y1 + padding_points) * scale),
     )
 
 

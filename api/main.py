@@ -65,9 +65,7 @@ def _metric_route(path: str) -> str:
             replace_next = False
             continue
         normalized.append(part)
-        if part in {"documents", "jobs", "batches"}:
-            replace_next = True
-        elif part == "artifacts":
+        if part in {"documents", "jobs", "batches"} or part == "artifacts":
             replace_next = True
     return "/" + "/".join(normalized) if normalized else "/"
 
@@ -141,7 +139,7 @@ def model_info() -> dict[str, object]:
 
 
 @app.post("/v1/documents/process", response_model=ProcessingResponse)
-async def process_document(file: UploadFile = File(...)) -> ProcessingResponse:
+async def process_document(file: UploadFile = File(...)) -> ProcessingResponse:  # noqa: B008
     """Day 8-compatible synchronous endpoint retained for interactive review."""
     filename = file.filename or "upload.bin"
     try:
@@ -158,7 +156,7 @@ async def process_document(file: UploadFile = File(...)) -> ProcessingResponse:
 
 
 @app.post("/v1/jobs/process", response_model=JobResponse, status_code=status.HTTP_202_ACCEPTED)
-async def enqueue_document(file: UploadFile = File(...)) -> JobResponse:
+async def enqueue_document(file: UploadFile = File(...)) -> JobResponse:  # noqa: B008
     filename = file.filename or "upload.bin"
     try:
         return async_service.submit(filename=filename, data=await file.read())
@@ -175,7 +173,7 @@ async def enqueue_document(file: UploadFile = File(...)) -> JobResponse:
     response_model=BatchSubmissionResponse,
     status_code=status.HTTP_202_ACCEPTED,
 )
-async def enqueue_batch(files: list[UploadFile] = File(...)) -> BatchSubmissionResponse:
+async def enqueue_batch(files: list[UploadFile] = File(...)) -> BatchSubmissionResponse:  # noqa: B008
     payload: list[tuple[str, bytes]] = []
     try:
         for item in files:

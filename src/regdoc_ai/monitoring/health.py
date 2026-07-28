@@ -17,7 +17,7 @@ def _workspace_check(workspace: Path) -> dict[str, object]:
             handle.write(b"ok")
             handle.flush()
         return {"ready": True, "path": str(workspace)}
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         return {"ready": False, "path": str(workspace), "detail": str(exc)}
 
 

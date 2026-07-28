@@ -4,7 +4,12 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
-from regdoc_ai.schemas.document import CheckboxResult, ExtractedField, ProcessingStatus, TableArtifact
+from regdoc_ai.schemas.document import (
+    CheckboxResult,
+    ExtractedField,
+    ProcessingStatus,
+    TableArtifact,
+)
 
 
 class PageClassification(BaseModel):

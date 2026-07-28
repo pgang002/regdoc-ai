@@ -1,6 +1,5 @@
 from regdoc_ai.extraction.protocol_fields import extract_protocol_cover_fields
 
-
 SAMPLE_TEXT = """
 NCT #: NCTO4796896
 CLINICAL STUDY PROTOCOL

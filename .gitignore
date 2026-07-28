@@ -121,3 +121,4 @@ __pycache__/
 # Keep final Day 10 portfolio and evaluation artifacts
 !/results/day10_final/
 !/results/day10_final/**
+*.egg-info/
